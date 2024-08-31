@@ -1,0 +1,121 @@
+1703278295488,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail
+1703278295489,Unknown,ShoppingBean calls CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory
+1703278295489,Unknown,CatalogMgr calls Util,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug
+1703278295493,Unknown,Util calls Util,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:setDebug
+1703278295493,Unknown,Util returns to Util,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:setDebug,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug
+1703278295493,Unknown,Util returns to CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory
+1703278295503,Unknown,CatalogMgr calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:Inventory [overloaded_#001]
+1703278295503,Unknown,Inventory returns to CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:Inventory [overloaded_#001],monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory
+1703278295503,Unknown,CatalogMgr returns to ShoppingBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemInventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail
+1703278295503,Unknown,ShoppingBean calls ProductBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:ProductBean
+1703278295503,Unknown,ProductBean returns to ShoppingBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:ProductBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail
+1703278295503,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:performProductDetail,<None>:$Root$:<None>
+1703278295565,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278295565,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278295566,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295566,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278295566,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295566,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278295567,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278295567,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278295567,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295567,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278295568,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295568,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278295568,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278295568,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278295569,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295569,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278295569,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278295569,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278295633,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295633,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295636,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName
+1703278295636,Unknown,ProductBean calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getCategory
+1703278295636,Unknown,Inventory returns to ProductBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getCategory,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName
+1703278295636,Unknown,ProductBean calls Util,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:getCategoryString
+1703278295637,Unknown,Util returns to ProductBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:getCategoryString,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName
+1703278295637,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getCategoryName,<None>:$Root$:<None>
+1703278295637,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295637,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295637,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295637,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295640,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getCategory
+1703278295641,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getCategory,<None>:$Root$:<None>
+1703278295641,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295641,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295641,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295642,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295643,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName
+1703278295643,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName,<None>:$Root$:<None>
+1703278295644,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295644,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295644,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295645,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295645,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId
+1703278295645,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId,<None>:$Root$:<None>
+1703278295645,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295645,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295645,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295645,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295645,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName
+1703278295646,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName,<None>:$Root$:<None>
+1703278295646,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295646,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295646,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295646,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295646,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName
+1703278295646,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getName,<None>:$Root$:<None>
+1703278295655,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295655,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295655,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295655,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295655,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getHeading
+1703278295655,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getHeading,<None>:$Root$:<None>
+1703278295656,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295656,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295656,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295656,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295656,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getDescription
+1703278295656,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getDescription,<None>:$Root$:<None>
+1703278295669,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295669,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295669,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295669,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295669,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId
+1703278295670,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId,<None>:$Root$:<None>
+1703278295670,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295670,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295671,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295671,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295671,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPkginfo
+1703278295671,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPkginfo,<None>:$Root$:<None>
+1703278295671,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295671,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295672,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getPrice
+1703278295672,Unknown,ProductBean calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getPrice,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPrice
+1703278295672,Unknown,Inventory returns to ProductBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPrice,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getPrice
+1703278295672,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getPrice,<None>:$Root$:<None>
+1703278295672,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295673,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295673,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getQuantity
+1703278295673,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getQuantity,<None>:$Root$:<None>
+1703278295679,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct
+1703278295679,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getProduct,<None>:$Root$:<None>
+1703278295679,Unknown,$Root$ calls ProductBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory
+1703278295679,Unknown,ProductBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java:ProductBean:getInventory,<None>:$Root$:<None>
+1703278295679,Unknown,$Root$ calls Inventory,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId
+1703278295679,Unknown,Inventory returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getInventoryId,<None>:$Root$:<None>
+1703278301456,Unknown,$Root$ calls ImageServlet,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:doGet
+1703278301457,Unknown,ImageServlet calls ImageServlet,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:doGet,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask
+1703278301457,Unknown,ImageServlet calls Util,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug
+1703278301457,Unknown,Util returns to ImageServlet,monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java:Util:debug,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask
+1703278301457,Unknown,ImageServlet calls CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes
+1703278301457,Unknown,CatalogMgr calls CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getInv
+1703278301460,Unknown,CatalogMgr calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getInv,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:Inventory [overloaded_#001]
+1703278301461,Unknown,Inventory returns to CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:Inventory [overloaded_#001],monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getInv
+1703278301461,Unknown,CatalogMgr returns to CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getInv,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes
+1703278301461,Unknown,CatalogMgr calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getImgbytes
+1703278301461,Unknown,Inventory returns to CatalogMgr,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getImgbytes,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes
+1703278301461,Unknown,CatalogMgr returns to ImageServlet,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java:CatalogMgr:getItemImageBytes,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask
+1703278301464,Unknown,ImageServlet returns to ImageServlet,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:performTask,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java:ImageServlet:doGet

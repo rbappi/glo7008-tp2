@@ -1,0 +1,9 @@
+{
+    "max_n_clusters": 7,
+    "ngen": 2000,
+    "pop_size": 100,
+    "cx_pb": 0.3,
+    "mut_pb": 0.5,
+    "att_mut_pb": 0.09,
+    "alpha": 0.5
+}

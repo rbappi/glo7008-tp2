@@ -1,0 +1,9 @@
+{
+    "PopulateDBBean": "root_dest_undefined_use_case",
+    "ResetDBBean": "src_dest_undefined_use_case",
+    "ListProperties": "src_dest_undefined_use_case",
+    "BackOrder": "src_dest_undefined_use_case",
+    "Supplier": "src_dest_undefined_use_case",
+    "SuppliersBean": "src_dest_undefined_use_case",
+    "HelpBean": "root_dest_undefined_use_case"
+}

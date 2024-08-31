@@ -1,0 +1,192 @@
+{
+    "Visit": {
+        "business_context": [
+            "maj_animal",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "0"
+    },
+    "VisitController": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_animal"
+        ],
+        "final": "0"
+    },
+    "Pet": {
+        "business_context": [
+            "maj_animal",
+            "proprietaire",
+            "maj_proprietaire",
+            "details_proprietaire",
+            "ajouter_animal"
+        ],
+        "final": "0"
+    },
+    "JpaVisitRepositoryImpl": {
+        "business_context": [
+            "maj_animal"
+        ],
+        "final": "0"
+    },
+    "Owner": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "proprietaire",
+            "maj_proprietaire",
+            "details_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "1"
+    },
+    "NamedEntity": {
+        "business_context": [
+            "maj_animal",
+            "liste_veterinaires",
+            "proprietaire",
+            "maj_proprietaire",
+            "details_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "1"
+    },
+    "PetController": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_animal"
+        ],
+        "final": "1"
+    },
+    "PetValidator": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_animal"
+        ],
+        "final": "1"
+    },
+    "JpaPetRepositoryImpl": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_animal"
+        ],
+        "final": "1"
+    },
+    "PetTypeFormatter": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_animal"
+        ],
+        "final": "1"
+    },
+    "ClinicServiceImpl": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_veterinaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "2"
+    },
+    "CallMonitoringAspect": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_veterinaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "2"
+    },
+    "JpaOwnerRepositoryImpl": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "2"
+    },
+    "OwnerController": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_proprietaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal"
+        ],
+        "final": "2"
+    },
+    "Person": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_veterinaires",
+            "liste_proprietaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal"
+        ],
+        "final": "2"
+    },
+    "BaseEntity": {
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_veterinaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires"
+        ],
+        "final": "2"
+    },
+    "VetController": {
+        "business_context": [
+            "liste_veterinaires"
+        ],
+        "final": "3"
+    },
+    "Vets": {
+        "business_context": [
+            "liste_veterinaires"
+        ],
+        "final": "3"
+    },
+    "JpaVetRepositoryImpl": {
+        "business_context": [
+            "liste_veterinaires"
+        ],
+        "final": "3"
+    },
+    "Vet": {
+        "business_context": [
+            "liste_veterinaires"
+        ],
+        "final": "3"
+    },
+    "JdbcVetRepositoryImpl": {
+        "business_context": [
+            "Unknown"
+        ],
+        "final": "2"
+    }
+}

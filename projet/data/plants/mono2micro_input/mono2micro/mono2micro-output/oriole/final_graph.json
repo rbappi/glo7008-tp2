@@ -1,0 +1,3556 @@
+{
+    "version": "v2.0.0r9",
+    "mono_run_time_call_graph": {
+        "nodes": [
+            {
+                "name": "ImageServlet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Util",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping",
+                    "payer"
+                ]
+            },
+            {
+                "name": "CatalogMgr",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Inventory",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "catalogue",
+                    "shopping",
+                    "compte"
+                ]
+            },
+            {
+                "name": "ShoppingBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ShoppingCartBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ProductBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java",
+                "semantics": [
+                    "Unknown",
+                    "shopping",
+                    "catalogue"
+                ]
+            },
+            {
+                "name": "ShoppingItem",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingItem.java",
+                "semantics": [
+                    "payer",
+                    "shopping",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PopulateDBBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/PopulateDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ResetDBBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ResetDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ListProperties",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/ListProperties.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Order",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "BackOrder",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Customer",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Customer.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderItem",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "Supplier",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Supplier.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CustomerMgr",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CustomerMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "SuppliersBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/SuppliersBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AccountBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "LoginInfo",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/LoginInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "HelpBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/HelpBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OrderInfo",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerBean",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerAppException",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerAppException.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "EMailMessage",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/EMailMessage.java",
+                "semantics": [
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderKey",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderKey.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartContent",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartContent.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderMgr",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/BackOrderMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "NoSupplierException",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/NoSupplierException.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatePasswords",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatePasswords.java",
+                "semantics": []
+            },
+            {
+                "name": "MailAction",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/MailAction.java",
+                "semantics": []
+            },
+            {
+                "name": "Populate",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/Populate.java",
+                "semantics": []
+            },
+            {
+                "name": "AdminServlet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountServlet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderItem",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/BackOrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorUtils",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatorUtils.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "ImageServlet",
+                "target": "Util",
+                "method": {
+                    "debug": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "ImageServlet",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemImageBytes": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "Util",
+                "target": "ListProperties",
+                "method": {
+                    "load": 3,
+                    "getProperties": 15
+                },
+                "value": 3.89
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#001]": 1120,
+                    "getImgbytes": 576,
+                    "getInventoryId": 129,
+                    "setImgbytes": 129
+                },
+                "value": 8.577
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Util",
+                "method": {
+                    "debug": 144
+                },
+                "value": 5.969
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "BackOrder",
+                "method": {
+                    "BackOrder [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#001]": 6,
+                    "$PK$PK [overloaded_#001]": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "Inventory",
+                "target": "Util",
+                "method": {
+                    "debug": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemsByCategory": 46,
+                    "getItemInventory": 15
+                },
+                "value": 5.11
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "Inventory",
+                "method": {
+                    "isPublic": 523,
+                    "Inventory [overloaded_#003]": 4,
+                    "setQuantity": 4
+                },
+                "value": 7.274
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ProductBean",
+                "method": {
+                    "ProductBean": 538,
+                    "getInventory": 4,
+                    "getQuantity": 4
+                },
+                "value": 7.302
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 23,
+                    "addItem": 4,
+                    "getSubtotalCost": 4,
+                    "removeZeroQuantityItems": 7
+                },
+                "value": 4.637
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingItem",
+                "method": {
+                    "ShoppingItem [overloaded_#002]": 32
+                },
+                "value": 4.465
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Inventory",
+                "method": {
+                    "getPrice": 147,
+                    "getQuantity": 160,
+                    "getID": 10,
+                    "Inventory [overloaded_#001]": 4
+                },
+                "value": 6.771
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#002]": 4,
+                    "setQuantity": 4,
+                    "setOrder": 4,
+                    "updatePK": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#001]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ProductBean",
+                "target": "Inventory",
+                "method": {
+                    "getCategory": 64,
+                    "getPrice": 15
+                },
+                "value": 5.369
+            },
+            {
+                "source": "ProductBean",
+                "target": "Util",
+                "method": {
+                    "getCategoryString": 64
+                },
+                "value": 5.158
+            },
+            {
+                "source": "ShoppingItem",
+                "target": "Inventory",
+                "method": {
+                    "getID": 27,
+                    "getName": 27,
+                    "getPkginfo": 27,
+                    "getQuantity": 76,
+                    "getPrice": 54,
+                    "setQuantity": 22
+                },
+                "value": 6.451
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "ResetDBBean",
+                "method": {
+                    "populateDB": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2157,
+                    "getProperties": 15,
+                    "readTokens": 138
+                },
+                "value": 8.745
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#002]": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "addItem": 129,
+                    "setItemImageBytes": 129
+                },
+                "value": 6.552
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "createCustomer": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "SuppliersBean",
+                "method": {
+                    "createSupplier": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ListProperties",
+                "target": "Util",
+                "method": {
+                    "debug": 474
+                },
+                "value": 7.161
+            },
+            {
+                "source": "Order",
+                "target": "OrderItem",
+                "method": {
+                    "getQuantity": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "setOrder": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "OrderItem",
+                "target": "Util",
+                "method": {
+                    "debug": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "OrderItem",
+                "target": "Inventory",
+                "method": {
+                    "getInventoryId": 8,
+                    "getName": 4,
+                    "getPkginfo": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "getCategory": 4
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OrderItem",
+                "target": "Order",
+                "method": {
+                    "getSellDate": 8,
+                    "getOrderID": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CustomerMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 5,
+                    "verifyPassword": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Util",
+                "method": {
+                    "debug": 9
+                },
+                "value": 3.197
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#003]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "AccountBean",
+                "target": "LoginInfo",
+                "method": {
+                    "LoginInfo": 7,
+                    "getEmail": 4,
+                    "getPassword": 3,
+                    "setMessage": 4
+                },
+                "value": 3.89
+            },
+            {
+                "source": "AccountBean",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 3,
+                    "getCustomerID": 3,
+                    "getFirstName": 5,
+                    "getLastName": 5,
+                    "getAddr1": 5,
+                    "getAddr2": 5,
+                    "getAddrCity": 5,
+                    "getAddrState": 5,
+                    "getAddrZip": 5,
+                    "getPhone": 5
+                },
+                "value": 4.828
+            },
+            {
+                "source": "AccountBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "verifyUserAndPassword": 1,
+                    "getCustomer": 1,
+                    "createCustomer": 2,
+                    "updateUser": 1
+                },
+                "value": 2.609
+            },
+            {
+                "source": "AccountBean",
+                "target": "OrderInfo",
+                "method": {
+                    "getShippingMethod": 4,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getCardName": 2,
+                    "getCardNum": 2,
+                    "getCardExpMonth": 2,
+                    "getCardExpYear": 2,
+                    "getCardholderName": 2,
+                    "OrderInfo [overloaded_#002]": 2,
+                    "getID": 4,
+                    "OrderInfo [overloaded_#001]": 2
+                },
+                "value": 4.912
+            },
+            {
+                "source": "AccountBean",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodPrice": 2,
+                    "debug": 2
+                },
+                "value": 2.386
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingBean",
+                "method": {
+                    "setShippingCost": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 2,
+                    "createOrder": 2,
+                    "removeAllItems": 2
+                },
+                "value": 2.791
+            },
+            {
+                "source": "AccountBean",
+                "target": "MailerBean",
+                "method": {
+                    "createAndSendMail": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "HelpBean",
+                "target": "Util",
+                "method": {
+                    "debugOn": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodStrings": 2,
+                    "getFullShippingMethodStrings": 6
+                },
+                "value": 3.079
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Order",
+                "method": {
+                    "getOrderID": 2,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getShippingMethod": 2
+                },
+                "value": 4.465
+            },
+            {
+                "source": "MailerBean",
+                "target": "Util",
+                "method": {
+                    "debug": 8
+                },
+                "value": 3.079
+            },
+            {
+                "source": "MailerBean",
+                "target": "MailerAppException",
+                "method": {
+                    "MailerAppException [overloaded_#002]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "MailerBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 1,
+                    "getShipName": 1,
+                    "getShipAddr1": 1,
+                    "getShipAddr2": 1,
+                    "getShipCity": 1,
+                    "getShipState": 1,
+                    "getShipZip": 1
+                },
+                "value": 2.945
+            },
+            {
+                "source": "MailerBean",
+                "target": "Customer",
+                "method": {
+                    "getCustomerID": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "MailerBean",
+                "target": "EMailMessage",
+                "method": {
+                    "EMailMessage": 1,
+                    "getEmailReceiver": 3,
+                    "getSubject": 3,
+                    "getHtmlContents": 3
+                },
+                "value": 3.302
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "Undefined",
+                    "group": "1",
+                    "category": "Undefined",
+                    "filepath": "",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    },
+    "mono_data_dependency_graph": {
+        "nodes": [
+            {
+                "name": "Util",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java",
+                "semantics": []
+            },
+            {
+                "name": "ListProperties",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/ListProperties.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrder",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java",
+                "semantics": []
+            },
+            {
+                "name": "Order",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java",
+                "semantics": []
+            },
+            {
+                "name": "Supplier",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Supplier.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "Inventory",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderKey",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderKey.java",
+                "semantics": []
+            },
+            {
+                "name": "Customer",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Customer.java",
+                "semantics": []
+            },
+            {
+                "name": "MailerBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ResetDBBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ResetDBBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartContent",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartContent.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java",
+                "semantics": []
+            },
+            {
+                "name": "PopulateDBBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/PopulateDBBean.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/BackOrderMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "MailerAppException",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerAppException.java",
+                "semantics": []
+            },
+            {
+                "name": "SuppliersBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/SuppliersBean.java",
+                "semantics": []
+            },
+            {
+                "name": "EMailMessage",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/EMailMessage.java",
+                "semantics": []
+            },
+            {
+                "name": "CustomerMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CustomerMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "CatalogMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "NoSupplierException",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/NoSupplierException.java",
+                "semantics": []
+            },
+            {
+                "name": "LoginInfo",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/LoginInfo.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderInfo",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatePasswords",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatePasswords.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java",
+                "semantics": []
+            },
+            {
+                "name": "HelpBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/HelpBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ProductBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingItem.java",
+                "semantics": []
+            },
+            {
+                "name": "MailAction",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/MailAction.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java",
+                "semantics": []
+            },
+            {
+                "name": "Populate",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/Populate.java",
+                "semantics": []
+            },
+            {
+                "name": "AdminServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/BackOrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "ImageServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorUtils",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatorUtils.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "Util",
+                "target": "ListProperties",
+                "value": "1"
+            },
+            {
+                "source": "BackOrder",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "Order",
+                "target": "Customer",
+                "value": "1"
+            },
+            {
+                "source": "Order",
+                "target": "OrderItem",
+                "value": "1"
+            },
+            {
+                "source": "OrderItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "OrderItem",
+                "target": "Order",
+                "value": "1"
+            },
+            {
+                "source": "Inventory",
+                "target": "BackOrder",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "MailerBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "Customer",
+                "value": "2"
+            },
+            {
+                "source": "AccountBean",
+                "target": "LoginInfo",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "OrderInfo",
+                "value": "1"
+            },
+            {
+                "source": "HelpBean",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "ProductBean",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "MailAction",
+                "target": "MailerBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ProductBean",
+                "value": "2"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingItem",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountServlet",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "BackOrderItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "ImageServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "data_dep_island_0",
+                    "group": 0,
+                    "category": "data_dep_island_0",
+                    "filepath": "data_dep_island_0",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_1",
+                    "group": 1,
+                    "category": "data_dep_island_1",
+                    "filepath": "data_dep_island_1",
+                    "semantics": []
+                },
+                {
+                    "name": "default_group",
+                    "group": 2,
+                    "category": "default_group",
+                    "filepath": "default_group",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    },
+    "micro_detail_partition_by_business_logic": {
+        "nodes": [
+            {
+                "name": "ImageServlet",
+                "group": 0,
+                "category": "partition1",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ImageServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Util",
+                "group": 0,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.utils.Util",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping",
+                    "payer"
+                ]
+            },
+            {
+                "name": "CatalogMgr",
+                "group": 0,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.CatalogMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Inventory",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Inventory",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "catalogue",
+                    "shopping",
+                    "compte"
+                ]
+            },
+            {
+                "name": "ShoppingBean",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ShoppingBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ShoppingCartBean",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ProductBean",
+                "group": 0,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ProductBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java",
+                "semantics": [
+                    "Unknown",
+                    "shopping",
+                    "catalogue"
+                ]
+            },
+            {
+                "name": "ShoppingItem",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ShoppingItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingItem.java",
+                "semantics": [
+                    "payer",
+                    "shopping",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PopulateDBBean",
+                "group": 6,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.PopulateDBBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/PopulateDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ResetDBBean",
+                "group": 1,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ResetDBBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ResetDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ListProperties",
+                "group": 1,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.utils.ListProperties",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/ListProperties.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Order",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Order",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "BackOrder",
+                "group": 0,
+                "category": "partition1",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.BackOrder",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Customer",
+                "group": 5,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Customer",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Customer.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderItem",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.OrderItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "Supplier",
+                "group": 1,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Supplier",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Supplier.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CustomerMgr",
+                "group": 5,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.CustomerMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CustomerMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "SuppliersBean",
+                "group": 1,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.SuppliersBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/SuppliersBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AccountBean",
+                "group": 5,
+                "category": "partition0",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AccountBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "LoginInfo",
+                "group": 5,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.LoginInfo",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/LoginInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "HelpBean",
+                "group": 6,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.HelpBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/HelpBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OrderInfo",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.OrderInfo",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerBean",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.MailerBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerAppException",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.MailerAppException",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerAppException.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "EMailMessage",
+                "group": 2,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.EMailMessage",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/EMailMessage.java",
+                "semantics": [
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderKey",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.OrderKey",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderKey.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartContent",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ShoppingCartContent",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartContent.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderMgr",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.BackOrderMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/BackOrderMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "NoSupplierException",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.NoSupplierException",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/NoSupplierException.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatePasswords",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ValidatePasswords",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatePasswords.java",
+                "semantics": []
+            },
+            {
+                "name": "MailAction",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.MailAction",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/MailAction.java",
+                "semantics": []
+            },
+            {
+                "name": "Populate",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.Populate",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/Populate.java",
+                "semantics": []
+            },
+            {
+                "name": "AdminServlet",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AdminServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountServlet",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AccountServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderItem",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.BackOrderItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/BackOrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorUtils",
+                "group": 4,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ValidatorUtils",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatorUtils.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "ImageServlet",
+                "target": "Util",
+                "method": {
+                    "debug": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "ImageServlet",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemImageBytes": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "Util",
+                "target": "ListProperties",
+                "method": {
+                    "load": 3,
+                    "getProperties": 15
+                },
+                "value": 3.89
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#001]": 1120,
+                    "getImgbytes": 576,
+                    "getInventoryId": 129,
+                    "setImgbytes": 129
+                },
+                "value": 8.577
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Util",
+                "method": {
+                    "debug": 144
+                },
+                "value": 5.969
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "BackOrder",
+                "method": {
+                    "BackOrder [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#001]": 6,
+                    "$PK$PK [overloaded_#001]": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "Inventory",
+                "target": "Util",
+                "method": {
+                    "debug": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemsByCategory": 46,
+                    "getItemInventory": 15
+                },
+                "value": 5.11
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "Inventory",
+                "method": {
+                    "isPublic": 523,
+                    "Inventory [overloaded_#003]": 4,
+                    "setQuantity": 4
+                },
+                "value": 7.274
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ProductBean",
+                "method": {
+                    "ProductBean": 538,
+                    "getInventory": 4,
+                    "getQuantity": 4
+                },
+                "value": 7.302
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 23,
+                    "addItem": 4,
+                    "getSubtotalCost": 4,
+                    "removeZeroQuantityItems": 7
+                },
+                "value": 4.637
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingItem",
+                "method": {
+                    "ShoppingItem [overloaded_#002]": 32
+                },
+                "value": 4.465
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Inventory",
+                "method": {
+                    "getPrice": 147,
+                    "getQuantity": 160,
+                    "getID": 10,
+                    "Inventory [overloaded_#001]": 4
+                },
+                "value": 6.771
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#002]": 4,
+                    "setQuantity": 4,
+                    "setOrder": 4,
+                    "updatePK": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#001]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ProductBean",
+                "target": "Inventory",
+                "method": {
+                    "getCategory": 64,
+                    "getPrice": 15
+                },
+                "value": 5.369
+            },
+            {
+                "source": "ProductBean",
+                "target": "Util",
+                "method": {
+                    "getCategoryString": 64
+                },
+                "value": 5.158
+            },
+            {
+                "source": "ShoppingItem",
+                "target": "Inventory",
+                "method": {
+                    "getID": 27,
+                    "getName": 27,
+                    "getPkginfo": 27,
+                    "getQuantity": 76,
+                    "getPrice": 54,
+                    "setQuantity": 22
+                },
+                "value": 6.451
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "ResetDBBean",
+                "method": {
+                    "populateDB": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2157,
+                    "getProperties": 15,
+                    "readTokens": 138
+                },
+                "value": 8.745
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#002]": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "addItem": 129,
+                    "setItemImageBytes": 129
+                },
+                "value": 6.552
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "createCustomer": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "SuppliersBean",
+                "method": {
+                    "createSupplier": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ListProperties",
+                "target": "Util",
+                "method": {
+                    "debug": 474
+                },
+                "value": 7.161
+            },
+            {
+                "source": "Order",
+                "target": "OrderItem",
+                "method": {
+                    "getQuantity": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "setOrder": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "OrderItem",
+                "target": "Util",
+                "method": {
+                    "debug": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "OrderItem",
+                "target": "Inventory",
+                "method": {
+                    "getInventoryId": 8,
+                    "getName": 4,
+                    "getPkginfo": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "getCategory": 4
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OrderItem",
+                "target": "Order",
+                "method": {
+                    "getSellDate": 8,
+                    "getOrderID": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CustomerMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 5,
+                    "verifyPassword": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Util",
+                "method": {
+                    "debug": 9
+                },
+                "value": 3.197
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#003]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "AccountBean",
+                "target": "LoginInfo",
+                "method": {
+                    "LoginInfo": 7,
+                    "getEmail": 4,
+                    "getPassword": 3,
+                    "setMessage": 4
+                },
+                "value": 3.89
+            },
+            {
+                "source": "AccountBean",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 3,
+                    "getCustomerID": 3,
+                    "getFirstName": 5,
+                    "getLastName": 5,
+                    "getAddr1": 5,
+                    "getAddr2": 5,
+                    "getAddrCity": 5,
+                    "getAddrState": 5,
+                    "getAddrZip": 5,
+                    "getPhone": 5
+                },
+                "value": 4.828
+            },
+            {
+                "source": "AccountBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "verifyUserAndPassword": 1,
+                    "getCustomer": 1,
+                    "createCustomer": 2,
+                    "updateUser": 1
+                },
+                "value": 2.609
+            },
+            {
+                "source": "AccountBean",
+                "target": "OrderInfo",
+                "method": {
+                    "getShippingMethod": 4,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getCardName": 2,
+                    "getCardNum": 2,
+                    "getCardExpMonth": 2,
+                    "getCardExpYear": 2,
+                    "getCardholderName": 2,
+                    "OrderInfo [overloaded_#002]": 2,
+                    "getID": 4,
+                    "OrderInfo [overloaded_#001]": 2
+                },
+                "value": 4.912
+            },
+            {
+                "source": "AccountBean",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodPrice": 2,
+                    "debug": 2
+                },
+                "value": 2.386
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingBean",
+                "method": {
+                    "setShippingCost": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 2,
+                    "createOrder": 2,
+                    "removeAllItems": 2
+                },
+                "value": 2.791
+            },
+            {
+                "source": "AccountBean",
+                "target": "MailerBean",
+                "method": {
+                    "createAndSendMail": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "HelpBean",
+                "target": "Util",
+                "method": {
+                    "debugOn": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodStrings": 2,
+                    "getFullShippingMethodStrings": 6
+                },
+                "value": 3.079
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Order",
+                "method": {
+                    "getOrderID": 2,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getShippingMethod": 2
+                },
+                "value": 4.465
+            },
+            {
+                "source": "MailerBean",
+                "target": "Util",
+                "method": {
+                    "debug": 8
+                },
+                "value": 3.079
+            },
+            {
+                "source": "MailerBean",
+                "target": "MailerAppException",
+                "method": {
+                    "MailerAppException [overloaded_#002]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "MailerBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 1,
+                    "getShipName": 1,
+                    "getShipAddr1": 1,
+                    "getShipAddr2": 1,
+                    "getShipCity": 1,
+                    "getShipState": 1,
+                    "getShipZip": 1
+                },
+                "value": 2.945
+            },
+            {
+                "source": "MailerBean",
+                "target": "Customer",
+                "method": {
+                    "getCustomerID": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "MailerBean",
+                "target": "EMailMessage",
+                "method": {
+                    "EMailMessage": 1,
+                    "getEmailReceiver": 3,
+                    "getSubject": 3,
+                    "getHtmlContents": 3
+                },
+                "value": 3.302
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "partition1",
+                    "group": 0,
+                    "category": "partition1",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "catalogue",
+                        "shopping",
+                        "payer"
+                    ]
+                },
+                {
+                    "name": "partition2",
+                    "group": 3,
+                    "category": "partition2",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "payer",
+                        "catalogue",
+                        "shopping",
+                        "compte",
+                        "acces_interface"
+                    ]
+                },
+                {
+                    "name": "root_dest_undefined_use_case",
+                    "group": 6,
+                    "category": "root_dest_undefined_use_case",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "src_dest_undefined_use_case",
+                    "group": 1,
+                    "category": "src_dest_undefined_use_case",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "partition3",
+                    "group": 2,
+                    "category": "partition3",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "payer"
+                    ]
+                },
+                {
+                    "name": "partition0",
+                    "group": 5,
+                    "category": "partition0",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "compte",
+                        "payer"
+                    ]
+                },
+                {
+                    "name": "Unobserved",
+                    "group": 4,
+                    "category": "Unobserved",
+                    "filepath": "Cluster",
+                    "semantics": []
+                }
+            ],
+            "links": [
+                {
+                    "source": "partition1",
+                    "target": "src_dest_undefined_use_case",
+                    "value": 1.564
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition2",
+                    "value": 1.932
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition3",
+                    "value": 1.582
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition0",
+                    "value": 1.203
+                },
+                {
+                    "source": "partition2",
+                    "target": "partition1",
+                    "value": 2.113
+                },
+                {
+                    "source": "partition2",
+                    "target": "partition3",
+                    "value": 1.528
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "partition1",
+                    "value": 1.326
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "src_dest_undefined_use_case",
+                    "value": 1.203
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition1",
+                    "value": 2.25
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition2",
+                    "value": 1.555
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition0",
+                    "value": 1.203
+                },
+                {
+                    "source": "partition3",
+                    "target": "partition1",
+                    "value": 1.78
+                },
+                {
+                    "source": "partition3",
+                    "target": "partition2",
+                    "value": 1.442
+                },
+                {
+                    "source": "partition3",
+                    "target": "partition0",
+                    "value": 1.0
+                },
+                {
+                    "source": "partition0",
+                    "target": "partition3",
+                    "value": 1.603
+                },
+                {
+                    "source": "partition0",
+                    "target": "partition1",
+                    "value": 1.242
+                },
+                {
+                    "source": "partition0",
+                    "target": "partition2",
+                    "value": 1.455
+                }
+            ]
+        }
+    },
+    "micro_detail_partition_by_natural_seam": {
+        "nodes": [
+            {
+                "name": "ImageServlet",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ImageServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Util",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.utils.Util",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping",
+                    "payer"
+                ]
+            },
+            {
+                "name": "CatalogMgr",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.CatalogMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "catalogue",
+                    "shopping"
+                ]
+            },
+            {
+                "name": "Inventory",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Inventory",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "catalogue",
+                    "shopping",
+                    "compte"
+                ]
+            },
+            {
+                "name": "ShoppingBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ShoppingBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ShoppingCartBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ShoppingCartBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer",
+                    "shopping",
+                    "catalogue",
+                    "compte",
+                    "acces_interface"
+                ]
+            },
+            {
+                "name": "ProductBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ProductBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java",
+                "semantics": [
+                    "Unknown",
+                    "shopping",
+                    "catalogue"
+                ]
+            },
+            {
+                "name": "ShoppingItem",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ShoppingItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingItem.java",
+                "semantics": [
+                    "payer",
+                    "shopping",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PopulateDBBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.PopulateDBBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/PopulateDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ResetDBBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ResetDBBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ResetDBBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ListProperties",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.utils.ListProperties",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/ListProperties.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Order",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Order",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "BackOrder",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.BackOrder",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Customer",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Customer",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Customer.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderItem",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.OrderItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "Supplier",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.Supplier",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Supplier.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CustomerMgr",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.CustomerMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CustomerMgr.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "SuppliersBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.SuppliersBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/SuppliersBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AccountBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AccountBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java",
+                "semantics": [
+                    "Unknown",
+                    "compte",
+                    "payer"
+                ]
+            },
+            {
+                "name": "LoginInfo",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.LoginInfo",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/LoginInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "compte"
+                ]
+            },
+            {
+                "name": "HelpBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.HelpBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/HelpBean.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OrderInfo",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.OrderInfo",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerBean",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.MailerBean",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerBean.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "MailerAppException",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.MailerAppException",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerAppException.java",
+                "semantics": [
+                    "Unknown",
+                    "payer"
+                ]
+            },
+            {
+                "name": "EMailMessage",
+                "group": 0,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.EMailMessage",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/EMailMessage.java",
+                "semantics": [
+                    "payer"
+                ]
+            },
+            {
+                "name": "OrderKey",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.jpa.OrderKey",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderKey.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartContent",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.ShoppingCartContent",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartContent.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderMgr",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.BackOrderMgr",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/BackOrderMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "NoSupplierException",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.bean.NoSupplierException",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/NoSupplierException.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatePasswords",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ValidatePasswords",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatePasswords.java",
+                "semantics": []
+            },
+            {
+                "name": "MailAction",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.MailAction",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/MailAction.java",
+                "semantics": []
+            },
+            {
+                "name": "Populate",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.Populate",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/Populate.java",
+                "semantics": []
+            },
+            {
+                "name": "AdminServlet",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AdminServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountServlet",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Service Entry",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.AccountServlet",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderItem",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.BackOrderItem",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/BackOrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorUtils",
+                "group": 1,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "com.ibm.websphere.samples.pbw.war.ValidatorUtils",
+                "filepath": "Class, monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatorUtils.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "ImageServlet",
+                "target": "Util",
+                "method": {
+                    "debug": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "ImageServlet",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemImageBytes": 576
+                },
+                "value": 7.356
+            },
+            {
+                "source": "Util",
+                "target": "ListProperties",
+                "method": {
+                    "load": 3,
+                    "getProperties": 15
+                },
+                "value": 3.89
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#001]": 1120,
+                    "getImgbytes": 576,
+                    "getInventoryId": 129,
+                    "setImgbytes": 129
+                },
+                "value": 8.577
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Util",
+                "method": {
+                    "debug": 144
+                },
+                "value": 5.969
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "BackOrder",
+                "method": {
+                    "BackOrder [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#001]": 6,
+                    "$PK$PK [overloaded_#001]": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CatalogMgr",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#001]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "Inventory",
+                "target": "Util",
+                "method": {
+                    "debug": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "getItemsByCategory": 46,
+                    "getItemInventory": 15
+                },
+                "value": 5.11
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "Inventory",
+                "method": {
+                    "isPublic": 523,
+                    "Inventory [overloaded_#003]": 4,
+                    "setQuantity": 4
+                },
+                "value": 7.274
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ProductBean",
+                "method": {
+                    "ProductBean": 538,
+                    "getInventory": 4,
+                    "getQuantity": 4
+                },
+                "value": 7.302
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 23,
+                    "addItem": 4,
+                    "getSubtotalCost": 4,
+                    "removeZeroQuantityItems": 7
+                },
+                "value": 4.637
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingItem",
+                "method": {
+                    "ShoppingItem [overloaded_#002]": 32
+                },
+                "value": 4.465
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Inventory",
+                "method": {
+                    "getPrice": 147,
+                    "getQuantity": 160,
+                    "getID": 10,
+                    "Inventory [overloaded_#001]": 4
+                },
+                "value": 6.771
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "OrderItem",
+                "method": {
+                    "OrderItem [overloaded_#002]": 4,
+                    "setQuantity": 4,
+                    "setOrder": 4,
+                    "updatePK": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#001]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ProductBean",
+                "target": "Inventory",
+                "method": {
+                    "getCategory": 64,
+                    "getPrice": 15
+                },
+                "value": 5.369
+            },
+            {
+                "source": "ProductBean",
+                "target": "Util",
+                "method": {
+                    "getCategoryString": 64
+                },
+                "value": 5.158
+            },
+            {
+                "source": "ShoppingItem",
+                "target": "Inventory",
+                "method": {
+                    "getID": 27,
+                    "getName": 27,
+                    "getPkginfo": 27,
+                    "getQuantity": 76,
+                    "getPrice": 54,
+                    "setQuantity": 22
+                },
+                "value": 6.451
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "ResetDBBean",
+                "method": {
+                    "populateDB": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Util",
+                "method": {
+                    "debug": 2157,
+                    "getProperties": 15,
+                    "readTokens": 138
+                },
+                "value": 8.745
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "Inventory",
+                "method": {
+                    "Inventory [overloaded_#002]": 129
+                },
+                "value": 5.859
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CatalogMgr",
+                "method": {
+                    "addItem": 129,
+                    "setItemImageBytes": 129
+                },
+                "value": 6.552
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "createCustomer": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "SuppliersBean",
+                "method": {
+                    "createSupplier": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "ListProperties",
+                "target": "Util",
+                "method": {
+                    "debug": 474
+                },
+                "value": 7.161
+            },
+            {
+                "source": "Order",
+                "target": "OrderItem",
+                "method": {
+                    "getQuantity": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "setOrder": 4
+                },
+                "value": 3.772
+            },
+            {
+                "source": "OrderItem",
+                "target": "Util",
+                "method": {
+                    "debug": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "OrderItem",
+                "target": "Inventory",
+                "method": {
+                    "getInventoryId": 8,
+                    "getName": 4,
+                    "getPkginfo": 4,
+                    "getPrice": 4,
+                    "getCost": 4,
+                    "getCategory": 4
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OrderItem",
+                "target": "Order",
+                "method": {
+                    "getSellDate": 8,
+                    "getOrderID": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CustomerMgr",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 5,
+                    "verifyPassword": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Util",
+                "method": {
+                    "debug": 9
+                },
+                "value": 3.197
+            },
+            {
+                "source": "SuppliersBean",
+                "target": "Supplier",
+                "method": {
+                    "Supplier [overloaded_#003]": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "AccountBean",
+                "target": "LoginInfo",
+                "method": {
+                    "LoginInfo": 7,
+                    "getEmail": 4,
+                    "getPassword": 3,
+                    "setMessage": 4
+                },
+                "value": 3.89
+            },
+            {
+                "source": "AccountBean",
+                "target": "Customer",
+                "method": {
+                    "Customer [overloaded_#002]": 3,
+                    "getCustomerID": 3,
+                    "getFirstName": 5,
+                    "getLastName": 5,
+                    "getAddr1": 5,
+                    "getAddr2": 5,
+                    "getAddrCity": 5,
+                    "getAddrState": 5,
+                    "getAddrZip": 5,
+                    "getPhone": 5
+                },
+                "value": 4.828
+            },
+            {
+                "source": "AccountBean",
+                "target": "CustomerMgr",
+                "method": {
+                    "verifyUserAndPassword": 1,
+                    "getCustomer": 1,
+                    "createCustomer": 2,
+                    "updateUser": 1
+                },
+                "value": 2.609
+            },
+            {
+                "source": "AccountBean",
+                "target": "OrderInfo",
+                "method": {
+                    "getShippingMethod": 4,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getCardName": 2,
+                    "getCardNum": 2,
+                    "getCardExpMonth": 2,
+                    "getCardExpYear": 2,
+                    "getCardholderName": 2,
+                    "OrderInfo [overloaded_#002]": 2,
+                    "getID": 4,
+                    "OrderInfo [overloaded_#001]": 2
+                },
+                "value": 4.912
+            },
+            {
+                "source": "AccountBean",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodPrice": 2,
+                    "debug": 2
+                },
+                "value": 2.386
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingBean",
+                "method": {
+                    "setShippingCost": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingCartBean",
+                "method": {
+                    "getItems": 2,
+                    "createOrder": 2,
+                    "removeAllItems": 2
+                },
+                "value": 2.791
+            },
+            {
+                "source": "AccountBean",
+                "target": "MailerBean",
+                "method": {
+                    "createAndSendMail": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "HelpBean",
+                "target": "Util",
+                "method": {
+                    "debugOn": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Util",
+                "method": {
+                    "getShippingMethodStrings": 2,
+                    "getFullShippingMethodStrings": 6
+                },
+                "value": 3.079
+            },
+            {
+                "source": "OrderInfo",
+                "target": "Order",
+                "method": {
+                    "getOrderID": 2,
+                    "getBillName": 2,
+                    "getBillAddr1": 2,
+                    "getBillAddr2": 2,
+                    "getBillCity": 2,
+                    "getBillState": 2,
+                    "getBillZip": 2,
+                    "getBillPhone": 2,
+                    "getShipName": 2,
+                    "getShipAddr1": 2,
+                    "getShipAddr2": 2,
+                    "getShipCity": 2,
+                    "getShipState": 2,
+                    "getShipZip": 2,
+                    "getShipPhone": 2,
+                    "getShippingMethod": 2
+                },
+                "value": 4.465
+            },
+            {
+                "source": "MailerBean",
+                "target": "Util",
+                "method": {
+                    "debug": 8
+                },
+                "value": 3.079
+            },
+            {
+                "source": "MailerBean",
+                "target": "MailerAppException",
+                "method": {
+                    "MailerAppException [overloaded_#002]": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "MailerBean",
+                "target": "Order",
+                "method": {
+                    "Order [overloaded_#003]": 1,
+                    "getShipName": 1,
+                    "getShipAddr1": 1,
+                    "getShipAddr2": 1,
+                    "getShipCity": 1,
+                    "getShipState": 1,
+                    "getShipZip": 1
+                },
+                "value": 2.945
+            },
+            {
+                "source": "MailerBean",
+                "target": "Customer",
+                "method": {
+                    "getCustomerID": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "MailerBean",
+                "target": "EMailMessage",
+                "method": {
+                    "EMailMessage": 1,
+                    "getEmailReceiver": 3,
+                    "getSubject": 3,
+                    "getHtmlContents": 3
+                },
+                "value": 3.302
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "partition0",
+                    "group": 0,
+                    "category": "partition0",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "catalogue",
+                        "shopping",
+                        "payer",
+                        "compte",
+                        "acces_interface"
+                    ]
+                },
+                {
+                    "name": "Unobserved",
+                    "group": 1,
+                    "category": "Unobserved",
+                    "filepath": "Cluster",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    }
+}

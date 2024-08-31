@@ -1,0 +1,127 @@
+1703278908869,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908869,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908869,Unknown,$Root$ calls OrderInfo,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java:OrderInfo:getCardExpYears
+1703278908869,Unknown,OrderInfo returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java:OrderInfo:getCardExpYears,<None>:$Root$:<None>
+1703278908871,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908871,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908872,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908872,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908872,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908872,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908872,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908872,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908872,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908872,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908872,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908872,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908873,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908873,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908873,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908873,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908873,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908873,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908873,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908873,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908873,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908873,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908874,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908874,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908874,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908874,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908874,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908874,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908874,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908874,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908874,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908874,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908875,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908875,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908876,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908876,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908877,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908877,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908878,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908878,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908878,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908878,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908879,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908879,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908879,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908879,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908880,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908880,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908880,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908880,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908884,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278908884,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278908884,Unknown,$Root$ calls OrderInfo,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java:OrderInfo:getCardExpYears
+1703278908884,Unknown,OrderInfo returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java:OrderInfo:getCardExpYears,<None>:$Root$:<None>
+1703278908902,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278908902,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278908902,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908902,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278908902,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908902,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278908902,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278908903,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278908903,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278908903,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278908903,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278908903,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean calls ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems
+1703278908903,Unknown,ShoppingCartBean returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getItems,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize
+1703278908903,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSize,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart
+1703278908903,Unknown,ShoppingBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java:ShoppingBean:getCart,<None>:$Root$:<None>
+1703278908903,Unknown,$Root$ calls ShoppingCartBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost
+1703278908903,Unknown,ShoppingCartBean calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPrice
+1703278908903,Unknown,Inventory returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getPrice,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost
+1703278908903,Unknown,ShoppingCartBean calls Inventory,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getQuantity
+1703278908903,Unknown,Inventory returns to ShoppingCartBean,monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java:Inventory:getQuantity,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost
+1703278908903,Unknown,ShoppingCartBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java:ShoppingCartBean:getSubtotalCost,<None>:$Root$:<None>
+1703278909025,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278909025,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278909030,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278909030,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278909041,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo
+1703278909041,Unknown,AccountBean returns to $Root$,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo,<None>:$Root$:<None>
+1703278909046,Unknown,$Root$ calls AccountBean,<None>:$Root$:<None>,monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java:AccountBean:getOrderInfo

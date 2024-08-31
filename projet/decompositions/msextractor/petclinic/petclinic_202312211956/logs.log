@@ -1,0 +1,9 @@
+2023-12-21 19:56:35,192 INFO <string>:55 -- decomposing petclinic with MSExtractor
+2023-12-21 19:56:35,195 DEBUG <string>:57 -- loading data locally from '/data'
+2023-12-21 19:56:35,270 DEBUG <string>:64 -- initializing MSExtractor
+2023-12-21 19:56:35,316 DEBUG <string>:68 -- running MSExtractor
+2023-12-21 19:56:35,318 INFO <string>:84 -- Starting MSExtractor run on 2000 generations of size 100.
+2023-12-21 19:57:46,545 INFO <string>:97 -- Finished MSExtractor run
+2023-12-21 19:57:46,547 DEBUG <string>:72 -- parsing results
+2023-12-21 19:57:46,550 DEBUG <string>:84 -- saving results in /output/petclinic/petclinic_202312211956
+2023-12-21 19:57:46,609 INFO <string>:95 -- finished generating decomposition

@@ -1,0 +1,30 @@
+usage: msextractor [-h] [-d DATA] [-o OUTPUT] [-m MICROSERVICES]
+                   [-G GENERATIONS] [-P POPULATION] [-X CROSSOVER]
+                   [-M MUTATION] [-A ATTRIBUTE] [-s SEED] [-v] [-n NAME]
+                   APP
+
+Decompose an application using MSExtractor
+
+positional arguments:
+  APP                   application to decompose
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DATA, --data DATA  path for the data or github link for the source code
+  -o OUTPUT, --output OUTPUT
+                        path for the output
+  -m MICROSERVICES, --microservices MICROSERVICES
+                        maximum number of microservices
+  -G GENERATIONS, --generations GENERATIONS
+                        number of generations
+  -P POPULATION, --population POPULATION
+                        size of a population
+  -X CROSSOVER, --crossover CROSSOVER
+                        Crossover probability
+  -M MUTATION, --mutation MUTATION
+                        Mutation probability
+  -A ATTRIBUTE, --attribute ATTRIBUTE
+                        Attribute mutation probability
+  -s SEED, --seed SEED  RNG seed
+  -v, --verbose         logging verbosity
+  -n NAME, --name NAME  name of the decomposition run

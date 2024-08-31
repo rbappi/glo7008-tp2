@@ -1,0 +1,8006 @@
+[
+  {
+    "gen": 0,
+    "nevals": 0
+  },
+  {
+    "gen": 1,
+    "nevals": 62
+  },
+  {
+    "gen": 2,
+    "nevals": 65
+  },
+  {
+    "gen": 3,
+    "nevals": 68
+  },
+  {
+    "gen": 4,
+    "nevals": 69
+  },
+  {
+    "gen": 5,
+    "nevals": 68
+  },
+  {
+    "gen": 6,
+    "nevals": 68
+  },
+  {
+    "gen": 7,
+    "nevals": 60
+  },
+  {
+    "gen": 8,
+    "nevals": 68
+  },
+  {
+    "gen": 9,
+    "nevals": 65
+  },
+  {
+    "gen": 10,
+    "nevals": 62
+  },
+  {
+    "gen": 11,
+    "nevals": 70
+  },
+  {
+    "gen": 12,
+    "nevals": 64
+  },
+  {
+    "gen": 13,
+    "nevals": 67
+  },
+  {
+    "gen": 14,
+    "nevals": 53
+  },
+  {
+    "gen": 15,
+    "nevals": 67
+  },
+  {
+    "gen": 16,
+    "nevals": 65
+  },
+  {
+    "gen": 17,
+    "nevals": 59
+  },
+  {
+    "gen": 18,
+    "nevals": 67
+  },
+  {
+    "gen": 19,
+    "nevals": 50
+  },
+  {
+    "gen": 20,
+    "nevals": 62
+  },
+  {
+    "gen": 21,
+    "nevals": 65
+  },
+  {
+    "gen": 22,
+    "nevals": 63
+  },
+  {
+    "gen": 23,
+    "nevals": 64
+  },
+  {
+    "gen": 24,
+    "nevals": 65
+  },
+  {
+    "gen": 25,
+    "nevals": 67
+  },
+  {
+    "gen": 26,
+    "nevals": 72
+  },
+  {
+    "gen": 27,
+    "nevals": 69
+  },
+  {
+    "gen": 28,
+    "nevals": 62
+  },
+  {
+    "gen": 29,
+    "nevals": 66
+  },
+  {
+    "gen": 30,
+    "nevals": 72
+  },
+  {
+    "gen": 31,
+    "nevals": 70
+  },
+  {
+    "gen": 32,
+    "nevals": 63
+  },
+  {
+    "gen": 33,
+    "nevals": 57
+  },
+  {
+    "gen": 34,
+    "nevals": 66
+  },
+  {
+    "gen": 35,
+    "nevals": 56
+  },
+  {
+    "gen": 36,
+    "nevals": 76
+  },
+  {
+    "gen": 37,
+    "nevals": 65
+  },
+  {
+    "gen": 38,
+    "nevals": 65
+  },
+  {
+    "gen": 39,
+    "nevals": 66
+  },
+  {
+    "gen": 40,
+    "nevals": 66
+  },
+  {
+    "gen": 41,
+    "nevals": 66
+  },
+  {
+    "gen": 42,
+    "nevals": 65
+  },
+  {
+    "gen": 43,
+    "nevals": 65
+  },
+  {
+    "gen": 44,
+    "nevals": 68
+  },
+  {
+    "gen": 45,
+    "nevals": 71
+  },
+  {
+    "gen": 46,
+    "nevals": 63
+  },
+  {
+    "gen": 47,
+    "nevals": 62
+  },
+  {
+    "gen": 48,
+    "nevals": 58
+  },
+  {
+    "gen": 49,
+    "nevals": 60
+  },
+  {
+    "gen": 50,
+    "nevals": 59
+  },
+  {
+    "gen": 51,
+    "nevals": 63
+  },
+  {
+    "gen": 52,
+    "nevals": 61
+  },
+  {
+    "gen": 53,
+    "nevals": 75
+  },
+  {
+    "gen": 54,
+    "nevals": 62
+  },
+  {
+    "gen": 55,
+    "nevals": 71
+  },
+  {
+    "gen": 56,
+    "nevals": 76
+  },
+  {
+    "gen": 57,
+    "nevals": 69
+  },
+  {
+    "gen": 58,
+    "nevals": 74
+  },
+  {
+    "gen": 59,
+    "nevals": 76
+  },
+  {
+    "gen": 60,
+    "nevals": 69
+  },
+  {
+    "gen": 61,
+    "nevals": 68
+  },
+  {
+    "gen": 62,
+    "nevals": 66
+  },
+  {
+    "gen": 63,
+    "nevals": 63
+  },
+  {
+    "gen": 64,
+    "nevals": 58
+  },
+  {
+    "gen": 65,
+    "nevals": 62
+  },
+  {
+    "gen": 66,
+    "nevals": 61
+  },
+  {
+    "gen": 67,
+    "nevals": 59
+  },
+  {
+    "gen": 68,
+    "nevals": 55
+  },
+  {
+    "gen": 69,
+    "nevals": 65
+  },
+  {
+    "gen": 70,
+    "nevals": 60
+  },
+  {
+    "gen": 71,
+    "nevals": 67
+  },
+  {
+    "gen": 72,
+    "nevals": 69
+  },
+  {
+    "gen": 73,
+    "nevals": 67
+  },
+  {
+    "gen": 74,
+    "nevals": 70
+  },
+  {
+    "gen": 75,
+    "nevals": 56
+  },
+  {
+    "gen": 76,
+    "nevals": 67
+  },
+  {
+    "gen": 77,
+    "nevals": 62
+  },
+  {
+    "gen": 78,
+    "nevals": 61
+  },
+  {
+    "gen": 79,
+    "nevals": 73
+  },
+  {
+    "gen": 80,
+    "nevals": 70
+  },
+  {
+    "gen": 81,
+    "nevals": 80
+  },
+  {
+    "gen": 82,
+    "nevals": 68
+  },
+  {
+    "gen": 83,
+    "nevals": 63
+  },
+  {
+    "gen": 84,
+    "nevals": 65
+  },
+  {
+    "gen": 85,
+    "nevals": 60
+  },
+  {
+    "gen": 86,
+    "nevals": 64
+  },
+  {
+    "gen": 87,
+    "nevals": 67
+  },
+  {
+    "gen": 88,
+    "nevals": 53
+  },
+  {
+    "gen": 89,
+    "nevals": 59
+  },
+  {
+    "gen": 90,
+    "nevals": 59
+  },
+  {
+    "gen": 91,
+    "nevals": 67
+  },
+  {
+    "gen": 92,
+    "nevals": 81
+  },
+  {
+    "gen": 93,
+    "nevals": 60
+  },
+  {
+    "gen": 94,
+    "nevals": 62
+  },
+  {
+    "gen": 95,
+    "nevals": 66
+  },
+  {
+    "gen": 96,
+    "nevals": 64
+  },
+  {
+    "gen": 97,
+    "nevals": 64
+  },
+  {
+    "gen": 98,
+    "nevals": 54
+  },
+  {
+    "gen": 99,
+    "nevals": 63
+  },
+  {
+    "gen": 100,
+    "nevals": 61
+  },
+  {
+    "gen": 101,
+    "nevals": 64
+  },
+  {
+    "gen": 102,
+    "nevals": 66
+  },
+  {
+    "gen": 103,
+    "nevals": 66
+  },
+  {
+    "gen": 104,
+    "nevals": 68
+  },
+  {
+    "gen": 105,
+    "nevals": 68
+  },
+  {
+    "gen": 106,
+    "nevals": 73
+  },
+  {
+    "gen": 107,
+    "nevals": 56
+  },
+  {
+    "gen": 108,
+    "nevals": 60
+  },
+  {
+    "gen": 109,
+    "nevals": 68
+  },
+  {
+    "gen": 110,
+    "nevals": 65
+  },
+  {
+    "gen": 111,
+    "nevals": 64
+  },
+  {
+    "gen": 112,
+    "nevals": 73
+  },
+  {
+    "gen": 113,
+    "nevals": 71
+  },
+  {
+    "gen": 114,
+    "nevals": 61
+  },
+  {
+    "gen": 115,
+    "nevals": 69
+  },
+  {
+    "gen": 116,
+    "nevals": 69
+  },
+  {
+    "gen": 117,
+    "nevals": 65
+  },
+  {
+    "gen": 118,
+    "nevals": 74
+  },
+  {
+    "gen": 119,
+    "nevals": 69
+  },
+  {
+    "gen": 120,
+    "nevals": 54
+  },
+  {
+    "gen": 121,
+    "nevals": 70
+  },
+  {
+    "gen": 122,
+    "nevals": 60
+  },
+  {
+    "gen": 123,
+    "nevals": 58
+  },
+  {
+    "gen": 124,
+    "nevals": 58
+  },
+  {
+    "gen": 125,
+    "nevals": 60
+  },
+  {
+    "gen": 126,
+    "nevals": 60
+  },
+  {
+    "gen": 127,
+    "nevals": 62
+  },
+  {
+    "gen": 128,
+    "nevals": 69
+  },
+  {
+    "gen": 129,
+    "nevals": 61
+  },
+  {
+    "gen": 130,
+    "nevals": 68
+  },
+  {
+    "gen": 131,
+    "nevals": 69
+  },
+  {
+    "gen": 132,
+    "nevals": 61
+  },
+  {
+    "gen": 133,
+    "nevals": 59
+  },
+  {
+    "gen": 134,
+    "nevals": 65
+  },
+  {
+    "gen": 135,
+    "nevals": 61
+  },
+  {
+    "gen": 136,
+    "nevals": 61
+  },
+  {
+    "gen": 137,
+    "nevals": 67
+  },
+  {
+    "gen": 138,
+    "nevals": 74
+  },
+  {
+    "gen": 139,
+    "nevals": 68
+  },
+  {
+    "gen": 140,
+    "nevals": 76
+  },
+  {
+    "gen": 141,
+    "nevals": 68
+  },
+  {
+    "gen": 142,
+    "nevals": 59
+  },
+  {
+    "gen": 143,
+    "nevals": 72
+  },
+  {
+    "gen": 144,
+    "nevals": 69
+  },
+  {
+    "gen": 145,
+    "nevals": 59
+  },
+  {
+    "gen": 146,
+    "nevals": 58
+  },
+  {
+    "gen": 147,
+    "nevals": 61
+  },
+  {
+    "gen": 148,
+    "nevals": 61
+  },
+  {
+    "gen": 149,
+    "nevals": 67
+  },
+  {
+    "gen": 150,
+    "nevals": 59
+  },
+  {
+    "gen": 151,
+    "nevals": 53
+  },
+  {
+    "gen": 152,
+    "nevals": 69
+  },
+  {
+    "gen": 153,
+    "nevals": 66
+  },
+  {
+    "gen": 154,
+    "nevals": 70
+  },
+  {
+    "gen": 155,
+    "nevals": 67
+  },
+  {
+    "gen": 156,
+    "nevals": 61
+  },
+  {
+    "gen": 157,
+    "nevals": 67
+  },
+  {
+    "gen": 158,
+    "nevals": 69
+  },
+  {
+    "gen": 159,
+    "nevals": 67
+  },
+  {
+    "gen": 160,
+    "nevals": 71
+  },
+  {
+    "gen": 161,
+    "nevals": 75
+  },
+  {
+    "gen": 162,
+    "nevals": 71
+  },
+  {
+    "gen": 163,
+    "nevals": 66
+  },
+  {
+    "gen": 164,
+    "nevals": 67
+  },
+  {
+    "gen": 165,
+    "nevals": 60
+  },
+  {
+    "gen": 166,
+    "nevals": 73
+  },
+  {
+    "gen": 167,
+    "nevals": 61
+  },
+  {
+    "gen": 168,
+    "nevals": 60
+  },
+  {
+    "gen": 169,
+    "nevals": 65
+  },
+  {
+    "gen": 170,
+    "nevals": 71
+  },
+  {
+    "gen": 171,
+    "nevals": 51
+  },
+  {
+    "gen": 172,
+    "nevals": 66
+  },
+  {
+    "gen": 173,
+    "nevals": 60
+  },
+  {
+    "gen": 174,
+    "nevals": 70
+  },
+  {
+    "gen": 175,
+    "nevals": 64
+  },
+  {
+    "gen": 176,
+    "nevals": 66
+  },
+  {
+    "gen": 177,
+    "nevals": 70
+  },
+  {
+    "gen": 178,
+    "nevals": 64
+  },
+  {
+    "gen": 179,
+    "nevals": 64
+  },
+  {
+    "gen": 180,
+    "nevals": 58
+  },
+  {
+    "gen": 181,
+    "nevals": 62
+  },
+  {
+    "gen": 182,
+    "nevals": 59
+  },
+  {
+    "gen": 183,
+    "nevals": 67
+  },
+  {
+    "gen": 184,
+    "nevals": 59
+  },
+  {
+    "gen": 185,
+    "nevals": 61
+  },
+  {
+    "gen": 186,
+    "nevals": 61
+  },
+  {
+    "gen": 187,
+    "nevals": 74
+  },
+  {
+    "gen": 188,
+    "nevals": 66
+  },
+  {
+    "gen": 189,
+    "nevals": 66
+  },
+  {
+    "gen": 190,
+    "nevals": 62
+  },
+  {
+    "gen": 191,
+    "nevals": 70
+  },
+  {
+    "gen": 192,
+    "nevals": 59
+  },
+  {
+    "gen": 193,
+    "nevals": 67
+  },
+  {
+    "gen": 194,
+    "nevals": 63
+  },
+  {
+    "gen": 195,
+    "nevals": 55
+  },
+  {
+    "gen": 196,
+    "nevals": 67
+  },
+  {
+    "gen": 197,
+    "nevals": 65
+  },
+  {
+    "gen": 198,
+    "nevals": 62
+  },
+  {
+    "gen": 199,
+    "nevals": 65
+  },
+  {
+    "gen": 200,
+    "nevals": 76
+  },
+  {
+    "gen": 201,
+    "nevals": 60
+  },
+  {
+    "gen": 202,
+    "nevals": 64
+  },
+  {
+    "gen": 203,
+    "nevals": 75
+  },
+  {
+    "gen": 204,
+    "nevals": 69
+  },
+  {
+    "gen": 205,
+    "nevals": 59
+  },
+  {
+    "gen": 206,
+    "nevals": 71
+  },
+  {
+    "gen": 207,
+    "nevals": 73
+  },
+  {
+    "gen": 208,
+    "nevals": 62
+  },
+  {
+    "gen": 209,
+    "nevals": 63
+  },
+  {
+    "gen": 210,
+    "nevals": 62
+  },
+  {
+    "gen": 211,
+    "nevals": 59
+  },
+  {
+    "gen": 212,
+    "nevals": 63
+  },
+  {
+    "gen": 213,
+    "nevals": 73
+  },
+  {
+    "gen": 214,
+    "nevals": 63
+  },
+  {
+    "gen": 215,
+    "nevals": 65
+  },
+  {
+    "gen": 216,
+    "nevals": 64
+  },
+  {
+    "gen": 217,
+    "nevals": 61
+  },
+  {
+    "gen": 218,
+    "nevals": 63
+  },
+  {
+    "gen": 219,
+    "nevals": 58
+  },
+  {
+    "gen": 220,
+    "nevals": 70
+  },
+  {
+    "gen": 221,
+    "nevals": 61
+  },
+  {
+    "gen": 222,
+    "nevals": 62
+  },
+  {
+    "gen": 223,
+    "nevals": 72
+  },
+  {
+    "gen": 224,
+    "nevals": 61
+  },
+  {
+    "gen": 225,
+    "nevals": 58
+  },
+  {
+    "gen": 226,
+    "nevals": 65
+  },
+  {
+    "gen": 227,
+    "nevals": 64
+  },
+  {
+    "gen": 228,
+    "nevals": 63
+  },
+  {
+    "gen": 229,
+    "nevals": 66
+  },
+  {
+    "gen": 230,
+    "nevals": 66
+  },
+  {
+    "gen": 231,
+    "nevals": 69
+  },
+  {
+    "gen": 232,
+    "nevals": 63
+  },
+  {
+    "gen": 233,
+    "nevals": 61
+  },
+  {
+    "gen": 234,
+    "nevals": 65
+  },
+  {
+    "gen": 235,
+    "nevals": 69
+  },
+  {
+    "gen": 236,
+    "nevals": 60
+  },
+  {
+    "gen": 237,
+    "nevals": 62
+  },
+  {
+    "gen": 238,
+    "nevals": 60
+  },
+  {
+    "gen": 239,
+    "nevals": 65
+  },
+  {
+    "gen": 240,
+    "nevals": 68
+  },
+  {
+    "gen": 241,
+    "nevals": 75
+  },
+  {
+    "gen": 242,
+    "nevals": 70
+  },
+  {
+    "gen": 243,
+    "nevals": 61
+  },
+  {
+    "gen": 244,
+    "nevals": 57
+  },
+  {
+    "gen": 245,
+    "nevals": 70
+  },
+  {
+    "gen": 246,
+    "nevals": 68
+  },
+  {
+    "gen": 247,
+    "nevals": 65
+  },
+  {
+    "gen": 248,
+    "nevals": 63
+  },
+  {
+    "gen": 249,
+    "nevals": 62
+  },
+  {
+    "gen": 250,
+    "nevals": 66
+  },
+  {
+    "gen": 251,
+    "nevals": 67
+  },
+  {
+    "gen": 252,
+    "nevals": 65
+  },
+  {
+    "gen": 253,
+    "nevals": 67
+  },
+  {
+    "gen": 254,
+    "nevals": 59
+  },
+  {
+    "gen": 255,
+    "nevals": 70
+  },
+  {
+    "gen": 256,
+    "nevals": 68
+  },
+  {
+    "gen": 257,
+    "nevals": 61
+  },
+  {
+    "gen": 258,
+    "nevals": 73
+  },
+  {
+    "gen": 259,
+    "nevals": 59
+  },
+  {
+    "gen": 260,
+    "nevals": 68
+  },
+  {
+    "gen": 261,
+    "nevals": 64
+  },
+  {
+    "gen": 262,
+    "nevals": 66
+  },
+  {
+    "gen": 263,
+    "nevals": 72
+  },
+  {
+    "gen": 264,
+    "nevals": 62
+  },
+  {
+    "gen": 265,
+    "nevals": 66
+  },
+  {
+    "gen": 266,
+    "nevals": 66
+  },
+  {
+    "gen": 267,
+    "nevals": 61
+  },
+  {
+    "gen": 268,
+    "nevals": 64
+  },
+  {
+    "gen": 269,
+    "nevals": 69
+  },
+  {
+    "gen": 270,
+    "nevals": 59
+  },
+  {
+    "gen": 271,
+    "nevals": 73
+  },
+  {
+    "gen": 272,
+    "nevals": 54
+  },
+  {
+    "gen": 273,
+    "nevals": 62
+  },
+  {
+    "gen": 274,
+    "nevals": 49
+  },
+  {
+    "gen": 275,
+    "nevals": 67
+  },
+  {
+    "gen": 276,
+    "nevals": 73
+  },
+  {
+    "gen": 277,
+    "nevals": 64
+  },
+  {
+    "gen": 278,
+    "nevals": 60
+  },
+  {
+    "gen": 279,
+    "nevals": 66
+  },
+  {
+    "gen": 280,
+    "nevals": 70
+  },
+  {
+    "gen": 281,
+    "nevals": 56
+  },
+  {
+    "gen": 282,
+    "nevals": 63
+  },
+  {
+    "gen": 283,
+    "nevals": 64
+  },
+  {
+    "gen": 284,
+    "nevals": 66
+  },
+  {
+    "gen": 285,
+    "nevals": 61
+  },
+  {
+    "gen": 286,
+    "nevals": 66
+  },
+  {
+    "gen": 287,
+    "nevals": 57
+  },
+  {
+    "gen": 288,
+    "nevals": 65
+  },
+  {
+    "gen": 289,
+    "nevals": 65
+  },
+  {
+    "gen": 290,
+    "nevals": 71
+  },
+  {
+    "gen": 291,
+    "nevals": 68
+  },
+  {
+    "gen": 292,
+    "nevals": 62
+  },
+  {
+    "gen": 293,
+    "nevals": 67
+  },
+  {
+    "gen": 294,
+    "nevals": 67
+  },
+  {
+    "gen": 295,
+    "nevals": 67
+  },
+  {
+    "gen": 296,
+    "nevals": 56
+  },
+  {
+    "gen": 297,
+    "nevals": 66
+  },
+  {
+    "gen": 298,
+    "nevals": 69
+  },
+  {
+    "gen": 299,
+    "nevals": 70
+  },
+  {
+    "gen": 300,
+    "nevals": 60
+  },
+  {
+    "gen": 301,
+    "nevals": 64
+  },
+  {
+    "gen": 302,
+    "nevals": 69
+  },
+  {
+    "gen": 303,
+    "nevals": 61
+  },
+  {
+    "gen": 304,
+    "nevals": 63
+  },
+  {
+    "gen": 305,
+    "nevals": 67
+  },
+  {
+    "gen": 306,
+    "nevals": 72
+  },
+  {
+    "gen": 307,
+    "nevals": 68
+  },
+  {
+    "gen": 308,
+    "nevals": 64
+  },
+  {
+    "gen": 309,
+    "nevals": 76
+  },
+  {
+    "gen": 310,
+    "nevals": 65
+  },
+  {
+    "gen": 311,
+    "nevals": 73
+  },
+  {
+    "gen": 312,
+    "nevals": 63
+  },
+  {
+    "gen": 313,
+    "nevals": 63
+  },
+  {
+    "gen": 314,
+    "nevals": 75
+  },
+  {
+    "gen": 315,
+    "nevals": 71
+  },
+  {
+    "gen": 316,
+    "nevals": 63
+  },
+  {
+    "gen": 317,
+    "nevals": 59
+  },
+  {
+    "gen": 318,
+    "nevals": 65
+  },
+  {
+    "gen": 319,
+    "nevals": 66
+  },
+  {
+    "gen": 320,
+    "nevals": 59
+  },
+  {
+    "gen": 321,
+    "nevals": 71
+  },
+  {
+    "gen": 322,
+    "nevals": 63
+  },
+  {
+    "gen": 323,
+    "nevals": 65
+  },
+  {
+    "gen": 324,
+    "nevals": 65
+  },
+  {
+    "gen": 325,
+    "nevals": 66
+  },
+  {
+    "gen": 326,
+    "nevals": 58
+  },
+  {
+    "gen": 327,
+    "nevals": 60
+  },
+  {
+    "gen": 328,
+    "nevals": 59
+  },
+  {
+    "gen": 329,
+    "nevals": 61
+  },
+  {
+    "gen": 330,
+    "nevals": 54
+  },
+  {
+    "gen": 331,
+    "nevals": 67
+  },
+  {
+    "gen": 332,
+    "nevals": 68
+  },
+  {
+    "gen": 333,
+    "nevals": 72
+  },
+  {
+    "gen": 334,
+    "nevals": 66
+  },
+  {
+    "gen": 335,
+    "nevals": 73
+  },
+  {
+    "gen": 336,
+    "nevals": 64
+  },
+  {
+    "gen": 337,
+    "nevals": 70
+  },
+  {
+    "gen": 338,
+    "nevals": 62
+  },
+  {
+    "gen": 339,
+    "nevals": 62
+  },
+  {
+    "gen": 340,
+    "nevals": 72
+  },
+  {
+    "gen": 341,
+    "nevals": 68
+  },
+  {
+    "gen": 342,
+    "nevals": 72
+  },
+  {
+    "gen": 343,
+    "nevals": 62
+  },
+  {
+    "gen": 344,
+    "nevals": 61
+  },
+  {
+    "gen": 345,
+    "nevals": 56
+  },
+  {
+    "gen": 346,
+    "nevals": 70
+  },
+  {
+    "gen": 347,
+    "nevals": 57
+  },
+  {
+    "gen": 348,
+    "nevals": 54
+  },
+  {
+    "gen": 349,
+    "nevals": 61
+  },
+  {
+    "gen": 350,
+    "nevals": 65
+  },
+  {
+    "gen": 351,
+    "nevals": 60
+  },
+  {
+    "gen": 352,
+    "nevals": 65
+  },
+  {
+    "gen": 353,
+    "nevals": 61
+  },
+  {
+    "gen": 354,
+    "nevals": 65
+  },
+  {
+    "gen": 355,
+    "nevals": 64
+  },
+  {
+    "gen": 356,
+    "nevals": 69
+  },
+  {
+    "gen": 357,
+    "nevals": 58
+  },
+  {
+    "gen": 358,
+    "nevals": 63
+  },
+  {
+    "gen": 359,
+    "nevals": 57
+  },
+  {
+    "gen": 360,
+    "nevals": 68
+  },
+  {
+    "gen": 361,
+    "nevals": 68
+  },
+  {
+    "gen": 362,
+    "nevals": 70
+  },
+  {
+    "gen": 363,
+    "nevals": 63
+  },
+  {
+    "gen": 364,
+    "nevals": 62
+  },
+  {
+    "gen": 365,
+    "nevals": 66
+  },
+  {
+    "gen": 366,
+    "nevals": 73
+  },
+  {
+    "gen": 367,
+    "nevals": 71
+  },
+  {
+    "gen": 368,
+    "nevals": 51
+  },
+  {
+    "gen": 369,
+    "nevals": 70
+  },
+  {
+    "gen": 370,
+    "nevals": 63
+  },
+  {
+    "gen": 371,
+    "nevals": 59
+  },
+  {
+    "gen": 372,
+    "nevals": 64
+  },
+  {
+    "gen": 373,
+    "nevals": 65
+  },
+  {
+    "gen": 374,
+    "nevals": 56
+  },
+  {
+    "gen": 375,
+    "nevals": 64
+  },
+  {
+    "gen": 376,
+    "nevals": 67
+  },
+  {
+    "gen": 377,
+    "nevals": 61
+  },
+  {
+    "gen": 378,
+    "nevals": 74
+  },
+  {
+    "gen": 379,
+    "nevals": 61
+  },
+  {
+    "gen": 380,
+    "nevals": 68
+  },
+  {
+    "gen": 381,
+    "nevals": 59
+  },
+  {
+    "gen": 382,
+    "nevals": 61
+  },
+  {
+    "gen": 383,
+    "nevals": 71
+  },
+  {
+    "gen": 384,
+    "nevals": 60
+  },
+  {
+    "gen": 385,
+    "nevals": 66
+  },
+  {
+    "gen": 386,
+    "nevals": 66
+  },
+  {
+    "gen": 387,
+    "nevals": 61
+  },
+  {
+    "gen": 388,
+    "nevals": 69
+  },
+  {
+    "gen": 389,
+    "nevals": 48
+  },
+  {
+    "gen": 390,
+    "nevals": 64
+  },
+  {
+    "gen": 391,
+    "nevals": 65
+  },
+  {
+    "gen": 392,
+    "nevals": 63
+  },
+  {
+    "gen": 393,
+    "nevals": 63
+  },
+  {
+    "gen": 394,
+    "nevals": 70
+  },
+  {
+    "gen": 395,
+    "nevals": 64
+  },
+  {
+    "gen": 396,
+    "nevals": 65
+  },
+  {
+    "gen": 397,
+    "nevals": 64
+  },
+  {
+    "gen": 398,
+    "nevals": 55
+  },
+  {
+    "gen": 399,
+    "nevals": 73
+  },
+  {
+    "gen": 400,
+    "nevals": 71
+  },
+  {
+    "gen": 401,
+    "nevals": 64
+  },
+  {
+    "gen": 402,
+    "nevals": 72
+  },
+  {
+    "gen": 403,
+    "nevals": 68
+  },
+  {
+    "gen": 404,
+    "nevals": 63
+  },
+  {
+    "gen": 405,
+    "nevals": 59
+  },
+  {
+    "gen": 406,
+    "nevals": 67
+  },
+  {
+    "gen": 407,
+    "nevals": 62
+  },
+  {
+    "gen": 408,
+    "nevals": 67
+  },
+  {
+    "gen": 409,
+    "nevals": 70
+  },
+  {
+    "gen": 410,
+    "nevals": 67
+  },
+  {
+    "gen": 411,
+    "nevals": 64
+  },
+  {
+    "gen": 412,
+    "nevals": 60
+  },
+  {
+    "gen": 413,
+    "nevals": 62
+  },
+  {
+    "gen": 414,
+    "nevals": 69
+  },
+  {
+    "gen": 415,
+    "nevals": 72
+  },
+  {
+    "gen": 416,
+    "nevals": 67
+  },
+  {
+    "gen": 417,
+    "nevals": 60
+  },
+  {
+    "gen": 418,
+    "nevals": 64
+  },
+  {
+    "gen": 419,
+    "nevals": 75
+  },
+  {
+    "gen": 420,
+    "nevals": 68
+  },
+  {
+    "gen": 421,
+    "nevals": 61
+  },
+  {
+    "gen": 422,
+    "nevals": 69
+  },
+  {
+    "gen": 423,
+    "nevals": 70
+  },
+  {
+    "gen": 424,
+    "nevals": 66
+  },
+  {
+    "gen": 425,
+    "nevals": 66
+  },
+  {
+    "gen": 426,
+    "nevals": 57
+  },
+  {
+    "gen": 427,
+    "nevals": 63
+  },
+  {
+    "gen": 428,
+    "nevals": 71
+  },
+  {
+    "gen": 429,
+    "nevals": 61
+  },
+  {
+    "gen": 430,
+    "nevals": 67
+  },
+  {
+    "gen": 431,
+    "nevals": 60
+  },
+  {
+    "gen": 432,
+    "nevals": 58
+  },
+  {
+    "gen": 433,
+    "nevals": 59
+  },
+  {
+    "gen": 434,
+    "nevals": 66
+  },
+  {
+    "gen": 435,
+    "nevals": 65
+  },
+  {
+    "gen": 436,
+    "nevals": 62
+  },
+  {
+    "gen": 437,
+    "nevals": 66
+  },
+  {
+    "gen": 438,
+    "nevals": 65
+  },
+  {
+    "gen": 439,
+    "nevals": 71
+  },
+  {
+    "gen": 440,
+    "nevals": 76
+  },
+  {
+    "gen": 441,
+    "nevals": 67
+  },
+  {
+    "gen": 442,
+    "nevals": 65
+  },
+  {
+    "gen": 443,
+    "nevals": 60
+  },
+  {
+    "gen": 444,
+    "nevals": 67
+  },
+  {
+    "gen": 445,
+    "nevals": 61
+  },
+  {
+    "gen": 446,
+    "nevals": 60
+  },
+  {
+    "gen": 447,
+    "nevals": 56
+  },
+  {
+    "gen": 448,
+    "nevals": 69
+  },
+  {
+    "gen": 449,
+    "nevals": 78
+  },
+  {
+    "gen": 450,
+    "nevals": 66
+  },
+  {
+    "gen": 451,
+    "nevals": 67
+  },
+  {
+    "gen": 452,
+    "nevals": 62
+  },
+  {
+    "gen": 453,
+    "nevals": 75
+  },
+  {
+    "gen": 454,
+    "nevals": 61
+  },
+  {
+    "gen": 455,
+    "nevals": 66
+  },
+  {
+    "gen": 456,
+    "nevals": 51
+  },
+  {
+    "gen": 457,
+    "nevals": 68
+  },
+  {
+    "gen": 458,
+    "nevals": 66
+  },
+  {
+    "gen": 459,
+    "nevals": 67
+  },
+  {
+    "gen": 460,
+    "nevals": 59
+  },
+  {
+    "gen": 461,
+    "nevals": 75
+  },
+  {
+    "gen": 462,
+    "nevals": 67
+  },
+  {
+    "gen": 463,
+    "nevals": 68
+  },
+  {
+    "gen": 464,
+    "nevals": 63
+  },
+  {
+    "gen": 465,
+    "nevals": 66
+  },
+  {
+    "gen": 466,
+    "nevals": 63
+  },
+  {
+    "gen": 467,
+    "nevals": 58
+  },
+  {
+    "gen": 468,
+    "nevals": 64
+  },
+  {
+    "gen": 469,
+    "nevals": 63
+  },
+  {
+    "gen": 470,
+    "nevals": 61
+  },
+  {
+    "gen": 471,
+    "nevals": 65
+  },
+  {
+    "gen": 472,
+    "nevals": 70
+  },
+  {
+    "gen": 473,
+    "nevals": 60
+  },
+  {
+    "gen": 474,
+    "nevals": 67
+  },
+  {
+    "gen": 475,
+    "nevals": 70
+  },
+  {
+    "gen": 476,
+    "nevals": 73
+  },
+  {
+    "gen": 477,
+    "nevals": 67
+  },
+  {
+    "gen": 478,
+    "nevals": 67
+  },
+  {
+    "gen": 479,
+    "nevals": 66
+  },
+  {
+    "gen": 480,
+    "nevals": 56
+  },
+  {
+    "gen": 481,
+    "nevals": 62
+  },
+  {
+    "gen": 482,
+    "nevals": 65
+  },
+  {
+    "gen": 483,
+    "nevals": 58
+  },
+  {
+    "gen": 484,
+    "nevals": 56
+  },
+  {
+    "gen": 485,
+    "nevals": 60
+  },
+  {
+    "gen": 486,
+    "nevals": 67
+  },
+  {
+    "gen": 487,
+    "nevals": 70
+  },
+  {
+    "gen": 488,
+    "nevals": 70
+  },
+  {
+    "gen": 489,
+    "nevals": 62
+  },
+  {
+    "gen": 490,
+    "nevals": 73
+  },
+  {
+    "gen": 491,
+    "nevals": 61
+  },
+  {
+    "gen": 492,
+    "nevals": 67
+  },
+  {
+    "gen": 493,
+    "nevals": 72
+  },
+  {
+    "gen": 494,
+    "nevals": 65
+  },
+  {
+    "gen": 495,
+    "nevals": 62
+  },
+  {
+    "gen": 496,
+    "nevals": 63
+  },
+  {
+    "gen": 497,
+    "nevals": 58
+  },
+  {
+    "gen": 498,
+    "nevals": 49
+  },
+  {
+    "gen": 499,
+    "nevals": 58
+  },
+  {
+    "gen": 500,
+    "nevals": 67
+  },
+  {
+    "gen": 501,
+    "nevals": 72
+  },
+  {
+    "gen": 502,
+    "nevals": 71
+  },
+  {
+    "gen": 503,
+    "nevals": 81
+  },
+  {
+    "gen": 504,
+    "nevals": 73
+  },
+  {
+    "gen": 505,
+    "nevals": 68
+  },
+  {
+    "gen": 506,
+    "nevals": 63
+  },
+  {
+    "gen": 507,
+    "nevals": 62
+  },
+  {
+    "gen": 508,
+    "nevals": 56
+  },
+  {
+    "gen": 509,
+    "nevals": 62
+  },
+  {
+    "gen": 510,
+    "nevals": 67
+  },
+  {
+    "gen": 511,
+    "nevals": 67
+  },
+  {
+    "gen": 512,
+    "nevals": 64
+  },
+  {
+    "gen": 513,
+    "nevals": 64
+  },
+  {
+    "gen": 514,
+    "nevals": 66
+  },
+  {
+    "gen": 515,
+    "nevals": 65
+  },
+  {
+    "gen": 516,
+    "nevals": 60
+  },
+  {
+    "gen": 517,
+    "nevals": 72
+  },
+  {
+    "gen": 518,
+    "nevals": 62
+  },
+  {
+    "gen": 519,
+    "nevals": 71
+  },
+  {
+    "gen": 520,
+    "nevals": 75
+  },
+  {
+    "gen": 521,
+    "nevals": 73
+  },
+  {
+    "gen": 522,
+    "nevals": 68
+  },
+  {
+    "gen": 523,
+    "nevals": 72
+  },
+  {
+    "gen": 524,
+    "nevals": 69
+  },
+  {
+    "gen": 525,
+    "nevals": 65
+  },
+  {
+    "gen": 526,
+    "nevals": 76
+  },
+  {
+    "gen": 527,
+    "nevals": 62
+  },
+  {
+    "gen": 528,
+    "nevals": 65
+  },
+  {
+    "gen": 529,
+    "nevals": 65
+  },
+  {
+    "gen": 530,
+    "nevals": 71
+  },
+  {
+    "gen": 531,
+    "nevals": 68
+  },
+  {
+    "gen": 532,
+    "nevals": 66
+  },
+  {
+    "gen": 533,
+    "nevals": 70
+  },
+  {
+    "gen": 534,
+    "nevals": 68
+  },
+  {
+    "gen": 535,
+    "nevals": 58
+  },
+  {
+    "gen": 536,
+    "nevals": 63
+  },
+  {
+    "gen": 537,
+    "nevals": 61
+  },
+  {
+    "gen": 538,
+    "nevals": 69
+  },
+  {
+    "gen": 539,
+    "nevals": 80
+  },
+  {
+    "gen": 540,
+    "nevals": 69
+  },
+  {
+    "gen": 541,
+    "nevals": 68
+  },
+  {
+    "gen": 542,
+    "nevals": 71
+  },
+  {
+    "gen": 543,
+    "nevals": 71
+  },
+  {
+    "gen": 544,
+    "nevals": 58
+  },
+  {
+    "gen": 545,
+    "nevals": 60
+  },
+  {
+    "gen": 546,
+    "nevals": 71
+  },
+  {
+    "gen": 547,
+    "nevals": 61
+  },
+  {
+    "gen": 548,
+    "nevals": 67
+  },
+  {
+    "gen": 549,
+    "nevals": 69
+  },
+  {
+    "gen": 550,
+    "nevals": 67
+  },
+  {
+    "gen": 551,
+    "nevals": 72
+  },
+  {
+    "gen": 552,
+    "nevals": 58
+  },
+  {
+    "gen": 553,
+    "nevals": 56
+  },
+  {
+    "gen": 554,
+    "nevals": 65
+  },
+  {
+    "gen": 555,
+    "nevals": 67
+  },
+  {
+    "gen": 556,
+    "nevals": 64
+  },
+  {
+    "gen": 557,
+    "nevals": 67
+  },
+  {
+    "gen": 558,
+    "nevals": 63
+  },
+  {
+    "gen": 559,
+    "nevals": 60
+  },
+  {
+    "gen": 560,
+    "nevals": 64
+  },
+  {
+    "gen": 561,
+    "nevals": 67
+  },
+  {
+    "gen": 562,
+    "nevals": 67
+  },
+  {
+    "gen": 563,
+    "nevals": 66
+  },
+  {
+    "gen": 564,
+    "nevals": 60
+  },
+  {
+    "gen": 565,
+    "nevals": 55
+  },
+  {
+    "gen": 566,
+    "nevals": 60
+  },
+  {
+    "gen": 567,
+    "nevals": 67
+  },
+  {
+    "gen": 568,
+    "nevals": 66
+  },
+  {
+    "gen": 569,
+    "nevals": 73
+  },
+  {
+    "gen": 570,
+    "nevals": 68
+  },
+  {
+    "gen": 571,
+    "nevals": 57
+  },
+  {
+    "gen": 572,
+    "nevals": 73
+  },
+  {
+    "gen": 573,
+    "nevals": 65
+  },
+  {
+    "gen": 574,
+    "nevals": 66
+  },
+  {
+    "gen": 575,
+    "nevals": 63
+  },
+  {
+    "gen": 576,
+    "nevals": 59
+  },
+  {
+    "gen": 577,
+    "nevals": 73
+  },
+  {
+    "gen": 578,
+    "nevals": 68
+  },
+  {
+    "gen": 579,
+    "nevals": 57
+  },
+  {
+    "gen": 580,
+    "nevals": 70
+  },
+  {
+    "gen": 581,
+    "nevals": 68
+  },
+  {
+    "gen": 582,
+    "nevals": 62
+  },
+  {
+    "gen": 583,
+    "nevals": 69
+  },
+  {
+    "gen": 584,
+    "nevals": 63
+  },
+  {
+    "gen": 585,
+    "nevals": 57
+  },
+  {
+    "gen": 586,
+    "nevals": 69
+  },
+  {
+    "gen": 587,
+    "nevals": 59
+  },
+  {
+    "gen": 588,
+    "nevals": 76
+  },
+  {
+    "gen": 589,
+    "nevals": 63
+  },
+  {
+    "gen": 590,
+    "nevals": 59
+  },
+  {
+    "gen": 591,
+    "nevals": 66
+  },
+  {
+    "gen": 592,
+    "nevals": 54
+  },
+  {
+    "gen": 593,
+    "nevals": 70
+  },
+  {
+    "gen": 594,
+    "nevals": 62
+  },
+  {
+    "gen": 595,
+    "nevals": 69
+  },
+  {
+    "gen": 596,
+    "nevals": 64
+  },
+  {
+    "gen": 597,
+    "nevals": 61
+  },
+  {
+    "gen": 598,
+    "nevals": 69
+  },
+  {
+    "gen": 599,
+    "nevals": 66
+  },
+  {
+    "gen": 600,
+    "nevals": 66
+  },
+  {
+    "gen": 601,
+    "nevals": 59
+  },
+  {
+    "gen": 602,
+    "nevals": 62
+  },
+  {
+    "gen": 603,
+    "nevals": 65
+  },
+  {
+    "gen": 604,
+    "nevals": 54
+  },
+  {
+    "gen": 605,
+    "nevals": 66
+  },
+  {
+    "gen": 606,
+    "nevals": 71
+  },
+  {
+    "gen": 607,
+    "nevals": 64
+  },
+  {
+    "gen": 608,
+    "nevals": 63
+  },
+  {
+    "gen": 609,
+    "nevals": 76
+  },
+  {
+    "gen": 610,
+    "nevals": 60
+  },
+  {
+    "gen": 611,
+    "nevals": 70
+  },
+  {
+    "gen": 612,
+    "nevals": 62
+  },
+  {
+    "gen": 613,
+    "nevals": 67
+  },
+  {
+    "gen": 614,
+    "nevals": 66
+  },
+  {
+    "gen": 615,
+    "nevals": 66
+  },
+  {
+    "gen": 616,
+    "nevals": 67
+  },
+  {
+    "gen": 617,
+    "nevals": 67
+  },
+  {
+    "gen": 618,
+    "nevals": 56
+  },
+  {
+    "gen": 619,
+    "nevals": 72
+  },
+  {
+    "gen": 620,
+    "nevals": 61
+  },
+  {
+    "gen": 621,
+    "nevals": 71
+  },
+  {
+    "gen": 622,
+    "nevals": 65
+  },
+  {
+    "gen": 623,
+    "nevals": 58
+  },
+  {
+    "gen": 624,
+    "nevals": 64
+  },
+  {
+    "gen": 625,
+    "nevals": 69
+  },
+  {
+    "gen": 626,
+    "nevals": 65
+  },
+  {
+    "gen": 627,
+    "nevals": 74
+  },
+  {
+    "gen": 628,
+    "nevals": 70
+  },
+  {
+    "gen": 629,
+    "nevals": 64
+  },
+  {
+    "gen": 630,
+    "nevals": 68
+  },
+  {
+    "gen": 631,
+    "nevals": 55
+  },
+  {
+    "gen": 632,
+    "nevals": 58
+  },
+  {
+    "gen": 633,
+    "nevals": 59
+  },
+  {
+    "gen": 634,
+    "nevals": 65
+  },
+  {
+    "gen": 635,
+    "nevals": 66
+  },
+  {
+    "gen": 636,
+    "nevals": 66
+  },
+  {
+    "gen": 637,
+    "nevals": 67
+  },
+  {
+    "gen": 638,
+    "nevals": 58
+  },
+  {
+    "gen": 639,
+    "nevals": 64
+  },
+  {
+    "gen": 640,
+    "nevals": 52
+  },
+  {
+    "gen": 641,
+    "nevals": 68
+  },
+  {
+    "gen": 642,
+    "nevals": 68
+  },
+  {
+    "gen": 643,
+    "nevals": 63
+  },
+  {
+    "gen": 644,
+    "nevals": 62
+  },
+  {
+    "gen": 645,
+    "nevals": 65
+  },
+  {
+    "gen": 646,
+    "nevals": 62
+  },
+  {
+    "gen": 647,
+    "nevals": 74
+  },
+  {
+    "gen": 648,
+    "nevals": 52
+  },
+  {
+    "gen": 649,
+    "nevals": 75
+  },
+  {
+    "gen": 650,
+    "nevals": 74
+  },
+  {
+    "gen": 651,
+    "nevals": 70
+  },
+  {
+    "gen": 652,
+    "nevals": 63
+  },
+  {
+    "gen": 653,
+    "nevals": 61
+  },
+  {
+    "gen": 654,
+    "nevals": 56
+  },
+  {
+    "gen": 655,
+    "nevals": 74
+  },
+  {
+    "gen": 656,
+    "nevals": 61
+  },
+  {
+    "gen": 657,
+    "nevals": 68
+  },
+  {
+    "gen": 658,
+    "nevals": 65
+  },
+  {
+    "gen": 659,
+    "nevals": 63
+  },
+  {
+    "gen": 660,
+    "nevals": 68
+  },
+  {
+    "gen": 661,
+    "nevals": 71
+  },
+  {
+    "gen": 662,
+    "nevals": 68
+  },
+  {
+    "gen": 663,
+    "nevals": 65
+  },
+  {
+    "gen": 664,
+    "nevals": 67
+  },
+  {
+    "gen": 665,
+    "nevals": 69
+  },
+  {
+    "gen": 666,
+    "nevals": 59
+  },
+  {
+    "gen": 667,
+    "nevals": 63
+  },
+  {
+    "gen": 668,
+    "nevals": 73
+  },
+  {
+    "gen": 669,
+    "nevals": 67
+  },
+  {
+    "gen": 670,
+    "nevals": 62
+  },
+  {
+    "gen": 671,
+    "nevals": 65
+  },
+  {
+    "gen": 672,
+    "nevals": 75
+  },
+  {
+    "gen": 673,
+    "nevals": 61
+  },
+  {
+    "gen": 674,
+    "nevals": 64
+  },
+  {
+    "gen": 675,
+    "nevals": 60
+  },
+  {
+    "gen": 676,
+    "nevals": 55
+  },
+  {
+    "gen": 677,
+    "nevals": 66
+  },
+  {
+    "gen": 678,
+    "nevals": 72
+  },
+  {
+    "gen": 679,
+    "nevals": 70
+  },
+  {
+    "gen": 680,
+    "nevals": 66
+  },
+  {
+    "gen": 681,
+    "nevals": 76
+  },
+  {
+    "gen": 682,
+    "nevals": 65
+  },
+  {
+    "gen": 683,
+    "nevals": 58
+  },
+  {
+    "gen": 684,
+    "nevals": 70
+  },
+  {
+    "gen": 685,
+    "nevals": 64
+  },
+  {
+    "gen": 686,
+    "nevals": 60
+  },
+  {
+    "gen": 687,
+    "nevals": 68
+  },
+  {
+    "gen": 688,
+    "nevals": 74
+  },
+  {
+    "gen": 689,
+    "nevals": 67
+  },
+  {
+    "gen": 690,
+    "nevals": 61
+  },
+  {
+    "gen": 691,
+    "nevals": 61
+  },
+  {
+    "gen": 692,
+    "nevals": 65
+  },
+  {
+    "gen": 693,
+    "nevals": 57
+  },
+  {
+    "gen": 694,
+    "nevals": 69
+  },
+  {
+    "gen": 695,
+    "nevals": 63
+  },
+  {
+    "gen": 696,
+    "nevals": 66
+  },
+  {
+    "gen": 697,
+    "nevals": 75
+  },
+  {
+    "gen": 698,
+    "nevals": 58
+  },
+  {
+    "gen": 699,
+    "nevals": 63
+  },
+  {
+    "gen": 700,
+    "nevals": 65
+  },
+  {
+    "gen": 701,
+    "nevals": 61
+  },
+  {
+    "gen": 702,
+    "nevals": 62
+  },
+  {
+    "gen": 703,
+    "nevals": 66
+  },
+  {
+    "gen": 704,
+    "nevals": 59
+  },
+  {
+    "gen": 705,
+    "nevals": 61
+  },
+  {
+    "gen": 706,
+    "nevals": 55
+  },
+  {
+    "gen": 707,
+    "nevals": 63
+  },
+  {
+    "gen": 708,
+    "nevals": 73
+  },
+  {
+    "gen": 709,
+    "nevals": 65
+  },
+  {
+    "gen": 710,
+    "nevals": 67
+  },
+  {
+    "gen": 711,
+    "nevals": 62
+  },
+  {
+    "gen": 712,
+    "nevals": 68
+  },
+  {
+    "gen": 713,
+    "nevals": 78
+  },
+  {
+    "gen": 714,
+    "nevals": 64
+  },
+  {
+    "gen": 715,
+    "nevals": 65
+  },
+  {
+    "gen": 716,
+    "nevals": 61
+  },
+  {
+    "gen": 717,
+    "nevals": 65
+  },
+  {
+    "gen": 718,
+    "nevals": 58
+  },
+  {
+    "gen": 719,
+    "nevals": 68
+  },
+  {
+    "gen": 720,
+    "nevals": 59
+  },
+  {
+    "gen": 721,
+    "nevals": 72
+  },
+  {
+    "gen": 722,
+    "nevals": 68
+  },
+  {
+    "gen": 723,
+    "nevals": 67
+  },
+  {
+    "gen": 724,
+    "nevals": 58
+  },
+  {
+    "gen": 725,
+    "nevals": 70
+  },
+  {
+    "gen": 726,
+    "nevals": 67
+  },
+  {
+    "gen": 727,
+    "nevals": 66
+  },
+  {
+    "gen": 728,
+    "nevals": 64
+  },
+  {
+    "gen": 729,
+    "nevals": 51
+  },
+  {
+    "gen": 730,
+    "nevals": 66
+  },
+  {
+    "gen": 731,
+    "nevals": 68
+  },
+  {
+    "gen": 732,
+    "nevals": 74
+  },
+  {
+    "gen": 733,
+    "nevals": 71
+  },
+  {
+    "gen": 734,
+    "nevals": 55
+  },
+  {
+    "gen": 735,
+    "nevals": 64
+  },
+  {
+    "gen": 736,
+    "nevals": 70
+  },
+  {
+    "gen": 737,
+    "nevals": 68
+  },
+  {
+    "gen": 738,
+    "nevals": 62
+  },
+  {
+    "gen": 739,
+    "nevals": 63
+  },
+  {
+    "gen": 740,
+    "nevals": 62
+  },
+  {
+    "gen": 741,
+    "nevals": 61
+  },
+  {
+    "gen": 742,
+    "nevals": 69
+  },
+  {
+    "gen": 743,
+    "nevals": 71
+  },
+  {
+    "gen": 744,
+    "nevals": 67
+  },
+  {
+    "gen": 745,
+    "nevals": 62
+  },
+  {
+    "gen": 746,
+    "nevals": 64
+  },
+  {
+    "gen": 747,
+    "nevals": 66
+  },
+  {
+    "gen": 748,
+    "nevals": 61
+  },
+  {
+    "gen": 749,
+    "nevals": 65
+  },
+  {
+    "gen": 750,
+    "nevals": 69
+  },
+  {
+    "gen": 751,
+    "nevals": 62
+  },
+  {
+    "gen": 752,
+    "nevals": 66
+  },
+  {
+    "gen": 753,
+    "nevals": 63
+  },
+  {
+    "gen": 754,
+    "nevals": 63
+  },
+  {
+    "gen": 755,
+    "nevals": 63
+  },
+  {
+    "gen": 756,
+    "nevals": 66
+  },
+  {
+    "gen": 757,
+    "nevals": 71
+  },
+  {
+    "gen": 758,
+    "nevals": 66
+  },
+  {
+    "gen": 759,
+    "nevals": 62
+  },
+  {
+    "gen": 760,
+    "nevals": 62
+  },
+  {
+    "gen": 761,
+    "nevals": 56
+  },
+  {
+    "gen": 762,
+    "nevals": 69
+  },
+  {
+    "gen": 763,
+    "nevals": 73
+  },
+  {
+    "gen": 764,
+    "nevals": 64
+  },
+  {
+    "gen": 765,
+    "nevals": 67
+  },
+  {
+    "gen": 766,
+    "nevals": 72
+  },
+  {
+    "gen": 767,
+    "nevals": 68
+  },
+  {
+    "gen": 768,
+    "nevals": 63
+  },
+  {
+    "gen": 769,
+    "nevals": 67
+  },
+  {
+    "gen": 770,
+    "nevals": 63
+  },
+  {
+    "gen": 771,
+    "nevals": 63
+  },
+  {
+    "gen": 772,
+    "nevals": 68
+  },
+  {
+    "gen": 773,
+    "nevals": 66
+  },
+  {
+    "gen": 774,
+    "nevals": 62
+  },
+  {
+    "gen": 775,
+    "nevals": 72
+  },
+  {
+    "gen": 776,
+    "nevals": 67
+  },
+  {
+    "gen": 777,
+    "nevals": 60
+  },
+  {
+    "gen": 778,
+    "nevals": 63
+  },
+  {
+    "gen": 779,
+    "nevals": 59
+  },
+  {
+    "gen": 780,
+    "nevals": 60
+  },
+  {
+    "gen": 781,
+    "nevals": 70
+  },
+  {
+    "gen": 782,
+    "nevals": 67
+  },
+  {
+    "gen": 783,
+    "nevals": 58
+  },
+  {
+    "gen": 784,
+    "nevals": 74
+  },
+  {
+    "gen": 785,
+    "nevals": 69
+  },
+  {
+    "gen": 786,
+    "nevals": 66
+  },
+  {
+    "gen": 787,
+    "nevals": 69
+  },
+  {
+    "gen": 788,
+    "nevals": 66
+  },
+  {
+    "gen": 789,
+    "nevals": 65
+  },
+  {
+    "gen": 790,
+    "nevals": 56
+  },
+  {
+    "gen": 791,
+    "nevals": 71
+  },
+  {
+    "gen": 792,
+    "nevals": 65
+  },
+  {
+    "gen": 793,
+    "nevals": 64
+  },
+  {
+    "gen": 794,
+    "nevals": 66
+  },
+  {
+    "gen": 795,
+    "nevals": 62
+  },
+  {
+    "gen": 796,
+    "nevals": 61
+  },
+  {
+    "gen": 797,
+    "nevals": 62
+  },
+  {
+    "gen": 798,
+    "nevals": 69
+  },
+  {
+    "gen": 799,
+    "nevals": 67
+  },
+  {
+    "gen": 800,
+    "nevals": 64
+  },
+  {
+    "gen": 801,
+    "nevals": 83
+  },
+  {
+    "gen": 802,
+    "nevals": 70
+  },
+  {
+    "gen": 803,
+    "nevals": 64
+  },
+  {
+    "gen": 804,
+    "nevals": 58
+  },
+  {
+    "gen": 805,
+    "nevals": 71
+  },
+  {
+    "gen": 806,
+    "nevals": 60
+  },
+  {
+    "gen": 807,
+    "nevals": 59
+  },
+  {
+    "gen": 808,
+    "nevals": 69
+  },
+  {
+    "gen": 809,
+    "nevals": 52
+  },
+  {
+    "gen": 810,
+    "nevals": 71
+  },
+  {
+    "gen": 811,
+    "nevals": 67
+  },
+  {
+    "gen": 812,
+    "nevals": 65
+  },
+  {
+    "gen": 813,
+    "nevals": 61
+  },
+  {
+    "gen": 814,
+    "nevals": 67
+  },
+  {
+    "gen": 815,
+    "nevals": 64
+  },
+  {
+    "gen": 816,
+    "nevals": 70
+  },
+  {
+    "gen": 817,
+    "nevals": 69
+  },
+  {
+    "gen": 818,
+    "nevals": 70
+  },
+  {
+    "gen": 819,
+    "nevals": 73
+  },
+  {
+    "gen": 820,
+    "nevals": 65
+  },
+  {
+    "gen": 821,
+    "nevals": 64
+  },
+  {
+    "gen": 822,
+    "nevals": 68
+  },
+  {
+    "gen": 823,
+    "nevals": 64
+  },
+  {
+    "gen": 824,
+    "nevals": 71
+  },
+  {
+    "gen": 825,
+    "nevals": 67
+  },
+  {
+    "gen": 826,
+    "nevals": 62
+  },
+  {
+    "gen": 827,
+    "nevals": 60
+  },
+  {
+    "gen": 828,
+    "nevals": 60
+  },
+  {
+    "gen": 829,
+    "nevals": 68
+  },
+  {
+    "gen": 830,
+    "nevals": 58
+  },
+  {
+    "gen": 831,
+    "nevals": 73
+  },
+  {
+    "gen": 832,
+    "nevals": 65
+  },
+  {
+    "gen": 833,
+    "nevals": 68
+  },
+  {
+    "gen": 834,
+    "nevals": 55
+  },
+  {
+    "gen": 835,
+    "nevals": 78
+  },
+  {
+    "gen": 836,
+    "nevals": 66
+  },
+  {
+    "gen": 837,
+    "nevals": 65
+  },
+  {
+    "gen": 838,
+    "nevals": 72
+  },
+  {
+    "gen": 839,
+    "nevals": 59
+  },
+  {
+    "gen": 840,
+    "nevals": 59
+  },
+  {
+    "gen": 841,
+    "nevals": 61
+  },
+  {
+    "gen": 842,
+    "nevals": 61
+  },
+  {
+    "gen": 843,
+    "nevals": 71
+  },
+  {
+    "gen": 844,
+    "nevals": 70
+  },
+  {
+    "gen": 845,
+    "nevals": 61
+  },
+  {
+    "gen": 846,
+    "nevals": 65
+  },
+  {
+    "gen": 847,
+    "nevals": 59
+  },
+  {
+    "gen": 848,
+    "nevals": 70
+  },
+  {
+    "gen": 849,
+    "nevals": 64
+  },
+  {
+    "gen": 850,
+    "nevals": 62
+  },
+  {
+    "gen": 851,
+    "nevals": 65
+  },
+  {
+    "gen": 852,
+    "nevals": 58
+  },
+  {
+    "gen": 853,
+    "nevals": 65
+  },
+  {
+    "gen": 854,
+    "nevals": 65
+  },
+  {
+    "gen": 855,
+    "nevals": 66
+  },
+  {
+    "gen": 856,
+    "nevals": 68
+  },
+  {
+    "gen": 857,
+    "nevals": 61
+  },
+  {
+    "gen": 858,
+    "nevals": 64
+  },
+  {
+    "gen": 859,
+    "nevals": 64
+  },
+  {
+    "gen": 860,
+    "nevals": 59
+  },
+  {
+    "gen": 861,
+    "nevals": 55
+  },
+  {
+    "gen": 862,
+    "nevals": 56
+  },
+  {
+    "gen": 863,
+    "nevals": 70
+  },
+  {
+    "gen": 864,
+    "nevals": 61
+  },
+  {
+    "gen": 865,
+    "nevals": 72
+  },
+  {
+    "gen": 866,
+    "nevals": 70
+  },
+  {
+    "gen": 867,
+    "nevals": 70
+  },
+  {
+    "gen": 868,
+    "nevals": 56
+  },
+  {
+    "gen": 869,
+    "nevals": 75
+  },
+  {
+    "gen": 870,
+    "nevals": 62
+  },
+  {
+    "gen": 871,
+    "nevals": 56
+  },
+  {
+    "gen": 872,
+    "nevals": 69
+  },
+  {
+    "gen": 873,
+    "nevals": 66
+  },
+  {
+    "gen": 874,
+    "nevals": 54
+  },
+  {
+    "gen": 875,
+    "nevals": 63
+  },
+  {
+    "gen": 876,
+    "nevals": 70
+  },
+  {
+    "gen": 877,
+    "nevals": 52
+  },
+  {
+    "gen": 878,
+    "nevals": 62
+  },
+  {
+    "gen": 879,
+    "nevals": 66
+  },
+  {
+    "gen": 880,
+    "nevals": 67
+  },
+  {
+    "gen": 881,
+    "nevals": 67
+  },
+  {
+    "gen": 882,
+    "nevals": 58
+  },
+  {
+    "gen": 883,
+    "nevals": 58
+  },
+  {
+    "gen": 884,
+    "nevals": 62
+  },
+  {
+    "gen": 885,
+    "nevals": 59
+  },
+  {
+    "gen": 886,
+    "nevals": 67
+  },
+  {
+    "gen": 887,
+    "nevals": 69
+  },
+  {
+    "gen": 888,
+    "nevals": 66
+  },
+  {
+    "gen": 889,
+    "nevals": 60
+  },
+  {
+    "gen": 890,
+    "nevals": 63
+  },
+  {
+    "gen": 891,
+    "nevals": 76
+  },
+  {
+    "gen": 892,
+    "nevals": 62
+  },
+  {
+    "gen": 893,
+    "nevals": 73
+  },
+  {
+    "gen": 894,
+    "nevals": 71
+  },
+  {
+    "gen": 895,
+    "nevals": 56
+  },
+  {
+    "gen": 896,
+    "nevals": 69
+  },
+  {
+    "gen": 897,
+    "nevals": 68
+  },
+  {
+    "gen": 898,
+    "nevals": 63
+  },
+  {
+    "gen": 899,
+    "nevals": 68
+  },
+  {
+    "gen": 900,
+    "nevals": 70
+  },
+  {
+    "gen": 901,
+    "nevals": 59
+  },
+  {
+    "gen": 902,
+    "nevals": 58
+  },
+  {
+    "gen": 903,
+    "nevals": 68
+  },
+  {
+    "gen": 904,
+    "nevals": 68
+  },
+  {
+    "gen": 905,
+    "nevals": 63
+  },
+  {
+    "gen": 906,
+    "nevals": 67
+  },
+  {
+    "gen": 907,
+    "nevals": 61
+  },
+  {
+    "gen": 908,
+    "nevals": 62
+  },
+  {
+    "gen": 909,
+    "nevals": 64
+  },
+  {
+    "gen": 910,
+    "nevals": 62
+  },
+  {
+    "gen": 911,
+    "nevals": 66
+  },
+  {
+    "gen": 912,
+    "nevals": 66
+  },
+  {
+    "gen": 913,
+    "nevals": 71
+  },
+  {
+    "gen": 914,
+    "nevals": 65
+  },
+  {
+    "gen": 915,
+    "nevals": 67
+  },
+  {
+    "gen": 916,
+    "nevals": 66
+  },
+  {
+    "gen": 917,
+    "nevals": 68
+  },
+  {
+    "gen": 918,
+    "nevals": 69
+  },
+  {
+    "gen": 919,
+    "nevals": 68
+  },
+  {
+    "gen": 920,
+    "nevals": 65
+  },
+  {
+    "gen": 921,
+    "nevals": 61
+  },
+  {
+    "gen": 922,
+    "nevals": 67
+  },
+  {
+    "gen": 923,
+    "nevals": 66
+  },
+  {
+    "gen": 924,
+    "nevals": 63
+  },
+  {
+    "gen": 925,
+    "nevals": 66
+  },
+  {
+    "gen": 926,
+    "nevals": 59
+  },
+  {
+    "gen": 927,
+    "nevals": 57
+  },
+  {
+    "gen": 928,
+    "nevals": 68
+  },
+  {
+    "gen": 929,
+    "nevals": 76
+  },
+  {
+    "gen": 930,
+    "nevals": 57
+  },
+  {
+    "gen": 931,
+    "nevals": 64
+  },
+  {
+    "gen": 932,
+    "nevals": 68
+  },
+  {
+    "gen": 933,
+    "nevals": 70
+  },
+  {
+    "gen": 934,
+    "nevals": 63
+  },
+  {
+    "gen": 935,
+    "nevals": 62
+  },
+  {
+    "gen": 936,
+    "nevals": 55
+  },
+  {
+    "gen": 937,
+    "nevals": 54
+  },
+  {
+    "gen": 938,
+    "nevals": 67
+  },
+  {
+    "gen": 939,
+    "nevals": 75
+  },
+  {
+    "gen": 940,
+    "nevals": 61
+  },
+  {
+    "gen": 941,
+    "nevals": 70
+  },
+  {
+    "gen": 942,
+    "nevals": 62
+  },
+  {
+    "gen": 943,
+    "nevals": 61
+  },
+  {
+    "gen": 944,
+    "nevals": 71
+  },
+  {
+    "gen": 945,
+    "nevals": 57
+  },
+  {
+    "gen": 946,
+    "nevals": 59
+  },
+  {
+    "gen": 947,
+    "nevals": 61
+  },
+  {
+    "gen": 948,
+    "nevals": 62
+  },
+  {
+    "gen": 949,
+    "nevals": 60
+  },
+  {
+    "gen": 950,
+    "nevals": 65
+  },
+  {
+    "gen": 951,
+    "nevals": 68
+  },
+  {
+    "gen": 952,
+    "nevals": 65
+  },
+  {
+    "gen": 953,
+    "nevals": 66
+  },
+  {
+    "gen": 954,
+    "nevals": 61
+  },
+  {
+    "gen": 955,
+    "nevals": 58
+  },
+  {
+    "gen": 956,
+    "nevals": 67
+  },
+  {
+    "gen": 957,
+    "nevals": 72
+  },
+  {
+    "gen": 958,
+    "nevals": 57
+  },
+  {
+    "gen": 959,
+    "nevals": 64
+  },
+  {
+    "gen": 960,
+    "nevals": 70
+  },
+  {
+    "gen": 961,
+    "nevals": 57
+  },
+  {
+    "gen": 962,
+    "nevals": 63
+  },
+  {
+    "gen": 963,
+    "nevals": 68
+  },
+  {
+    "gen": 964,
+    "nevals": 66
+  },
+  {
+    "gen": 965,
+    "nevals": 61
+  },
+  {
+    "gen": 966,
+    "nevals": 62
+  },
+  {
+    "gen": 967,
+    "nevals": 56
+  },
+  {
+    "gen": 968,
+    "nevals": 74
+  },
+  {
+    "gen": 969,
+    "nevals": 70
+  },
+  {
+    "gen": 970,
+    "nevals": 64
+  },
+  {
+    "gen": 971,
+    "nevals": 71
+  },
+  {
+    "gen": 972,
+    "nevals": 69
+  },
+  {
+    "gen": 973,
+    "nevals": 60
+  },
+  {
+    "gen": 974,
+    "nevals": 69
+  },
+  {
+    "gen": 975,
+    "nevals": 59
+  },
+  {
+    "gen": 976,
+    "nevals": 66
+  },
+  {
+    "gen": 977,
+    "nevals": 63
+  },
+  {
+    "gen": 978,
+    "nevals": 63
+  },
+  {
+    "gen": 979,
+    "nevals": 65
+  },
+  {
+    "gen": 980,
+    "nevals": 60
+  },
+  {
+    "gen": 981,
+    "nevals": 71
+  },
+  {
+    "gen": 982,
+    "nevals": 56
+  },
+  {
+    "gen": 983,
+    "nevals": 61
+  },
+  {
+    "gen": 984,
+    "nevals": 69
+  },
+  {
+    "gen": 985,
+    "nevals": 69
+  },
+  {
+    "gen": 986,
+    "nevals": 58
+  },
+  {
+    "gen": 987,
+    "nevals": 62
+  },
+  {
+    "gen": 988,
+    "nevals": 63
+  },
+  {
+    "gen": 989,
+    "nevals": 66
+  },
+  {
+    "gen": 990,
+    "nevals": 70
+  },
+  {
+    "gen": 991,
+    "nevals": 53
+  },
+  {
+    "gen": 992,
+    "nevals": 67
+  },
+  {
+    "gen": 993,
+    "nevals": 59
+  },
+  {
+    "gen": 994,
+    "nevals": 58
+  },
+  {
+    "gen": 995,
+    "nevals": 75
+  },
+  {
+    "gen": 996,
+    "nevals": 62
+  },
+  {
+    "gen": 997,
+    "nevals": 68
+  },
+  {
+    "gen": 998,
+    "nevals": 67
+  },
+  {
+    "gen": 999,
+    "nevals": 61
+  },
+  {
+    "gen": 1000,
+    "nevals": 62
+  },
+  {
+    "gen": 1001,
+    "nevals": 57
+  },
+  {
+    "gen": 1002,
+    "nevals": 65
+  },
+  {
+    "gen": 1003,
+    "nevals": 63
+  },
+  {
+    "gen": 1004,
+    "nevals": 66
+  },
+  {
+    "gen": 1005,
+    "nevals": 59
+  },
+  {
+    "gen": 1006,
+    "nevals": 65
+  },
+  {
+    "gen": 1007,
+    "nevals": 69
+  },
+  {
+    "gen": 1008,
+    "nevals": 69
+  },
+  {
+    "gen": 1009,
+    "nevals": 64
+  },
+  {
+    "gen": 1010,
+    "nevals": 56
+  },
+  {
+    "gen": 1011,
+    "nevals": 72
+  },
+  {
+    "gen": 1012,
+    "nevals": 62
+  },
+  {
+    "gen": 1013,
+    "nevals": 65
+  },
+  {
+    "gen": 1014,
+    "nevals": 60
+  },
+  {
+    "gen": 1015,
+    "nevals": 51
+  },
+  {
+    "gen": 1016,
+    "nevals": 65
+  },
+  {
+    "gen": 1017,
+    "nevals": 67
+  },
+  {
+    "gen": 1018,
+    "nevals": 72
+  },
+  {
+    "gen": 1019,
+    "nevals": 58
+  },
+  {
+    "gen": 1020,
+    "nevals": 72
+  },
+  {
+    "gen": 1021,
+    "nevals": 66
+  },
+  {
+    "gen": 1022,
+    "nevals": 72
+  },
+  {
+    "gen": 1023,
+    "nevals": 71
+  },
+  {
+    "gen": 1024,
+    "nevals": 64
+  },
+  {
+    "gen": 1025,
+    "nevals": 67
+  },
+  {
+    "gen": 1026,
+    "nevals": 69
+  },
+  {
+    "gen": 1027,
+    "nevals": 66
+  },
+  {
+    "gen": 1028,
+    "nevals": 62
+  },
+  {
+    "gen": 1029,
+    "nevals": 68
+  },
+  {
+    "gen": 1030,
+    "nevals": 66
+  },
+  {
+    "gen": 1031,
+    "nevals": 53
+  },
+  {
+    "gen": 1032,
+    "nevals": 61
+  },
+  {
+    "gen": 1033,
+    "nevals": 66
+  },
+  {
+    "gen": 1034,
+    "nevals": 76
+  },
+  {
+    "gen": 1035,
+    "nevals": 68
+  },
+  {
+    "gen": 1036,
+    "nevals": 69
+  },
+  {
+    "gen": 1037,
+    "nevals": 67
+  },
+  {
+    "gen": 1038,
+    "nevals": 65
+  },
+  {
+    "gen": 1039,
+    "nevals": 69
+  },
+  {
+    "gen": 1040,
+    "nevals": 67
+  },
+  {
+    "gen": 1041,
+    "nevals": 69
+  },
+  {
+    "gen": 1042,
+    "nevals": 59
+  },
+  {
+    "gen": 1043,
+    "nevals": 60
+  },
+  {
+    "gen": 1044,
+    "nevals": 60
+  },
+  {
+    "gen": 1045,
+    "nevals": 68
+  },
+  {
+    "gen": 1046,
+    "nevals": 57
+  },
+  {
+    "gen": 1047,
+    "nevals": 61
+  },
+  {
+    "gen": 1048,
+    "nevals": 60
+  },
+  {
+    "gen": 1049,
+    "nevals": 56
+  },
+  {
+    "gen": 1050,
+    "nevals": 70
+  },
+  {
+    "gen": 1051,
+    "nevals": 57
+  },
+  {
+    "gen": 1052,
+    "nevals": 61
+  },
+  {
+    "gen": 1053,
+    "nevals": 65
+  },
+  {
+    "gen": 1054,
+    "nevals": 63
+  },
+  {
+    "gen": 1055,
+    "nevals": 59
+  },
+  {
+    "gen": 1056,
+    "nevals": 61
+  },
+  {
+    "gen": 1057,
+    "nevals": 59
+  },
+  {
+    "gen": 1058,
+    "nevals": 60
+  },
+  {
+    "gen": 1059,
+    "nevals": 59
+  },
+  {
+    "gen": 1060,
+    "nevals": 63
+  },
+  {
+    "gen": 1061,
+    "nevals": 59
+  },
+  {
+    "gen": 1062,
+    "nevals": 70
+  },
+  {
+    "gen": 1063,
+    "nevals": 63
+  },
+  {
+    "gen": 1064,
+    "nevals": 61
+  },
+  {
+    "gen": 1065,
+    "nevals": 75
+  },
+  {
+    "gen": 1066,
+    "nevals": 62
+  },
+  {
+    "gen": 1067,
+    "nevals": 59
+  },
+  {
+    "gen": 1068,
+    "nevals": 72
+  },
+  {
+    "gen": 1069,
+    "nevals": 60
+  },
+  {
+    "gen": 1070,
+    "nevals": 65
+  },
+  {
+    "gen": 1071,
+    "nevals": 70
+  },
+  {
+    "gen": 1072,
+    "nevals": 61
+  },
+  {
+    "gen": 1073,
+    "nevals": 61
+  },
+  {
+    "gen": 1074,
+    "nevals": 57
+  },
+  {
+    "gen": 1075,
+    "nevals": 61
+  },
+  {
+    "gen": 1076,
+    "nevals": 64
+  },
+  {
+    "gen": 1077,
+    "nevals": 67
+  },
+  {
+    "gen": 1078,
+    "nevals": 62
+  },
+  {
+    "gen": 1079,
+    "nevals": 68
+  },
+  {
+    "gen": 1080,
+    "nevals": 58
+  },
+  {
+    "gen": 1081,
+    "nevals": 59
+  },
+  {
+    "gen": 1082,
+    "nevals": 68
+  },
+  {
+    "gen": 1083,
+    "nevals": 66
+  },
+  {
+    "gen": 1084,
+    "nevals": 68
+  },
+  {
+    "gen": 1085,
+    "nevals": 73
+  },
+  {
+    "gen": 1086,
+    "nevals": 68
+  },
+  {
+    "gen": 1087,
+    "nevals": 63
+  },
+  {
+    "gen": 1088,
+    "nevals": 66
+  },
+  {
+    "gen": 1089,
+    "nevals": 59
+  },
+  {
+    "gen": 1090,
+    "nevals": 68
+  },
+  {
+    "gen": 1091,
+    "nevals": 64
+  },
+  {
+    "gen": 1092,
+    "nevals": 69
+  },
+  {
+    "gen": 1093,
+    "nevals": 68
+  },
+  {
+    "gen": 1094,
+    "nevals": 61
+  },
+  {
+    "gen": 1095,
+    "nevals": 64
+  },
+  {
+    "gen": 1096,
+    "nevals": 60
+  },
+  {
+    "gen": 1097,
+    "nevals": 69
+  },
+  {
+    "gen": 1098,
+    "nevals": 67
+  },
+  {
+    "gen": 1099,
+    "nevals": 64
+  },
+  {
+    "gen": 1100,
+    "nevals": 65
+  },
+  {
+    "gen": 1101,
+    "nevals": 66
+  },
+  {
+    "gen": 1102,
+    "nevals": 80
+  },
+  {
+    "gen": 1103,
+    "nevals": 65
+  },
+  {
+    "gen": 1104,
+    "nevals": 56
+  },
+  {
+    "gen": 1105,
+    "nevals": 47
+  },
+  {
+    "gen": 1106,
+    "nevals": 70
+  },
+  {
+    "gen": 1107,
+    "nevals": 60
+  },
+  {
+    "gen": 1108,
+    "nevals": 71
+  },
+  {
+    "gen": 1109,
+    "nevals": 68
+  },
+  {
+    "gen": 1110,
+    "nevals": 53
+  },
+  {
+    "gen": 1111,
+    "nevals": 67
+  },
+  {
+    "gen": 1112,
+    "nevals": 66
+  },
+  {
+    "gen": 1113,
+    "nevals": 78
+  },
+  {
+    "gen": 1114,
+    "nevals": 68
+  },
+  {
+    "gen": 1115,
+    "nevals": 72
+  },
+  {
+    "gen": 1116,
+    "nevals": 55
+  },
+  {
+    "gen": 1117,
+    "nevals": 65
+  },
+  {
+    "gen": 1118,
+    "nevals": 59
+  },
+  {
+    "gen": 1119,
+    "nevals": 69
+  },
+  {
+    "gen": 1120,
+    "nevals": 66
+  },
+  {
+    "gen": 1121,
+    "nevals": 71
+  },
+  {
+    "gen": 1122,
+    "nevals": 61
+  },
+  {
+    "gen": 1123,
+    "nevals": 75
+  },
+  {
+    "gen": 1124,
+    "nevals": 63
+  },
+  {
+    "gen": 1125,
+    "nevals": 67
+  },
+  {
+    "gen": 1126,
+    "nevals": 68
+  },
+  {
+    "gen": 1127,
+    "nevals": 61
+  },
+  {
+    "gen": 1128,
+    "nevals": 75
+  },
+  {
+    "gen": 1129,
+    "nevals": 60
+  },
+  {
+    "gen": 1130,
+    "nevals": 67
+  },
+  {
+    "gen": 1131,
+    "nevals": 65
+  },
+  {
+    "gen": 1132,
+    "nevals": 63
+  },
+  {
+    "gen": 1133,
+    "nevals": 78
+  },
+  {
+    "gen": 1134,
+    "nevals": 74
+  },
+  {
+    "gen": 1135,
+    "nevals": 69
+  },
+  {
+    "gen": 1136,
+    "nevals": 62
+  },
+  {
+    "gen": 1137,
+    "nevals": 67
+  },
+  {
+    "gen": 1138,
+    "nevals": 68
+  },
+  {
+    "gen": 1139,
+    "nevals": 60
+  },
+  {
+    "gen": 1140,
+    "nevals": 62
+  },
+  {
+    "gen": 1141,
+    "nevals": 64
+  },
+  {
+    "gen": 1142,
+    "nevals": 67
+  },
+  {
+    "gen": 1143,
+    "nevals": 66
+  },
+  {
+    "gen": 1144,
+    "nevals": 79
+  },
+  {
+    "gen": 1145,
+    "nevals": 67
+  },
+  {
+    "gen": 1146,
+    "nevals": 62
+  },
+  {
+    "gen": 1147,
+    "nevals": 69
+  },
+  {
+    "gen": 1148,
+    "nevals": 69
+  },
+  {
+    "gen": 1149,
+    "nevals": 67
+  },
+  {
+    "gen": 1150,
+    "nevals": 71
+  },
+  {
+    "gen": 1151,
+    "nevals": 68
+  },
+  {
+    "gen": 1152,
+    "nevals": 54
+  },
+  {
+    "gen": 1153,
+    "nevals": 70
+  },
+  {
+    "gen": 1154,
+    "nevals": 67
+  },
+  {
+    "gen": 1155,
+    "nevals": 64
+  },
+  {
+    "gen": 1156,
+    "nevals": 65
+  },
+  {
+    "gen": 1157,
+    "nevals": 61
+  },
+  {
+    "gen": 1158,
+    "nevals": 69
+  },
+  {
+    "gen": 1159,
+    "nevals": 66
+  },
+  {
+    "gen": 1160,
+    "nevals": 56
+  },
+  {
+    "gen": 1161,
+    "nevals": 66
+  },
+  {
+    "gen": 1162,
+    "nevals": 60
+  },
+  {
+    "gen": 1163,
+    "nevals": 66
+  },
+  {
+    "gen": 1164,
+    "nevals": 66
+  },
+  {
+    "gen": 1165,
+    "nevals": 71
+  },
+  {
+    "gen": 1166,
+    "nevals": 59
+  },
+  {
+    "gen": 1167,
+    "nevals": 62
+  },
+  {
+    "gen": 1168,
+    "nevals": 69
+  },
+  {
+    "gen": 1169,
+    "nevals": 67
+  },
+  {
+    "gen": 1170,
+    "nevals": 52
+  },
+  {
+    "gen": 1171,
+    "nevals": 70
+  },
+  {
+    "gen": 1172,
+    "nevals": 62
+  },
+  {
+    "gen": 1173,
+    "nevals": 70
+  },
+  {
+    "gen": 1174,
+    "nevals": 71
+  },
+  {
+    "gen": 1175,
+    "nevals": 70
+  },
+  {
+    "gen": 1176,
+    "nevals": 71
+  },
+  {
+    "gen": 1177,
+    "nevals": 66
+  },
+  {
+    "gen": 1178,
+    "nevals": 76
+  },
+  {
+    "gen": 1179,
+    "nevals": 67
+  },
+  {
+    "gen": 1180,
+    "nevals": 49
+  },
+  {
+    "gen": 1181,
+    "nevals": 64
+  },
+  {
+    "gen": 1182,
+    "nevals": 64
+  },
+  {
+    "gen": 1183,
+    "nevals": 65
+  },
+  {
+    "gen": 1184,
+    "nevals": 64
+  },
+  {
+    "gen": 1185,
+    "nevals": 62
+  },
+  {
+    "gen": 1186,
+    "nevals": 68
+  },
+  {
+    "gen": 1187,
+    "nevals": 67
+  },
+  {
+    "gen": 1188,
+    "nevals": 63
+  },
+  {
+    "gen": 1189,
+    "nevals": 71
+  },
+  {
+    "gen": 1190,
+    "nevals": 59
+  },
+  {
+    "gen": 1191,
+    "nevals": 67
+  },
+  {
+    "gen": 1192,
+    "nevals": 67
+  },
+  {
+    "gen": 1193,
+    "nevals": 63
+  },
+  {
+    "gen": 1194,
+    "nevals": 66
+  },
+  {
+    "gen": 1195,
+    "nevals": 64
+  },
+  {
+    "gen": 1196,
+    "nevals": 65
+  },
+  {
+    "gen": 1197,
+    "nevals": 63
+  },
+  {
+    "gen": 1198,
+    "nevals": 74
+  },
+  {
+    "gen": 1199,
+    "nevals": 64
+  },
+  {
+    "gen": 1200,
+    "nevals": 67
+  },
+  {
+    "gen": 1201,
+    "nevals": 53
+  },
+  {
+    "gen": 1202,
+    "nevals": 61
+  },
+  {
+    "gen": 1203,
+    "nevals": 63
+  },
+  {
+    "gen": 1204,
+    "nevals": 57
+  },
+  {
+    "gen": 1205,
+    "nevals": 57
+  },
+  {
+    "gen": 1206,
+    "nevals": 66
+  },
+  {
+    "gen": 1207,
+    "nevals": 63
+  },
+  {
+    "gen": 1208,
+    "nevals": 68
+  },
+  {
+    "gen": 1209,
+    "nevals": 65
+  },
+  {
+    "gen": 1210,
+    "nevals": 67
+  },
+  {
+    "gen": 1211,
+    "nevals": 66
+  },
+  {
+    "gen": 1212,
+    "nevals": 69
+  },
+  {
+    "gen": 1213,
+    "nevals": 66
+  },
+  {
+    "gen": 1214,
+    "nevals": 69
+  },
+  {
+    "gen": 1215,
+    "nevals": 63
+  },
+  {
+    "gen": 1216,
+    "nevals": 67
+  },
+  {
+    "gen": 1217,
+    "nevals": 66
+  },
+  {
+    "gen": 1218,
+    "nevals": 59
+  },
+  {
+    "gen": 1219,
+    "nevals": 62
+  },
+  {
+    "gen": 1220,
+    "nevals": 71
+  },
+  {
+    "gen": 1221,
+    "nevals": 65
+  },
+  {
+    "gen": 1222,
+    "nevals": 71
+  },
+  {
+    "gen": 1223,
+    "nevals": 64
+  },
+  {
+    "gen": 1224,
+    "nevals": 60
+  },
+  {
+    "gen": 1225,
+    "nevals": 71
+  },
+  {
+    "gen": 1226,
+    "nevals": 59
+  },
+  {
+    "gen": 1227,
+    "nevals": 70
+  },
+  {
+    "gen": 1228,
+    "nevals": 75
+  },
+  {
+    "gen": 1229,
+    "nevals": 61
+  },
+  {
+    "gen": 1230,
+    "nevals": 61
+  },
+  {
+    "gen": 1231,
+    "nevals": 60
+  },
+  {
+    "gen": 1232,
+    "nevals": 66
+  },
+  {
+    "gen": 1233,
+    "nevals": 64
+  },
+  {
+    "gen": 1234,
+    "nevals": 71
+  },
+  {
+    "gen": 1235,
+    "nevals": 67
+  },
+  {
+    "gen": 1236,
+    "nevals": 71
+  },
+  {
+    "gen": 1237,
+    "nevals": 64
+  },
+  {
+    "gen": 1238,
+    "nevals": 66
+  },
+  {
+    "gen": 1239,
+    "nevals": 65
+  },
+  {
+    "gen": 1240,
+    "nevals": 64
+  },
+  {
+    "gen": 1241,
+    "nevals": 58
+  },
+  {
+    "gen": 1242,
+    "nevals": 63
+  },
+  {
+    "gen": 1243,
+    "nevals": 68
+  },
+  {
+    "gen": 1244,
+    "nevals": 67
+  },
+  {
+    "gen": 1245,
+    "nevals": 69
+  },
+  {
+    "gen": 1246,
+    "nevals": 66
+  },
+  {
+    "gen": 1247,
+    "nevals": 58
+  },
+  {
+    "gen": 1248,
+    "nevals": 67
+  },
+  {
+    "gen": 1249,
+    "nevals": 71
+  },
+  {
+    "gen": 1250,
+    "nevals": 67
+  },
+  {
+    "gen": 1251,
+    "nevals": 77
+  },
+  {
+    "gen": 1252,
+    "nevals": 64
+  },
+  {
+    "gen": 1253,
+    "nevals": 54
+  },
+  {
+    "gen": 1254,
+    "nevals": 67
+  },
+  {
+    "gen": 1255,
+    "nevals": 66
+  },
+  {
+    "gen": 1256,
+    "nevals": 60
+  },
+  {
+    "gen": 1257,
+    "nevals": 61
+  },
+  {
+    "gen": 1258,
+    "nevals": 63
+  },
+  {
+    "gen": 1259,
+    "nevals": 63
+  },
+  {
+    "gen": 1260,
+    "nevals": 65
+  },
+  {
+    "gen": 1261,
+    "nevals": 58
+  },
+  {
+    "gen": 1262,
+    "nevals": 71
+  },
+  {
+    "gen": 1263,
+    "nevals": 71
+  },
+  {
+    "gen": 1264,
+    "nevals": 66
+  },
+  {
+    "gen": 1265,
+    "nevals": 71
+  },
+  {
+    "gen": 1266,
+    "nevals": 66
+  },
+  {
+    "gen": 1267,
+    "nevals": 72
+  },
+  {
+    "gen": 1268,
+    "nevals": 63
+  },
+  {
+    "gen": 1269,
+    "nevals": 58
+  },
+  {
+    "gen": 1270,
+    "nevals": 70
+  },
+  {
+    "gen": 1271,
+    "nevals": 67
+  },
+  {
+    "gen": 1272,
+    "nevals": 72
+  },
+  {
+    "gen": 1273,
+    "nevals": 56
+  },
+  {
+    "gen": 1274,
+    "nevals": 66
+  },
+  {
+    "gen": 1275,
+    "nevals": 70
+  },
+  {
+    "gen": 1276,
+    "nevals": 62
+  },
+  {
+    "gen": 1277,
+    "nevals": 53
+  },
+  {
+    "gen": 1278,
+    "nevals": 64
+  },
+  {
+    "gen": 1279,
+    "nevals": 67
+  },
+  {
+    "gen": 1280,
+    "nevals": 56
+  },
+  {
+    "gen": 1281,
+    "nevals": 61
+  },
+  {
+    "gen": 1282,
+    "nevals": 67
+  },
+  {
+    "gen": 1283,
+    "nevals": 63
+  },
+  {
+    "gen": 1284,
+    "nevals": 56
+  },
+  {
+    "gen": 1285,
+    "nevals": 68
+  },
+  {
+    "gen": 1286,
+    "nevals": 69
+  },
+  {
+    "gen": 1287,
+    "nevals": 69
+  },
+  {
+    "gen": 1288,
+    "nevals": 63
+  },
+  {
+    "gen": 1289,
+    "nevals": 60
+  },
+  {
+    "gen": 1290,
+    "nevals": 56
+  },
+  {
+    "gen": 1291,
+    "nevals": 62
+  },
+  {
+    "gen": 1292,
+    "nevals": 55
+  },
+  {
+    "gen": 1293,
+    "nevals": 69
+  },
+  {
+    "gen": 1294,
+    "nevals": 63
+  },
+  {
+    "gen": 1295,
+    "nevals": 70
+  },
+  {
+    "gen": 1296,
+    "nevals": 67
+  },
+  {
+    "gen": 1297,
+    "nevals": 59
+  },
+  {
+    "gen": 1298,
+    "nevals": 57
+  },
+  {
+    "gen": 1299,
+    "nevals": 65
+  },
+  {
+    "gen": 1300,
+    "nevals": 63
+  },
+  {
+    "gen": 1301,
+    "nevals": 62
+  },
+  {
+    "gen": 1302,
+    "nevals": 66
+  },
+  {
+    "gen": 1303,
+    "nevals": 77
+  },
+  {
+    "gen": 1304,
+    "nevals": 63
+  },
+  {
+    "gen": 1305,
+    "nevals": 62
+  },
+  {
+    "gen": 1306,
+    "nevals": 76
+  },
+  {
+    "gen": 1307,
+    "nevals": 71
+  },
+  {
+    "gen": 1308,
+    "nevals": 71
+  },
+  {
+    "gen": 1309,
+    "nevals": 62
+  },
+  {
+    "gen": 1310,
+    "nevals": 65
+  },
+  {
+    "gen": 1311,
+    "nevals": 65
+  },
+  {
+    "gen": 1312,
+    "nevals": 69
+  },
+  {
+    "gen": 1313,
+    "nevals": 67
+  },
+  {
+    "gen": 1314,
+    "nevals": 61
+  },
+  {
+    "gen": 1315,
+    "nevals": 64
+  },
+  {
+    "gen": 1316,
+    "nevals": 67
+  },
+  {
+    "gen": 1317,
+    "nevals": 65
+  },
+  {
+    "gen": 1318,
+    "nevals": 60
+  },
+  {
+    "gen": 1319,
+    "nevals": 59
+  },
+  {
+    "gen": 1320,
+    "nevals": 68
+  },
+  {
+    "gen": 1321,
+    "nevals": 76
+  },
+  {
+    "gen": 1322,
+    "nevals": 72
+  },
+  {
+    "gen": 1323,
+    "nevals": 57
+  },
+  {
+    "gen": 1324,
+    "nevals": 62
+  },
+  {
+    "gen": 1325,
+    "nevals": 57
+  },
+  {
+    "gen": 1326,
+    "nevals": 73
+  },
+  {
+    "gen": 1327,
+    "nevals": 65
+  },
+  {
+    "gen": 1328,
+    "nevals": 75
+  },
+  {
+    "gen": 1329,
+    "nevals": 65
+  },
+  {
+    "gen": 1330,
+    "nevals": 56
+  },
+  {
+    "gen": 1331,
+    "nevals": 65
+  },
+  {
+    "gen": 1332,
+    "nevals": 63
+  },
+  {
+    "gen": 1333,
+    "nevals": 62
+  },
+  {
+    "gen": 1334,
+    "nevals": 63
+  },
+  {
+    "gen": 1335,
+    "nevals": 60
+  },
+  {
+    "gen": 1336,
+    "nevals": 69
+  },
+  {
+    "gen": 1337,
+    "nevals": 65
+  },
+  {
+    "gen": 1338,
+    "nevals": 68
+  },
+  {
+    "gen": 1339,
+    "nevals": 58
+  },
+  {
+    "gen": 1340,
+    "nevals": 71
+  },
+  {
+    "gen": 1341,
+    "nevals": 70
+  },
+  {
+    "gen": 1342,
+    "nevals": 55
+  },
+  {
+    "gen": 1343,
+    "nevals": 67
+  },
+  {
+    "gen": 1344,
+    "nevals": 56
+  },
+  {
+    "gen": 1345,
+    "nevals": 65
+  },
+  {
+    "gen": 1346,
+    "nevals": 70
+  },
+  {
+    "gen": 1347,
+    "nevals": 60
+  },
+  {
+    "gen": 1348,
+    "nevals": 58
+  },
+  {
+    "gen": 1349,
+    "nevals": 67
+  },
+  {
+    "gen": 1350,
+    "nevals": 63
+  },
+  {
+    "gen": 1351,
+    "nevals": 61
+  },
+  {
+    "gen": 1352,
+    "nevals": 71
+  },
+  {
+    "gen": 1353,
+    "nevals": 58
+  },
+  {
+    "gen": 1354,
+    "nevals": 59
+  },
+  {
+    "gen": 1355,
+    "nevals": 58
+  },
+  {
+    "gen": 1356,
+    "nevals": 62
+  },
+  {
+    "gen": 1357,
+    "nevals": 67
+  },
+  {
+    "gen": 1358,
+    "nevals": 71
+  },
+  {
+    "gen": 1359,
+    "nevals": 59
+  },
+  {
+    "gen": 1360,
+    "nevals": 66
+  },
+  {
+    "gen": 1361,
+    "nevals": 63
+  },
+  {
+    "gen": 1362,
+    "nevals": 64
+  },
+  {
+    "gen": 1363,
+    "nevals": 65
+  },
+  {
+    "gen": 1364,
+    "nevals": 66
+  },
+  {
+    "gen": 1365,
+    "nevals": 63
+  },
+  {
+    "gen": 1366,
+    "nevals": 70
+  },
+  {
+    "gen": 1367,
+    "nevals": 66
+  },
+  {
+    "gen": 1368,
+    "nevals": 75
+  },
+  {
+    "gen": 1369,
+    "nevals": 64
+  },
+  {
+    "gen": 1370,
+    "nevals": 69
+  },
+  {
+    "gen": 1371,
+    "nevals": 67
+  },
+  {
+    "gen": 1372,
+    "nevals": 66
+  },
+  {
+    "gen": 1373,
+    "nevals": 65
+  },
+  {
+    "gen": 1374,
+    "nevals": 56
+  },
+  {
+    "gen": 1375,
+    "nevals": 63
+  },
+  {
+    "gen": 1376,
+    "nevals": 70
+  },
+  {
+    "gen": 1377,
+    "nevals": 57
+  },
+  {
+    "gen": 1378,
+    "nevals": 69
+  },
+  {
+    "gen": 1379,
+    "nevals": 65
+  },
+  {
+    "gen": 1380,
+    "nevals": 57
+  },
+  {
+    "gen": 1381,
+    "nevals": 63
+  },
+  {
+    "gen": 1382,
+    "nevals": 65
+  },
+  {
+    "gen": 1383,
+    "nevals": 65
+  },
+  {
+    "gen": 1384,
+    "nevals": 66
+  },
+  {
+    "gen": 1385,
+    "nevals": 68
+  },
+  {
+    "gen": 1386,
+    "nevals": 72
+  },
+  {
+    "gen": 1387,
+    "nevals": 58
+  },
+  {
+    "gen": 1388,
+    "nevals": 69
+  },
+  {
+    "gen": 1389,
+    "nevals": 60
+  },
+  {
+    "gen": 1390,
+    "nevals": 69
+  },
+  {
+    "gen": 1391,
+    "nevals": 68
+  },
+  {
+    "gen": 1392,
+    "nevals": 69
+  },
+  {
+    "gen": 1393,
+    "nevals": 59
+  },
+  {
+    "gen": 1394,
+    "nevals": 73
+  },
+  {
+    "gen": 1395,
+    "nevals": 72
+  },
+  {
+    "gen": 1396,
+    "nevals": 69
+  },
+  {
+    "gen": 1397,
+    "nevals": 66
+  },
+  {
+    "gen": 1398,
+    "nevals": 60
+  },
+  {
+    "gen": 1399,
+    "nevals": 75
+  },
+  {
+    "gen": 1400,
+    "nevals": 71
+  },
+  {
+    "gen": 1401,
+    "nevals": 70
+  },
+  {
+    "gen": 1402,
+    "nevals": 66
+  },
+  {
+    "gen": 1403,
+    "nevals": 71
+  },
+  {
+    "gen": 1404,
+    "nevals": 60
+  },
+  {
+    "gen": 1405,
+    "nevals": 62
+  },
+  {
+    "gen": 1406,
+    "nevals": 62
+  },
+  {
+    "gen": 1407,
+    "nevals": 64
+  },
+  {
+    "gen": 1408,
+    "nevals": 65
+  },
+  {
+    "gen": 1409,
+    "nevals": 67
+  },
+  {
+    "gen": 1410,
+    "nevals": 58
+  },
+  {
+    "gen": 1411,
+    "nevals": 71
+  },
+  {
+    "gen": 1412,
+    "nevals": 69
+  },
+  {
+    "gen": 1413,
+    "nevals": 73
+  },
+  {
+    "gen": 1414,
+    "nevals": 60
+  },
+  {
+    "gen": 1415,
+    "nevals": 60
+  },
+  {
+    "gen": 1416,
+    "nevals": 71
+  },
+  {
+    "gen": 1417,
+    "nevals": 52
+  },
+  {
+    "gen": 1418,
+    "nevals": 70
+  },
+  {
+    "gen": 1419,
+    "nevals": 55
+  },
+  {
+    "gen": 1420,
+    "nevals": 65
+  },
+  {
+    "gen": 1421,
+    "nevals": 55
+  },
+  {
+    "gen": 1422,
+    "nevals": 67
+  },
+  {
+    "gen": 1423,
+    "nevals": 62
+  },
+  {
+    "gen": 1424,
+    "nevals": 54
+  },
+  {
+    "gen": 1425,
+    "nevals": 64
+  },
+  {
+    "gen": 1426,
+    "nevals": 67
+  },
+  {
+    "gen": 1427,
+    "nevals": 59
+  },
+  {
+    "gen": 1428,
+    "nevals": 63
+  },
+  {
+    "gen": 1429,
+    "nevals": 60
+  },
+  {
+    "gen": 1430,
+    "nevals": 52
+  },
+  {
+    "gen": 1431,
+    "nevals": 64
+  },
+  {
+    "gen": 1432,
+    "nevals": 62
+  },
+  {
+    "gen": 1433,
+    "nevals": 66
+  },
+  {
+    "gen": 1434,
+    "nevals": 57
+  },
+  {
+    "gen": 1435,
+    "nevals": 65
+  },
+  {
+    "gen": 1436,
+    "nevals": 66
+  },
+  {
+    "gen": 1437,
+    "nevals": 65
+  },
+  {
+    "gen": 1438,
+    "nevals": 68
+  },
+  {
+    "gen": 1439,
+    "nevals": 58
+  },
+  {
+    "gen": 1440,
+    "nevals": 52
+  },
+  {
+    "gen": 1441,
+    "nevals": 64
+  },
+  {
+    "gen": 1442,
+    "nevals": 64
+  },
+  {
+    "gen": 1443,
+    "nevals": 57
+  },
+  {
+    "gen": 1444,
+    "nevals": 66
+  },
+  {
+    "gen": 1445,
+    "nevals": 66
+  },
+  {
+    "gen": 1446,
+    "nevals": 59
+  },
+  {
+    "gen": 1447,
+    "nevals": 69
+  },
+  {
+    "gen": 1448,
+    "nevals": 58
+  },
+  {
+    "gen": 1449,
+    "nevals": 68
+  },
+  {
+    "gen": 1450,
+    "nevals": 67
+  },
+  {
+    "gen": 1451,
+    "nevals": 58
+  },
+  {
+    "gen": 1452,
+    "nevals": 63
+  },
+  {
+    "gen": 1453,
+    "nevals": 72
+  },
+  {
+    "gen": 1454,
+    "nevals": 63
+  },
+  {
+    "gen": 1455,
+    "nevals": 70
+  },
+  {
+    "gen": 1456,
+    "nevals": 65
+  },
+  {
+    "gen": 1457,
+    "nevals": 63
+  },
+  {
+    "gen": 1458,
+    "nevals": 65
+  },
+  {
+    "gen": 1459,
+    "nevals": 60
+  },
+  {
+    "gen": 1460,
+    "nevals": 70
+  },
+  {
+    "gen": 1461,
+    "nevals": 65
+  },
+  {
+    "gen": 1462,
+    "nevals": 67
+  },
+  {
+    "gen": 1463,
+    "nevals": 67
+  },
+  {
+    "gen": 1464,
+    "nevals": 62
+  },
+  {
+    "gen": 1465,
+    "nevals": 64
+  },
+  {
+    "gen": 1466,
+    "nevals": 64
+  },
+  {
+    "gen": 1467,
+    "nevals": 58
+  },
+  {
+    "gen": 1468,
+    "nevals": 56
+  },
+  {
+    "gen": 1469,
+    "nevals": 71
+  },
+  {
+    "gen": 1470,
+    "nevals": 58
+  },
+  {
+    "gen": 1471,
+    "nevals": 68
+  },
+  {
+    "gen": 1472,
+    "nevals": 56
+  },
+  {
+    "gen": 1473,
+    "nevals": 60
+  },
+  {
+    "gen": 1474,
+    "nevals": 61
+  },
+  {
+    "gen": 1475,
+    "nevals": 72
+  },
+  {
+    "gen": 1476,
+    "nevals": 65
+  },
+  {
+    "gen": 1477,
+    "nevals": 66
+  },
+  {
+    "gen": 1478,
+    "nevals": 66
+  },
+  {
+    "gen": 1479,
+    "nevals": 73
+  },
+  {
+    "gen": 1480,
+    "nevals": 62
+  },
+  {
+    "gen": 1481,
+    "nevals": 64
+  },
+  {
+    "gen": 1482,
+    "nevals": 66
+  },
+  {
+    "gen": 1483,
+    "nevals": 72
+  },
+  {
+    "gen": 1484,
+    "nevals": 65
+  },
+  {
+    "gen": 1485,
+    "nevals": 66
+  },
+  {
+    "gen": 1486,
+    "nevals": 69
+  },
+  {
+    "gen": 1487,
+    "nevals": 65
+  },
+  {
+    "gen": 1488,
+    "nevals": 62
+  },
+  {
+    "gen": 1489,
+    "nevals": 60
+  },
+  {
+    "gen": 1490,
+    "nevals": 59
+  },
+  {
+    "gen": 1491,
+    "nevals": 67
+  },
+  {
+    "gen": 1492,
+    "nevals": 63
+  },
+  {
+    "gen": 1493,
+    "nevals": 71
+  },
+  {
+    "gen": 1494,
+    "nevals": 62
+  },
+  {
+    "gen": 1495,
+    "nevals": 53
+  },
+  {
+    "gen": 1496,
+    "nevals": 58
+  },
+  {
+    "gen": 1497,
+    "nevals": 54
+  },
+  {
+    "gen": 1498,
+    "nevals": 66
+  },
+  {
+    "gen": 1499,
+    "nevals": 69
+  },
+  {
+    "gen": 1500,
+    "nevals": 72
+  },
+  {
+    "gen": 1501,
+    "nevals": 78
+  },
+  {
+    "gen": 1502,
+    "nevals": 64
+  },
+  {
+    "gen": 1503,
+    "nevals": 65
+  },
+  {
+    "gen": 1504,
+    "nevals": 64
+  },
+  {
+    "gen": 1505,
+    "nevals": 68
+  },
+  {
+    "gen": 1506,
+    "nevals": 72
+  },
+  {
+    "gen": 1507,
+    "nevals": 67
+  },
+  {
+    "gen": 1508,
+    "nevals": 54
+  },
+  {
+    "gen": 1509,
+    "nevals": 72
+  },
+  {
+    "gen": 1510,
+    "nevals": 69
+  },
+  {
+    "gen": 1511,
+    "nevals": 56
+  },
+  {
+    "gen": 1512,
+    "nevals": 69
+  },
+  {
+    "gen": 1513,
+    "nevals": 59
+  },
+  {
+    "gen": 1514,
+    "nevals": 72
+  },
+  {
+    "gen": 1515,
+    "nevals": 63
+  },
+  {
+    "gen": 1516,
+    "nevals": 62
+  },
+  {
+    "gen": 1517,
+    "nevals": 63
+  },
+  {
+    "gen": 1518,
+    "nevals": 69
+  },
+  {
+    "gen": 1519,
+    "nevals": 66
+  },
+  {
+    "gen": 1520,
+    "nevals": 73
+  },
+  {
+    "gen": 1521,
+    "nevals": 60
+  },
+  {
+    "gen": 1522,
+    "nevals": 58
+  },
+  {
+    "gen": 1523,
+    "nevals": 59
+  },
+  {
+    "gen": 1524,
+    "nevals": 68
+  },
+  {
+    "gen": 1525,
+    "nevals": 65
+  },
+  {
+    "gen": 1526,
+    "nevals": 68
+  },
+  {
+    "gen": 1527,
+    "nevals": 69
+  },
+  {
+    "gen": 1528,
+    "nevals": 61
+  },
+  {
+    "gen": 1529,
+    "nevals": 73
+  },
+  {
+    "gen": 1530,
+    "nevals": 59
+  },
+  {
+    "gen": 1531,
+    "nevals": 69
+  },
+  {
+    "gen": 1532,
+    "nevals": 61
+  },
+  {
+    "gen": 1533,
+    "nevals": 66
+  },
+  {
+    "gen": 1534,
+    "nevals": 67
+  },
+  {
+    "gen": 1535,
+    "nevals": 66
+  },
+  {
+    "gen": 1536,
+    "nevals": 67
+  },
+  {
+    "gen": 1537,
+    "nevals": 64
+  },
+  {
+    "gen": 1538,
+    "nevals": 66
+  },
+  {
+    "gen": 1539,
+    "nevals": 66
+  },
+  {
+    "gen": 1540,
+    "nevals": 67
+  },
+  {
+    "gen": 1541,
+    "nevals": 63
+  },
+  {
+    "gen": 1542,
+    "nevals": 65
+  },
+  {
+    "gen": 1543,
+    "nevals": 60
+  },
+  {
+    "gen": 1544,
+    "nevals": 63
+  },
+  {
+    "gen": 1545,
+    "nevals": 69
+  },
+  {
+    "gen": 1546,
+    "nevals": 71
+  },
+  {
+    "gen": 1547,
+    "nevals": 49
+  },
+  {
+    "gen": 1548,
+    "nevals": 68
+  },
+  {
+    "gen": 1549,
+    "nevals": 69
+  },
+  {
+    "gen": 1550,
+    "nevals": 61
+  },
+  {
+    "gen": 1551,
+    "nevals": 61
+  },
+  {
+    "gen": 1552,
+    "nevals": 53
+  },
+  {
+    "gen": 1553,
+    "nevals": 68
+  },
+  {
+    "gen": 1554,
+    "nevals": 60
+  },
+  {
+    "gen": 1555,
+    "nevals": 63
+  },
+  {
+    "gen": 1556,
+    "nevals": 72
+  },
+  {
+    "gen": 1557,
+    "nevals": 66
+  },
+  {
+    "gen": 1558,
+    "nevals": 59
+  },
+  {
+    "gen": 1559,
+    "nevals": 65
+  },
+  {
+    "gen": 1560,
+    "nevals": 74
+  },
+  {
+    "gen": 1561,
+    "nevals": 55
+  },
+  {
+    "gen": 1562,
+    "nevals": 73
+  },
+  {
+    "gen": 1563,
+    "nevals": 68
+  },
+  {
+    "gen": 1564,
+    "nevals": 63
+  },
+  {
+    "gen": 1565,
+    "nevals": 71
+  },
+  {
+    "gen": 1566,
+    "nevals": 71
+  },
+  {
+    "gen": 1567,
+    "nevals": 65
+  },
+  {
+    "gen": 1568,
+    "nevals": 64
+  },
+  {
+    "gen": 1569,
+    "nevals": 54
+  },
+  {
+    "gen": 1570,
+    "nevals": 61
+  },
+  {
+    "gen": 1571,
+    "nevals": 63
+  },
+  {
+    "gen": 1572,
+    "nevals": 61
+  },
+  {
+    "gen": 1573,
+    "nevals": 67
+  },
+  {
+    "gen": 1574,
+    "nevals": 66
+  },
+  {
+    "gen": 1575,
+    "nevals": 58
+  },
+  {
+    "gen": 1576,
+    "nevals": 67
+  },
+  {
+    "gen": 1577,
+    "nevals": 70
+  },
+  {
+    "gen": 1578,
+    "nevals": 68
+  },
+  {
+    "gen": 1579,
+    "nevals": 61
+  },
+  {
+    "gen": 1580,
+    "nevals": 66
+  },
+  {
+    "gen": 1581,
+    "nevals": 67
+  },
+  {
+    "gen": 1582,
+    "nevals": 65
+  },
+  {
+    "gen": 1583,
+    "nevals": 65
+  },
+  {
+    "gen": 1584,
+    "nevals": 67
+  },
+  {
+    "gen": 1585,
+    "nevals": 61
+  },
+  {
+    "gen": 1586,
+    "nevals": 66
+  },
+  {
+    "gen": 1587,
+    "nevals": 64
+  },
+  {
+    "gen": 1588,
+    "nevals": 64
+  },
+  {
+    "gen": 1589,
+    "nevals": 58
+  },
+  {
+    "gen": 1590,
+    "nevals": 61
+  },
+  {
+    "gen": 1591,
+    "nevals": 70
+  },
+  {
+    "gen": 1592,
+    "nevals": 57
+  },
+  {
+    "gen": 1593,
+    "nevals": 78
+  },
+  {
+    "gen": 1594,
+    "nevals": 70
+  },
+  {
+    "gen": 1595,
+    "nevals": 68
+  },
+  {
+    "gen": 1596,
+    "nevals": 69
+  },
+  {
+    "gen": 1597,
+    "nevals": 56
+  },
+  {
+    "gen": 1598,
+    "nevals": 69
+  },
+  {
+    "gen": 1599,
+    "nevals": 65
+  },
+  {
+    "gen": 1600,
+    "nevals": 67
+  },
+  {
+    "gen": 1601,
+    "nevals": 79
+  },
+  {
+    "gen": 1602,
+    "nevals": 59
+  },
+  {
+    "gen": 1603,
+    "nevals": 68
+  },
+  {
+    "gen": 1604,
+    "nevals": 63
+  },
+  {
+    "gen": 1605,
+    "nevals": 64
+  },
+  {
+    "gen": 1606,
+    "nevals": 56
+  },
+  {
+    "gen": 1607,
+    "nevals": 69
+  },
+  {
+    "gen": 1608,
+    "nevals": 48
+  },
+  {
+    "gen": 1609,
+    "nevals": 66
+  },
+  {
+    "gen": 1610,
+    "nevals": 63
+  },
+  {
+    "gen": 1611,
+    "nevals": 59
+  },
+  {
+    "gen": 1612,
+    "nevals": 60
+  },
+  {
+    "gen": 1613,
+    "nevals": 78
+  },
+  {
+    "gen": 1614,
+    "nevals": 65
+  },
+  {
+    "gen": 1615,
+    "nevals": 68
+  },
+  {
+    "gen": 1616,
+    "nevals": 66
+  },
+  {
+    "gen": 1617,
+    "nevals": 69
+  },
+  {
+    "gen": 1618,
+    "nevals": 58
+  },
+  {
+    "gen": 1619,
+    "nevals": 68
+  },
+  {
+    "gen": 1620,
+    "nevals": 65
+  },
+  {
+    "gen": 1621,
+    "nevals": 67
+  },
+  {
+    "gen": 1622,
+    "nevals": 66
+  },
+  {
+    "gen": 1623,
+    "nevals": 65
+  },
+  {
+    "gen": 1624,
+    "nevals": 68
+  },
+  {
+    "gen": 1625,
+    "nevals": 67
+  },
+  {
+    "gen": 1626,
+    "nevals": 62
+  },
+  {
+    "gen": 1627,
+    "nevals": 57
+  },
+  {
+    "gen": 1628,
+    "nevals": 61
+  },
+  {
+    "gen": 1629,
+    "nevals": 65
+  },
+  {
+    "gen": 1630,
+    "nevals": 70
+  },
+  {
+    "gen": 1631,
+    "nevals": 67
+  },
+  {
+    "gen": 1632,
+    "nevals": 59
+  },
+  {
+    "gen": 1633,
+    "nevals": 63
+  },
+  {
+    "gen": 1634,
+    "nevals": 69
+  },
+  {
+    "gen": 1635,
+    "nevals": 62
+  },
+  {
+    "gen": 1636,
+    "nevals": 64
+  },
+  {
+    "gen": 1637,
+    "nevals": 63
+  },
+  {
+    "gen": 1638,
+    "nevals": 73
+  },
+  {
+    "gen": 1639,
+    "nevals": 71
+  },
+  {
+    "gen": 1640,
+    "nevals": 66
+  },
+  {
+    "gen": 1641,
+    "nevals": 67
+  },
+  {
+    "gen": 1642,
+    "nevals": 68
+  },
+  {
+    "gen": 1643,
+    "nevals": 64
+  },
+  {
+    "gen": 1644,
+    "nevals": 61
+  },
+  {
+    "gen": 1645,
+    "nevals": 66
+  },
+  {
+    "gen": 1646,
+    "nevals": 68
+  },
+  {
+    "gen": 1647,
+    "nevals": 65
+  },
+  {
+    "gen": 1648,
+    "nevals": 50
+  },
+  {
+    "gen": 1649,
+    "nevals": 62
+  },
+  {
+    "gen": 1650,
+    "nevals": 63
+  },
+  {
+    "gen": 1651,
+    "nevals": 56
+  },
+  {
+    "gen": 1652,
+    "nevals": 77
+  },
+  {
+    "gen": 1653,
+    "nevals": 61
+  },
+  {
+    "gen": 1654,
+    "nevals": 66
+  },
+  {
+    "gen": 1655,
+    "nevals": 63
+  },
+  {
+    "gen": 1656,
+    "nevals": 64
+  },
+  {
+    "gen": 1657,
+    "nevals": 69
+  },
+  {
+    "gen": 1658,
+    "nevals": 60
+  },
+  {
+    "gen": 1659,
+    "nevals": 60
+  },
+  {
+    "gen": 1660,
+    "nevals": 64
+  },
+  {
+    "gen": 1661,
+    "nevals": 67
+  },
+  {
+    "gen": 1662,
+    "nevals": 65
+  },
+  {
+    "gen": 1663,
+    "nevals": 63
+  },
+  {
+    "gen": 1664,
+    "nevals": 76
+  },
+  {
+    "gen": 1665,
+    "nevals": 57
+  },
+  {
+    "gen": 1666,
+    "nevals": 65
+  },
+  {
+    "gen": 1667,
+    "nevals": 70
+  },
+  {
+    "gen": 1668,
+    "nevals": 71
+  },
+  {
+    "gen": 1669,
+    "nevals": 64
+  },
+  {
+    "gen": 1670,
+    "nevals": 61
+  },
+  {
+    "gen": 1671,
+    "nevals": 58
+  },
+  {
+    "gen": 1672,
+    "nevals": 67
+  },
+  {
+    "gen": 1673,
+    "nevals": 64
+  },
+  {
+    "gen": 1674,
+    "nevals": 58
+  },
+  {
+    "gen": 1675,
+    "nevals": 63
+  },
+  {
+    "gen": 1676,
+    "nevals": 71
+  },
+  {
+    "gen": 1677,
+    "nevals": 65
+  },
+  {
+    "gen": 1678,
+    "nevals": 68
+  },
+  {
+    "gen": 1679,
+    "nevals": 70
+  },
+  {
+    "gen": 1680,
+    "nevals": 70
+  },
+  {
+    "gen": 1681,
+    "nevals": 57
+  },
+  {
+    "gen": 1682,
+    "nevals": 63
+  },
+  {
+    "gen": 1683,
+    "nevals": 67
+  },
+  {
+    "gen": 1684,
+    "nevals": 59
+  },
+  {
+    "gen": 1685,
+    "nevals": 66
+  },
+  {
+    "gen": 1686,
+    "nevals": 60
+  },
+  {
+    "gen": 1687,
+    "nevals": 72
+  },
+  {
+    "gen": 1688,
+    "nevals": 61
+  },
+  {
+    "gen": 1689,
+    "nevals": 69
+  },
+  {
+    "gen": 1690,
+    "nevals": 64
+  },
+  {
+    "gen": 1691,
+    "nevals": 64
+  },
+  {
+    "gen": 1692,
+    "nevals": 67
+  },
+  {
+    "gen": 1693,
+    "nevals": 71
+  },
+  {
+    "gen": 1694,
+    "nevals": 66
+  },
+  {
+    "gen": 1695,
+    "nevals": 60
+  },
+  {
+    "gen": 1696,
+    "nevals": 56
+  },
+  {
+    "gen": 1697,
+    "nevals": 66
+  },
+  {
+    "gen": 1698,
+    "nevals": 73
+  },
+  {
+    "gen": 1699,
+    "nevals": 59
+  },
+  {
+    "gen": 1700,
+    "nevals": 60
+  },
+  {
+    "gen": 1701,
+    "nevals": 68
+  },
+  {
+    "gen": 1702,
+    "nevals": 65
+  },
+  {
+    "gen": 1703,
+    "nevals": 55
+  },
+  {
+    "gen": 1704,
+    "nevals": 69
+  },
+  {
+    "gen": 1705,
+    "nevals": 64
+  },
+  {
+    "gen": 1706,
+    "nevals": 51
+  },
+  {
+    "gen": 1707,
+    "nevals": 56
+  },
+  {
+    "gen": 1708,
+    "nevals": 59
+  },
+  {
+    "gen": 1709,
+    "nevals": 72
+  },
+  {
+    "gen": 1710,
+    "nevals": 75
+  },
+  {
+    "gen": 1711,
+    "nevals": 57
+  },
+  {
+    "gen": 1712,
+    "nevals": 63
+  },
+  {
+    "gen": 1713,
+    "nevals": 67
+  },
+  {
+    "gen": 1714,
+    "nevals": 73
+  },
+  {
+    "gen": 1715,
+    "nevals": 62
+  },
+  {
+    "gen": 1716,
+    "nevals": 65
+  },
+  {
+    "gen": 1717,
+    "nevals": 66
+  },
+  {
+    "gen": 1718,
+    "nevals": 68
+  },
+  {
+    "gen": 1719,
+    "nevals": 56
+  },
+  {
+    "gen": 1720,
+    "nevals": 67
+  },
+  {
+    "gen": 1721,
+    "nevals": 64
+  },
+  {
+    "gen": 1722,
+    "nevals": 63
+  },
+  {
+    "gen": 1723,
+    "nevals": 63
+  },
+  {
+    "gen": 1724,
+    "nevals": 65
+  },
+  {
+    "gen": 1725,
+    "nevals": 59
+  },
+  {
+    "gen": 1726,
+    "nevals": 68
+  },
+  {
+    "gen": 1727,
+    "nevals": 70
+  },
+  {
+    "gen": 1728,
+    "nevals": 64
+  },
+  {
+    "gen": 1729,
+    "nevals": 67
+  },
+  {
+    "gen": 1730,
+    "nevals": 62
+  },
+  {
+    "gen": 1731,
+    "nevals": 66
+  },
+  {
+    "gen": 1732,
+    "nevals": 69
+  },
+  {
+    "gen": 1733,
+    "nevals": 72
+  },
+  {
+    "gen": 1734,
+    "nevals": 63
+  },
+  {
+    "gen": 1735,
+    "nevals": 53
+  },
+  {
+    "gen": 1736,
+    "nevals": 73
+  },
+  {
+    "gen": 1737,
+    "nevals": 69
+  },
+  {
+    "gen": 1738,
+    "nevals": 62
+  },
+  {
+    "gen": 1739,
+    "nevals": 71
+  },
+  {
+    "gen": 1740,
+    "nevals": 66
+  },
+  {
+    "gen": 1741,
+    "nevals": 66
+  },
+  {
+    "gen": 1742,
+    "nevals": 68
+  },
+  {
+    "gen": 1743,
+    "nevals": 71
+  },
+  {
+    "gen": 1744,
+    "nevals": 61
+  },
+  {
+    "gen": 1745,
+    "nevals": 73
+  },
+  {
+    "gen": 1746,
+    "nevals": 66
+  },
+  {
+    "gen": 1747,
+    "nevals": 62
+  },
+  {
+    "gen": 1748,
+    "nevals": 55
+  },
+  {
+    "gen": 1749,
+    "nevals": 47
+  },
+  {
+    "gen": 1750,
+    "nevals": 56
+  },
+  {
+    "gen": 1751,
+    "nevals": 72
+  },
+  {
+    "gen": 1752,
+    "nevals": 59
+  },
+  {
+    "gen": 1753,
+    "nevals": 63
+  },
+  {
+    "gen": 1754,
+    "nevals": 67
+  },
+  {
+    "gen": 1755,
+    "nevals": 65
+  },
+  {
+    "gen": 1756,
+    "nevals": 56
+  },
+  {
+    "gen": 1757,
+    "nevals": 59
+  },
+  {
+    "gen": 1758,
+    "nevals": 65
+  },
+  {
+    "gen": 1759,
+    "nevals": 73
+  },
+  {
+    "gen": 1760,
+    "nevals": 72
+  },
+  {
+    "gen": 1761,
+    "nevals": 68
+  },
+  {
+    "gen": 1762,
+    "nevals": 72
+  },
+  {
+    "gen": 1763,
+    "nevals": 55
+  },
+  {
+    "gen": 1764,
+    "nevals": 67
+  },
+  {
+    "gen": 1765,
+    "nevals": 75
+  },
+  {
+    "gen": 1766,
+    "nevals": 58
+  },
+  {
+    "gen": 1767,
+    "nevals": 66
+  },
+  {
+    "gen": 1768,
+    "nevals": 71
+  },
+  {
+    "gen": 1769,
+    "nevals": 71
+  },
+  {
+    "gen": 1770,
+    "nevals": 60
+  },
+  {
+    "gen": 1771,
+    "nevals": 70
+  },
+  {
+    "gen": 1772,
+    "nevals": 59
+  },
+  {
+    "gen": 1773,
+    "nevals": 60
+  },
+  {
+    "gen": 1774,
+    "nevals": 65
+  },
+  {
+    "gen": 1775,
+    "nevals": 61
+  },
+  {
+    "gen": 1776,
+    "nevals": 64
+  },
+  {
+    "gen": 1777,
+    "nevals": 62
+  },
+  {
+    "gen": 1778,
+    "nevals": 64
+  },
+  {
+    "gen": 1779,
+    "nevals": 61
+  },
+  {
+    "gen": 1780,
+    "nevals": 68
+  },
+  {
+    "gen": 1781,
+    "nevals": 64
+  },
+  {
+    "gen": 1782,
+    "nevals": 67
+  },
+  {
+    "gen": 1783,
+    "nevals": 70
+  },
+  {
+    "gen": 1784,
+    "nevals": 67
+  },
+  {
+    "gen": 1785,
+    "nevals": 62
+  },
+  {
+    "gen": 1786,
+    "nevals": 63
+  },
+  {
+    "gen": 1787,
+    "nevals": 64
+  },
+  {
+    "gen": 1788,
+    "nevals": 56
+  },
+  {
+    "gen": 1789,
+    "nevals": 68
+  },
+  {
+    "gen": 1790,
+    "nevals": 72
+  },
+  {
+    "gen": 1791,
+    "nevals": 68
+  },
+  {
+    "gen": 1792,
+    "nevals": 68
+  },
+  {
+    "gen": 1793,
+    "nevals": 67
+  },
+  {
+    "gen": 1794,
+    "nevals": 65
+  },
+  {
+    "gen": 1795,
+    "nevals": 68
+  },
+  {
+    "gen": 1796,
+    "nevals": 59
+  },
+  {
+    "gen": 1797,
+    "nevals": 57
+  },
+  {
+    "gen": 1798,
+    "nevals": 71
+  },
+  {
+    "gen": 1799,
+    "nevals": 66
+  },
+  {
+    "gen": 1800,
+    "nevals": 69
+  },
+  {
+    "gen": 1801,
+    "nevals": 71
+  },
+  {
+    "gen": 1802,
+    "nevals": 60
+  },
+  {
+    "gen": 1803,
+    "nevals": 64
+  },
+  {
+    "gen": 1804,
+    "nevals": 62
+  },
+  {
+    "gen": 1805,
+    "nevals": 58
+  },
+  {
+    "gen": 1806,
+    "nevals": 61
+  },
+  {
+    "gen": 1807,
+    "nevals": 71
+  },
+  {
+    "gen": 1808,
+    "nevals": 65
+  },
+  {
+    "gen": 1809,
+    "nevals": 66
+  },
+  {
+    "gen": 1810,
+    "nevals": 70
+  },
+  {
+    "gen": 1811,
+    "nevals": 57
+  },
+  {
+    "gen": 1812,
+    "nevals": 66
+  },
+  {
+    "gen": 1813,
+    "nevals": 72
+  },
+  {
+    "gen": 1814,
+    "nevals": 73
+  },
+  {
+    "gen": 1815,
+    "nevals": 63
+  },
+  {
+    "gen": 1816,
+    "nevals": 65
+  },
+  {
+    "gen": 1817,
+    "nevals": 77
+  },
+  {
+    "gen": 1818,
+    "nevals": 65
+  },
+  {
+    "gen": 1819,
+    "nevals": 63
+  },
+  {
+    "gen": 1820,
+    "nevals": 65
+  },
+  {
+    "gen": 1821,
+    "nevals": 70
+  },
+  {
+    "gen": 1822,
+    "nevals": 67
+  },
+  {
+    "gen": 1823,
+    "nevals": 69
+  },
+  {
+    "gen": 1824,
+    "nevals": 64
+  },
+  {
+    "gen": 1825,
+    "nevals": 61
+  },
+  {
+    "gen": 1826,
+    "nevals": 64
+  },
+  {
+    "gen": 1827,
+    "nevals": 65
+  },
+  {
+    "gen": 1828,
+    "nevals": 66
+  },
+  {
+    "gen": 1829,
+    "nevals": 60
+  },
+  {
+    "gen": 1830,
+    "nevals": 58
+  },
+  {
+    "gen": 1831,
+    "nevals": 74
+  },
+  {
+    "gen": 1832,
+    "nevals": 59
+  },
+  {
+    "gen": 1833,
+    "nevals": 74
+  },
+  {
+    "gen": 1834,
+    "nevals": 68
+  },
+  {
+    "gen": 1835,
+    "nevals": 53
+  },
+  {
+    "gen": 1836,
+    "nevals": 60
+  },
+  {
+    "gen": 1837,
+    "nevals": 67
+  },
+  {
+    "gen": 1838,
+    "nevals": 69
+  },
+  {
+    "gen": 1839,
+    "nevals": 62
+  },
+  {
+    "gen": 1840,
+    "nevals": 70
+  },
+  {
+    "gen": 1841,
+    "nevals": 69
+  },
+  {
+    "gen": 1842,
+    "nevals": 64
+  },
+  {
+    "gen": 1843,
+    "nevals": 65
+  },
+  {
+    "gen": 1844,
+    "nevals": 61
+  },
+  {
+    "gen": 1845,
+    "nevals": 57
+  },
+  {
+    "gen": 1846,
+    "nevals": 62
+  },
+  {
+    "gen": 1847,
+    "nevals": 62
+  },
+  {
+    "gen": 1848,
+    "nevals": 61
+  },
+  {
+    "gen": 1849,
+    "nevals": 75
+  },
+  {
+    "gen": 1850,
+    "nevals": 71
+  },
+  {
+    "gen": 1851,
+    "nevals": 72
+  },
+  {
+    "gen": 1852,
+    "nevals": 66
+  },
+  {
+    "gen": 1853,
+    "nevals": 62
+  },
+  {
+    "gen": 1854,
+    "nevals": 71
+  },
+  {
+    "gen": 1855,
+    "nevals": 71
+  },
+  {
+    "gen": 1856,
+    "nevals": 71
+  },
+  {
+    "gen": 1857,
+    "nevals": 60
+  },
+  {
+    "gen": 1858,
+    "nevals": 76
+  },
+  {
+    "gen": 1859,
+    "nevals": 68
+  },
+  {
+    "gen": 1860,
+    "nevals": 52
+  },
+  {
+    "gen": 1861,
+    "nevals": 60
+  },
+  {
+    "gen": 1862,
+    "nevals": 65
+  },
+  {
+    "gen": 1863,
+    "nevals": 73
+  },
+  {
+    "gen": 1864,
+    "nevals": 59
+  },
+  {
+    "gen": 1865,
+    "nevals": 61
+  },
+  {
+    "gen": 1866,
+    "nevals": 60
+  },
+  {
+    "gen": 1867,
+    "nevals": 65
+  },
+  {
+    "gen": 1868,
+    "nevals": 73
+  },
+  {
+    "gen": 1869,
+    "nevals": 70
+  },
+  {
+    "gen": 1870,
+    "nevals": 58
+  },
+  {
+    "gen": 1871,
+    "nevals": 70
+  },
+  {
+    "gen": 1872,
+    "nevals": 64
+  },
+  {
+    "gen": 1873,
+    "nevals": 64
+  },
+  {
+    "gen": 1874,
+    "nevals": 63
+  },
+  {
+    "gen": 1875,
+    "nevals": 64
+  },
+  {
+    "gen": 1876,
+    "nevals": 66
+  },
+  {
+    "gen": 1877,
+    "nevals": 66
+  },
+  {
+    "gen": 1878,
+    "nevals": 72
+  },
+  {
+    "gen": 1879,
+    "nevals": 64
+  },
+  {
+    "gen": 1880,
+    "nevals": 56
+  },
+  {
+    "gen": 1881,
+    "nevals": 75
+  },
+  {
+    "gen": 1882,
+    "nevals": 63
+  },
+  {
+    "gen": 1883,
+    "nevals": 59
+  },
+  {
+    "gen": 1884,
+    "nevals": 74
+  },
+  {
+    "gen": 1885,
+    "nevals": 66
+  },
+  {
+    "gen": 1886,
+    "nevals": 68
+  },
+  {
+    "gen": 1887,
+    "nevals": 63
+  },
+  {
+    "gen": 1888,
+    "nevals": 67
+  },
+  {
+    "gen": 1889,
+    "nevals": 72
+  },
+  {
+    "gen": 1890,
+    "nevals": 73
+  },
+  {
+    "gen": 1891,
+    "nevals": 66
+  },
+  {
+    "gen": 1892,
+    "nevals": 69
+  },
+  {
+    "gen": 1893,
+    "nevals": 59
+  },
+  {
+    "gen": 1894,
+    "nevals": 69
+  },
+  {
+    "gen": 1895,
+    "nevals": 75
+  },
+  {
+    "gen": 1896,
+    "nevals": 59
+  },
+  {
+    "gen": 1897,
+    "nevals": 62
+  },
+  {
+    "gen": 1898,
+    "nevals": 69
+  },
+  {
+    "gen": 1899,
+    "nevals": 64
+  },
+  {
+    "gen": 1900,
+    "nevals": 57
+  },
+  {
+    "gen": 1901,
+    "nevals": 72
+  },
+  {
+    "gen": 1902,
+    "nevals": 68
+  },
+  {
+    "gen": 1903,
+    "nevals": 62
+  },
+  {
+    "gen": 1904,
+    "nevals": 58
+  },
+  {
+    "gen": 1905,
+    "nevals": 72
+  },
+  {
+    "gen": 1906,
+    "nevals": 65
+  },
+  {
+    "gen": 1907,
+    "nevals": 58
+  },
+  {
+    "gen": 1908,
+    "nevals": 72
+  },
+  {
+    "gen": 1909,
+    "nevals": 72
+  },
+  {
+    "gen": 1910,
+    "nevals": 57
+  },
+  {
+    "gen": 1911,
+    "nevals": 75
+  },
+  {
+    "gen": 1912,
+    "nevals": 57
+  },
+  {
+    "gen": 1913,
+    "nevals": 66
+  },
+  {
+    "gen": 1914,
+    "nevals": 66
+  },
+  {
+    "gen": 1915,
+    "nevals": 68
+  },
+  {
+    "gen": 1916,
+    "nevals": 72
+  },
+  {
+    "gen": 1917,
+    "nevals": 65
+  },
+  {
+    "gen": 1918,
+    "nevals": 65
+  },
+  {
+    "gen": 1919,
+    "nevals": 59
+  },
+  {
+    "gen": 1920,
+    "nevals": 54
+  },
+  {
+    "gen": 1921,
+    "nevals": 70
+  },
+  {
+    "gen": 1922,
+    "nevals": 64
+  },
+  {
+    "gen": 1923,
+    "nevals": 75
+  },
+  {
+    "gen": 1924,
+    "nevals": 56
+  },
+  {
+    "gen": 1925,
+    "nevals": 68
+  },
+  {
+    "gen": 1926,
+    "nevals": 66
+  },
+  {
+    "gen": 1927,
+    "nevals": 69
+  },
+  {
+    "gen": 1928,
+    "nevals": 62
+  },
+  {
+    "gen": 1929,
+    "nevals": 62
+  },
+  {
+    "gen": 1930,
+    "nevals": 74
+  },
+  {
+    "gen": 1931,
+    "nevals": 58
+  },
+  {
+    "gen": 1932,
+    "nevals": 67
+  },
+  {
+    "gen": 1933,
+    "nevals": 71
+  },
+  {
+    "gen": 1934,
+    "nevals": 60
+  },
+  {
+    "gen": 1935,
+    "nevals": 57
+  },
+  {
+    "gen": 1936,
+    "nevals": 68
+  },
+  {
+    "gen": 1937,
+    "nevals": 65
+  },
+  {
+    "gen": 1938,
+    "nevals": 58
+  },
+  {
+    "gen": 1939,
+    "nevals": 62
+  },
+  {
+    "gen": 1940,
+    "nevals": 67
+  },
+  {
+    "gen": 1941,
+    "nevals": 61
+  },
+  {
+    "gen": 1942,
+    "nevals": 69
+  },
+  {
+    "gen": 1943,
+    "nevals": 71
+  },
+  {
+    "gen": 1944,
+    "nevals": 75
+  },
+  {
+    "gen": 1945,
+    "nevals": 63
+  },
+  {
+    "gen": 1946,
+    "nevals": 64
+  },
+  {
+    "gen": 1947,
+    "nevals": 70
+  },
+  {
+    "gen": 1948,
+    "nevals": 71
+  },
+  {
+    "gen": 1949,
+    "nevals": 61
+  },
+  {
+    "gen": 1950,
+    "nevals": 66
+  },
+  {
+    "gen": 1951,
+    "nevals": 66
+  },
+  {
+    "gen": 1952,
+    "nevals": 67
+  },
+  {
+    "gen": 1953,
+    "nevals": 71
+  },
+  {
+    "gen": 1954,
+    "nevals": 73
+  },
+  {
+    "gen": 1955,
+    "nevals": 60
+  },
+  {
+    "gen": 1956,
+    "nevals": 67
+  },
+  {
+    "gen": 1957,
+    "nevals": 67
+  },
+  {
+    "gen": 1958,
+    "nevals": 72
+  },
+  {
+    "gen": 1959,
+    "nevals": 66
+  },
+  {
+    "gen": 1960,
+    "nevals": 67
+  },
+  {
+    "gen": 1961,
+    "nevals": 57
+  },
+  {
+    "gen": 1962,
+    "nevals": 59
+  },
+  {
+    "gen": 1963,
+    "nevals": 62
+  },
+  {
+    "gen": 1964,
+    "nevals": 48
+  },
+  {
+    "gen": 1965,
+    "nevals": 66
+  },
+  {
+    "gen": 1966,
+    "nevals": 73
+  },
+  {
+    "gen": 1967,
+    "nevals": 63
+  },
+  {
+    "gen": 1968,
+    "nevals": 65
+  },
+  {
+    "gen": 1969,
+    "nevals": 63
+  },
+  {
+    "gen": 1970,
+    "nevals": 61
+  },
+  {
+    "gen": 1971,
+    "nevals": 68
+  },
+  {
+    "gen": 1972,
+    "nevals": 61
+  },
+  {
+    "gen": 1973,
+    "nevals": 66
+  },
+  {
+    "gen": 1974,
+    "nevals": 70
+  },
+  {
+    "gen": 1975,
+    "nevals": 69
+  },
+  {
+    "gen": 1976,
+    "nevals": 62
+  },
+  {
+    "gen": 1977,
+    "nevals": 68
+  },
+  {
+    "gen": 1978,
+    "nevals": 61
+  },
+  {
+    "gen": 1979,
+    "nevals": 62
+  },
+  {
+    "gen": 1980,
+    "nevals": 66
+  },
+  {
+    "gen": 1981,
+    "nevals": 56
+  },
+  {
+    "gen": 1982,
+    "nevals": 67
+  },
+  {
+    "gen": 1983,
+    "nevals": 61
+  },
+  {
+    "gen": 1984,
+    "nevals": 67
+  },
+  {
+    "gen": 1985,
+    "nevals": 61
+  },
+  {
+    "gen": 1986,
+    "nevals": 67
+  },
+  {
+    "gen": 1987,
+    "nevals": 64
+  },
+  {
+    "gen": 1988,
+    "nevals": 69
+  },
+  {
+    "gen": 1989,
+    "nevals": 63
+  },
+  {
+    "gen": 1990,
+    "nevals": 71
+  },
+  {
+    "gen": 1991,
+    "nevals": 61
+  },
+  {
+    "gen": 1992,
+    "nevals": 70
+  },
+  {
+    "gen": 1993,
+    "nevals": 64
+  },
+  {
+    "gen": 1994,
+    "nevals": 61
+  },
+  {
+    "gen": 1995,
+    "nevals": 72
+  },
+  {
+    "gen": 1996,
+    "nevals": 59
+  },
+  {
+    "gen": 1997,
+    "nevals": 64
+  },
+  {
+    "gen": 1998,
+    "nevals": 62
+  },
+  {
+    "gen": 1999,
+    "nevals": 72
+  },
+  {
+    "gen": 2000,
+    "nevals": 61
+  }
+]

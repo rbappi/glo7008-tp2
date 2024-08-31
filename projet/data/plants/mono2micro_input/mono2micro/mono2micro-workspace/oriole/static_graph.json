@@ -1,0 +1,501 @@
+{
+    "mono_data_dependency_graph": {
+        "nodes": [
+            {
+                "name": "Util",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/Util.java",
+                "semantics": []
+            },
+            {
+                "name": "ListProperties",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/utils/ListProperties.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrder",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/BackOrder.java",
+                "semantics": []
+            },
+            {
+                "name": "Order",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Order.java",
+                "semantics": []
+            },
+            {
+                "name": "Supplier",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Supplier.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "Inventory",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Inventory.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderKey",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/OrderKey.java",
+                "semantics": []
+            },
+            {
+                "name": "Customer",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/jpa/Customer.java",
+                "semantics": []
+            },
+            {
+                "name": "MailerBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ResetDBBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ResetDBBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartContent",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartContent.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingCartBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/ShoppingCartBean.java",
+                "semantics": []
+            },
+            {
+                "name": "PopulateDBBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/PopulateDBBean.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/BackOrderMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "MailerAppException",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/MailerAppException.java",
+                "semantics": []
+            },
+            {
+                "name": "SuppliersBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/SuppliersBean.java",
+                "semantics": []
+            },
+            {
+                "name": "EMailMessage",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/EMailMessage.java",
+                "semantics": []
+            },
+            {
+                "name": "CustomerMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CustomerMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "CatalogMgr",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/CatalogMgr.java",
+                "semantics": []
+            },
+            {
+                "name": "NoSupplierException",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/bean/NoSupplierException.java",
+                "semantics": []
+            },
+            {
+                "name": "LoginInfo",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/LoginInfo.java",
+                "semantics": []
+            },
+            {
+                "name": "OrderInfo",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/OrderInfo.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatePasswords",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatePasswords.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountBean.java",
+                "semantics": []
+            },
+            {
+                "name": "HelpBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/HelpBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ProductBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ProductBean.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingItem.java",
+                "semantics": []
+            },
+            {
+                "name": "MailAction",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/MailAction.java",
+                "semantics": []
+            },
+            {
+                "name": "ShoppingBean",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ShoppingBean.java",
+                "semantics": []
+            },
+            {
+                "name": "Populate",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/Populate.java",
+                "semantics": []
+            },
+            {
+                "name": "AdminServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AdminServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "AccountServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/AccountServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "BackOrderItem",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/BackOrderItem.java",
+                "semantics": []
+            },
+            {
+                "name": "ImageServlet",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ImageServlet.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorUtils",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/com/ibm/websphere/samples/pbw/war/ValidatorUtils.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "Util",
+                "target": "ListProperties",
+                "value": "1"
+            },
+            {
+                "source": "BackOrder",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "Order",
+                "target": "Customer",
+                "value": "1"
+            },
+            {
+                "source": "Order",
+                "target": "OrderItem",
+                "value": "1"
+            },
+            {
+                "source": "OrderItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "OrderItem",
+                "target": "Order",
+                "value": "1"
+            },
+            {
+                "source": "Inventory",
+                "target": "BackOrder",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "ResetDBBean",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingCartBean",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "PopulateDBBean",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "MailerBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "Customer",
+                "value": "2"
+            },
+            {
+                "source": "AccountBean",
+                "target": "LoginInfo",
+                "value": "1"
+            },
+            {
+                "source": "AccountBean",
+                "target": "OrderInfo",
+                "value": "1"
+            },
+            {
+                "source": "HelpBean",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "ProductBean",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "MailAction",
+                "target": "MailerBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ProductBean",
+                "value": "2"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "ShoppingBean",
+                "target": "ShoppingItem",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "ShoppingCartBean",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "Populate",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "ResetDBBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "SuppliersBean",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "BackOrderMgr",
+                "value": "1"
+            },
+            {
+                "source": "AdminServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountServlet",
+                "target": "CustomerMgr",
+                "value": "1"
+            },
+            {
+                "source": "AccountServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            },
+            {
+                "source": "BackOrderItem",
+                "target": "Inventory",
+                "value": "1"
+            },
+            {
+                "source": "ImageServlet",
+                "target": "CatalogMgr",
+                "value": "1"
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "data_dep_island_0",
+                    "group": 0,
+                    "category": "data_dep_island_0",
+                    "filepath": "data_dep_island_0",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_1",
+                    "group": 1,
+                    "category": "data_dep_island_1",
+                    "filepath": "data_dep_island_1",
+                    "semantics": []
+                },
+                {
+                    "name": "default_group",
+                    "group": 2,
+                    "category": "default_group",
+                    "filepath": "default_group",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    }
+}

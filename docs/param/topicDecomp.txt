@@ -1,0 +1,15 @@
+usage: topicdec [-h] [--k_topics K_TOPICS] [--resolution RESOLUTION] {petclinic,plants}
+
+Run the Topic Decomp approach
+
+positional arguments:
+  {petclinic,plants}    application to decompose
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --k_topics K_TOPICS, -k K_TOPICS
+                        Number of topics for given project
+  --resolution RESOLUTION, -r RESOLUTION
+                        Resolution number parameter in Louvain community detection. A value in range of 0.3 to 1 is
+                        advised. A smaller resolution will identify smaller communities and vice versa. By default the
+                        whole range is tested and communities for each community saved.

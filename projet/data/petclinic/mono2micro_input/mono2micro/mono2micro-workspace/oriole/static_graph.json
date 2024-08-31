@@ -1,0 +1,461 @@
+{
+    "mono_data_dependency_graph": {
+        "nodes": [
+            {
+                "name": "MavenWrapperDownloader",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/.mvn/wrapper/MavenWrapperDownloader.java",
+                "semantics": []
+            },
+            {
+                "name": "PetTypeFormatterTests",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java",
+                "semantics": []
+            },
+            {
+                "name": "VetControllerTests",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "OwnerControllerTests",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "CrashControllerTests",
+                "group": 4,
+                "category": "data_dep_island_3",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "PetControllerTests",
+                "group": 5,
+                "category": "data_dep_island_4",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "VisitControllerTests",
+                "group": 6,
+                "category": "data_dep_island_5",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+                "semantics": []
+            },
+            {
+                "name": "AbstractClinicServiceTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceSpringDataJpaTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJpaTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJdbcTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java",
+                "semantics": []
+            },
+            {
+                "name": "PetclinicInitializer",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java",
+                "semantics": []
+            },
+            {
+                "name": "PetTypeFormatter",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java",
+                "semantics": []
+            },
+            {
+                "name": "OwnerController",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java",
+                "semantics": []
+            },
+            {
+                "name": "VetController",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java",
+                "semantics": []
+            },
+            {
+                "name": "PetController",
+                "group": 5,
+                "category": "data_dep_island_4",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+                "semantics": []
+            },
+            {
+                "name": "CrashController",
+                "group": 4,
+                "category": "data_dep_island_3",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/CrashController.java",
+                "semantics": []
+            },
+            {
+                "name": "PetValidator",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java",
+                "semantics": []
+            },
+            {
+                "name": "VisitController",
+                "group": 6,
+                "category": "data_dep_island_5",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/VisitController.java",
+                "semantics": []
+            },
+            {
+                "name": "Owner",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java",
+                "semantics": []
+            },
+            {
+                "name": "NamedEntity",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+                "semantics": []
+            },
+            {
+                "name": "Vet",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java",
+                "semantics": []
+            },
+            {
+                "name": "Vets",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java",
+                "semantics": []
+            },
+            {
+                "name": "Pet",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java",
+                "semantics": []
+            },
+            {
+                "name": "BaseEntity",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+                "semantics": []
+            },
+            {
+                "name": "Person",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java",
+                "semantics": []
+            },
+            {
+                "name": "Specialty",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Specialty.java",
+                "semantics": []
+            },
+            {
+                "name": "PetType",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/PetType.java",
+                "semantics": []
+            },
+            {
+                "name": "Visit",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java",
+                "semantics": []
+            },
+            {
+                "name": "EntityUtils",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+                "semantics": []
+            },
+            {
+                "name": "CallMonitoringAspect",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVisitRowMapper",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetVisitExtractor",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetRowMapper",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java",
+                "semantics": []
+            },
+            {
+                "name": "OneToManyResultSetExtractor",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/OneToManyResultSetExtractor.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPet",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcOwnerRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVisitRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaVetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaOwnerRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaPetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaVisitRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "PetTypeFormatter",
+                "value": "1"
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "VetController",
+                "value": "1"
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "OwnerController",
+                "value": "1"
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Owner",
+                "value": "1"
+            },
+            {
+                "source": "CrashControllerTests",
+                "target": "CrashController",
+                "value": "1"
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetController",
+                "value": "1"
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "VisitController",
+                "value": "1"
+            },
+            {
+                "source": "Owner",
+                "target": "Pet",
+                "value": "1"
+            },
+            {
+                "source": "Vet",
+                "target": "Specialty",
+                "value": "1"
+            },
+            {
+                "source": "Vets",
+                "target": "Vet",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "PetType",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "Owner",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "Visit",
+                "value": "1"
+            },
+            {
+                "source": "Visit",
+                "target": "Pet",
+                "value": "1"
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "data_dep_island_0",
+                    "group": 0,
+                    "category": "data_dep_island_0",
+                    "filepath": "data_dep_island_0",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_1",
+                    "group": 1,
+                    "category": "data_dep_island_1",
+                    "filepath": "data_dep_island_1",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_2",
+                    "group": 2,
+                    "category": "data_dep_island_2",
+                    "filepath": "data_dep_island_2",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_3",
+                    "group": 3,
+                    "category": "data_dep_island_3",
+                    "filepath": "data_dep_island_3",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_4",
+                    "group": 4,
+                    "category": "data_dep_island_4",
+                    "filepath": "data_dep_island_4",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_5",
+                    "group": 5,
+                    "category": "data_dep_island_5",
+                    "filepath": "data_dep_island_5",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_6",
+                    "group": 6,
+                    "category": "data_dep_island_6",
+                    "filepath": "data_dep_island_6",
+                    "semantics": []
+                },
+                {
+                    "name": "default_group",
+                    "group": 7,
+                    "category": "default_group",
+                    "filepath": "default_group",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    }
+}

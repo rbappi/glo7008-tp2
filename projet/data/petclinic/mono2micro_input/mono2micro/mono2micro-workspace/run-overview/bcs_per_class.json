@@ -1,0 +1,136 @@
+{
+    "$Root$": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_veterinaires",
+        "liste_proprietaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal"
+    ],
+    "OwnerController": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_proprietaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal"
+    ],
+    "Person": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_veterinaires",
+        "liste_proprietaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal"
+    ],
+    "ClinicServiceImpl": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_veterinaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "CallMonitoringAspect": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_veterinaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "JpaOwnerRepositoryImpl": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "Visit": [
+        "maj_animal",
+        "maj_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "BaseEntity": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "liste_veterinaires",
+        "proprietaire",
+        "details_proprietaire",
+        "maj_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "Owner": [
+        "maj_animal",
+        "ajouter_proprietaire",
+        "proprietaire",
+        "maj_proprietaire",
+        "details_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "NamedEntity": [
+        "maj_animal",
+        "liste_veterinaires",
+        "proprietaire",
+        "maj_proprietaire",
+        "details_proprietaire",
+        "ajouter_animal",
+        "liste_proprietaires"
+    ],
+    "PetController": [
+        "maj_animal",
+        "ajouter_animal"
+    ],
+    "JpaPetRepositoryImpl": [
+        "maj_animal",
+        "ajouter_animal"
+    ],
+    "PetValidator": [
+        "maj_animal",
+        "ajouter_animal"
+    ],
+    "Pet": [
+        "maj_animal",
+        "proprietaire",
+        "maj_proprietaire",
+        "details_proprietaire",
+        "ajouter_animal"
+    ],
+    "PetTypeFormatter": [
+        "maj_animal",
+        "ajouter_animal"
+    ],
+    "VisitController": [
+        "maj_animal",
+        "ajouter_animal"
+    ],
+    "JpaVisitRepositoryImpl": [
+        "maj_animal"
+    ],
+    "VetController": [
+        "liste_veterinaires"
+    ],
+    "Vets": [
+        "liste_veterinaires"
+    ],
+    "JpaVetRepositoryImpl": [
+        "liste_veterinaires"
+    ],
+    "Vet": [
+        "liste_veterinaires"
+    ]
+}

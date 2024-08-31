@@ -1,0 +1,39 @@
+name: decomp-lab
+services:
+  visualization:
+    image: dcalsel/micropower:lab
+    environment:
+      SERVICE_EVALUATION: evaluation
+      SERVICE_EVALUATION_PORT: 50051
+      SERVICE_JAVA_ANALYSIS: java-analysis
+      SERVICE_JAVA_ANALYSIS_PORT: 50100
+    depends_on:
+      - evaluation
+      - java-analysis
+    ports:
+      - "3000:3000"
+  evaluation:
+    image: dcalsel/decomp-evaluation-service:lab
+    environment:
+      SERVICE_PARSING: parsing
+      SERVICE_PARSING_PORT: 50500
+      SERVICE_JAVA_ANALYSIS: java-analysis
+      SERVICE_JAVA_ANALYSIS_PORT: 50100
+    depends_on:
+      - java-analysis
+      - parsing
+    ports:
+      - "50051:50051"
+  parsing:
+    image: dcalsel/decomp-parsing-service:lab
+    environment:
+      SERVICE_JAVA_ANALYSIS: java-analysis
+      SERVICE_JAVA_ANALYSIS_PORT: 50100
+    depends_on:
+      - java-analysis
+    ports:
+      - "50500:50500"
+  java-analysis:
+    image: dcalsel/decomp-java-analysis-service:lab
+    ports:
+      - "50100:50100"

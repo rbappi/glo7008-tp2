@@ -1,0 +1,135 @@
+{
+    "Customer": {
+        "business_context": [
+            "compte",
+            "payer"
+        ],
+        "final": "0"
+    },
+    "AccountBean": {
+        "business_context": [
+            "compte",
+            "payer"
+        ],
+        "final": "0"
+    },
+    "CustomerMgr": {
+        "business_context": [
+            "compte"
+        ],
+        "final": "0"
+    },
+    "LoginInfo": {
+        "business_context": [
+            "compte"
+        ],
+        "final": "0"
+    },
+    "ImageServlet": {
+        "business_context": [
+            "catalogue",
+            "shopping"
+        ],
+        "final": "1"
+    },
+    "CatalogMgr": {
+        "business_context": [
+            "catalogue",
+            "shopping"
+        ],
+        "final": "1"
+    },
+    "Util": {
+        "business_context": [
+            "catalogue",
+            "shopping",
+            "payer"
+        ],
+        "final": "1"
+    },
+    "ProductBean": {
+        "business_context": [
+            "shopping",
+            "catalogue"
+        ],
+        "final": "1"
+    },
+    "Inventory": {
+        "business_context": [
+            "payer",
+            "catalogue",
+            "shopping",
+            "compte"
+        ],
+        "final": "2"
+    },
+    "ShoppingCartBean": {
+        "business_context": [
+            "payer",
+            "shopping",
+            "catalogue",
+            "compte",
+            "acces_interface"
+        ],
+        "final": "2"
+    },
+    "ShoppingBean": {
+        "business_context": [
+            "payer",
+            "shopping",
+            "catalogue",
+            "compte",
+            "acces_interface"
+        ],
+        "final": "2"
+    },
+    "ShoppingItem": {
+        "business_context": [
+            "payer",
+            "shopping"
+        ],
+        "final": "2"
+    },
+    "Order": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "OrderItem": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "OrderInfo": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "MailerBean": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "MailerAppException": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "EMailMessage": {
+        "business_context": [
+            "payer"
+        ],
+        "final": "3"
+    },
+    "BackOrder": {
+        "business_context": [
+            "Unknown"
+        ],
+        "final": "1"
+    }
+}

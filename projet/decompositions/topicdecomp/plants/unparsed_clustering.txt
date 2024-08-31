@@ -1,0 +1,1218 @@
+Modularity 0.35604727232644906
+Resolution 0.3
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 4
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 5
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 6
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.29648479761679103
+Resolution 0.3
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 2
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 6
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 8
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+
+Service 9
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 7
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 4
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 5
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.3228475757341568
+Resolution 0.3
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 2
+com.ibm.websphere.samples.pbw.utils.ListProperties
+
+Service 4
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 7
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 6
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 5
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.35129769235306435
+Resolution 0.4
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 0
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 6
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 2
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 4
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 7
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.22123749826532055
+Resolution 0.4
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 2
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 4
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 3
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 6
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 7
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.2631119201824463
+Resolution 0.4
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 7
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+
+Service 0
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 8
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 4
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 6
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.34970893095433586
+Resolution 0.5
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 0
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 4
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 5
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 7
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 6
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.34970893095433586
+Resolution 0.5
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 2
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 6
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 3
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 4
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 7
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.3380261990912498
+Resolution 0.5
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 3
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 6
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 8
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 4
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 5
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 7
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.34970893095433586
+Resolution 0.6000000000000001
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 4
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+
+Service 2
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 7
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 5
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 6
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+Service 3
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.36985463961604503
+Resolution 0.6000000000000001
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 0
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 4
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.34354049490205485
+Resolution 0.6000000000000001
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 4
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+
+Service 6
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 7
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4016969228566035
+Resolution 0.7000000000000002
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.36802903377921325
+Resolution 0.7000000000000002
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 4
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 5
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 2
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 3
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+
+Service 6
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.jpa.Order
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4016969228566035
+Resolution 0.7000000000000002
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.3979796683604404
+Resolution 0.8000000000000003
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 2
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.war.ImageServlet
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.39797966836044035
+Resolution 0.8000000000000003
+Service 1
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 0
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.war.ImageServlet
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.39680487249599766
+Resolution 0.8000000000000003
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 2
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 1
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.40196977193714056
+Resolution 0.9000000000000001
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.3979796683604404
+Resolution 0.9000000000000001
+Service 2
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.war.ImageServlet
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.40196977193714056
+Resolution 0.9000000000000001
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4007575965262821
+Resolution 1.0000000000000002
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 3
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.39797966836044035
+Resolution 1.0000000000000002
+Service 0
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.war.ImageServlet
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4007575965262822
+Resolution 1.0000000000000002
+Service 3
+com.ibm.websphere.samples.pbw.jpa.Inventory
+com.ibm.websphere.samples.pbw.jpa.BackOrder
+com.ibm.websphere.samples.pbw.bean.ShoppingCartBean
+com.ibm.websphere.samples.pbw.bean.BackOrderMgr
+com.ibm.websphere.samples.pbw.war.ShoppingBean
+com.ibm.websphere.samples.pbw.war.ShoppingItem
+com.ibm.websphere.samples.pbw.war.ProductBean
+com.ibm.websphere.samples.pbw.jpa.OrderItem
+com.ibm.websphere.samples.pbw.war.BackOrderItem
+com.ibm.websphere.samples.pbw.bean.ShoppingCartContent
+com.ibm.websphere.samples.pbw.war.AdminServlet
+com.ibm.websphere.samples.pbw.jpa.OrderItem.PK
+
+Service 1
+com.ibm.websphere.samples.pbw.utils.Util
+com.ibm.websphere.samples.pbw.bean.ResetDBBean
+com.ibm.websphere.samples.pbw.war.Populate
+com.ibm.websphere.samples.pbw.utils.ListProperties
+com.ibm.websphere.samples.pbw.bean.SuppliersBean
+com.ibm.websphere.samples.pbw.war.HelpBean
+com.ibm.websphere.samples.pbw.bean.PopulateDBBean
+com.ibm.websphere.samples.pbw.jpa.Supplier
+
+Service 2
+com.ibm.websphere.samples.pbw.bean.CatalogMgr
+com.ibm.websphere.samples.pbw.war.ImageServlet
+
+Service 0
+com.ibm.websphere.samples.pbw.bean.CustomerMgr
+com.ibm.websphere.samples.pbw.war.OrderInfo
+com.ibm.websphere.samples.pbw.war.AccountBean
+com.ibm.websphere.samples.pbw.bean.MailerBean
+com.ibm.websphere.samples.pbw.war.MailAction
+com.ibm.websphere.samples.pbw.war.AccountServlet
+com.ibm.websphere.samples.pbw.jpa.Customer
+com.ibm.websphere.samples.pbw.jpa.Order
+com.ibm.websphere.samples.pbw.war.LoginInfo
+com.ibm.websphere.samples.pbw.bean.MailerAppException
+com.ibm.websphere.samples.pbw.bean.EMailMessage
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,71 @@
+{
+    "0": {
+        "classes": [
+            "Visit",
+            "VisitController",
+            "Pet",
+            "JpaVisitRepositoryImpl"
+        ],
+        "business_context": [
+            "maj_animal",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires",
+            "proprietaire",
+            "details_proprietaire"
+        ]
+    },
+    "1": {
+        "classes": [
+            "Owner",
+            "NamedEntity",
+            "PetController",
+            "PetValidator",
+            "JpaPetRepositoryImpl",
+            "PetTypeFormatter"
+        ],
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "proprietaire",
+            "maj_proprietaire",
+            "details_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires",
+            "liste_veterinaires"
+        ]
+    },
+    "2": {
+        "classes": [
+            "ClinicServiceImpl",
+            "CallMonitoringAspect",
+            "JpaOwnerRepositoryImpl",
+            "OwnerController",
+            "Person",
+            "BaseEntity",
+            "JdbcVetRepositoryImpl"
+        ],
+        "business_context": [
+            "maj_animal",
+            "ajouter_proprietaire",
+            "liste_veterinaires",
+            "proprietaire",
+            "details_proprietaire",
+            "maj_proprietaire",
+            "ajouter_animal",
+            "liste_proprietaires",
+            "Unknown"
+        ]
+    },
+    "3": {
+        "classes": [
+            "VetController",
+            "Vets",
+            "JpaVetRepositoryImpl",
+            "Vet"
+        ],
+        "business_context": [
+            "liste_veterinaires"
+        ]
+    }
+}

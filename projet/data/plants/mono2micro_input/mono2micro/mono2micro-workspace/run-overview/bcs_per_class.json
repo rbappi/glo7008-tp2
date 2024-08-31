@@ -1,0 +1,82 @@
+{
+    "$Root$": [
+        "payer",
+        "catalogue",
+        "shopping",
+        "compte",
+        "acces_interface"
+    ],
+    "ImageServlet": [
+        "catalogue",
+        "shopping"
+    ],
+    "Util": [
+        "catalogue",
+        "shopping",
+        "payer"
+    ],
+    "CatalogMgr": [
+        "catalogue",
+        "shopping"
+    ],
+    "Inventory": [
+        "payer",
+        "catalogue",
+        "shopping",
+        "compte"
+    ],
+    "ShoppingBean": [
+        "payer",
+        "shopping",
+        "catalogue",
+        "compte",
+        "acces_interface"
+    ],
+    "ShoppingCartBean": [
+        "payer",
+        "shopping",
+        "catalogue",
+        "compte",
+        "acces_interface"
+    ],
+    "ProductBean": [
+        "shopping",
+        "catalogue"
+    ],
+    "ShoppingItem": [
+        "payer",
+        "shopping"
+    ],
+    "Order": [
+        "payer"
+    ],
+    "Customer": [
+        "compte",
+        "payer"
+    ],
+    "OrderItem": [
+        "payer"
+    ],
+    "CustomerMgr": [
+        "compte"
+    ],
+    "AccountBean": [
+        "compte",
+        "payer"
+    ],
+    "LoginInfo": [
+        "compte"
+    ],
+    "OrderInfo": [
+        "payer"
+    ],
+    "MailerBean": [
+        "payer"
+    ],
+    "MailerAppException": [
+        "payer"
+    ],
+    "EMailMessage": [
+        "payer"
+    ]
+}

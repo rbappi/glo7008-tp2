@@ -1,0 +1,831 @@
+1703215726101,liste_veterinaires,$Root$ calls VetController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showVetList
+1703215726101,liste_veterinaires,VetController calls VetController,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showVetList,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets
+1703215726102,liste_veterinaires,VetController calls Vets,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList
+1703215726102,liste_veterinaires,Vets returns to VetController,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets
+1703215726106,liste_veterinaires,VetController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findVets
+1703215726106,liste_veterinaires,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findVets,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215726107,liste_veterinaires,CallMonitoringAspect calls JpaVetRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java:JpaVetRepositoryImpl:findAll
+1703215726115,liste_veterinaires,JpaVetRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java:JpaVetRepositoryImpl:findAll,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215726116,liste_veterinaires,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findVets
+1703215726118,liste_veterinaires,ClinicServiceImpl returns to VetController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findVets,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets
+1703215726119,liste_veterinaires,VetController returns to VetController,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showVetList
+1703215726119,liste_veterinaires,VetController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showVetList,<None>:$Root$:<None>
+1703215726203,liste_veterinaires,$Root$ calls Vets,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList
+1703215726203,liste_veterinaires,Vets returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList,<None>:$Root$:<None>
+1703215726205,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726206,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726206,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726207,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726207,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726208,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726208,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726209,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726210,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726210,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726211,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726211,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215726214,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726214,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726214,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726215,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726215,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726216,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726216,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726219,liste_veterinaires,Vet calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726219,liste_veterinaires,NamedEntity returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726220,liste_veterinaires,Vet calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726220,liste_veterinaires,NamedEntity returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726221,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726221,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726222,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215726222,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726223,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215726223,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726224,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726224,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726224,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215726225,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726226,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726226,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726227,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726227,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726227,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726228,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726228,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726229,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726229,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726229,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726230,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215726230,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726230,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726231,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726231,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726231,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726231,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726232,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726232,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726232,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726232,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215726233,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726233,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726233,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726234,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215726234,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726235,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726235,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726235,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726236,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726236,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726237,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726237,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726237,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726238,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215726238,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726239,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726239,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726239,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215726240,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215726240,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215726241,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215726241,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215726241,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726242,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726242,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215726242,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215726243,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215726243,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215726244,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726244,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215726244,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties
+1703215726245,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getNrOfSpecialties,<None>:$Root$:<None>
+1703215728874,liste_veterinaires,$Root$ calls VetController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showXmlVetList
+1703215728875,liste_veterinaires,VetController calls VetController,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showXmlVetList,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets
+1703215728876,liste_veterinaires,VetController calls Vets,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList
+1703215728877,liste_veterinaires,Vets returns to VetController,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets
+1703215728878,liste_veterinaires,VetController returns to VetController,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:getVets,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showXmlVetList
+1703215728878,liste_veterinaires,VetController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java:VetController:showXmlVetList,<None>:$Root$:<None>
+1703215728892,liste_veterinaires,$Root$ calls Vets,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList
+1703215728893,liste_veterinaires,Vets returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java:Vets:getVetList,<None>:$Root$:<None>
+1703215728894,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728894,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728894,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728894,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728895,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728895,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728897,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728897,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728898,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728898,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728898,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728899,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728899,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728900,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728900,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728900,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728901,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728901,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728901,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728902,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728902,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728903,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728903,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728903,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728904,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728904,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728904,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728904,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728905,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728905,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728906,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728906,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728907,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728907,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728908,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728908,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728909,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728909,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728909,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728910,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728910,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728910,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728911,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728911,liste_veterinaires,Vet calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728912,liste_veterinaires,NamedEntity returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728912,liste_veterinaires,Vet calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728912,liste_veterinaires,NamedEntity returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728913,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728913,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728913,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728914,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728914,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728914,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728915,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728915,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728916,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728916,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728916,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728917,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728917,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728917,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728918,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728918,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728918,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728919,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728919,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728919,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728920,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728920,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728921,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728921,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728921,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728922,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728922,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728923,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728923,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728924,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728924,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728925,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728925,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728925,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728926,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728926,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728927,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728927,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728928,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728928,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728929,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728929,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728929,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728930,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728930,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728930,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728931,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728931,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728932,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728932,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728933,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728933,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728933,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728934,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728934,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728935,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728935,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728936,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728936,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728936,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728937,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728937,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728938,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728938,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728938,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728939,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728939,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728940,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728940,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728941,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728941,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728942,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728942,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728943,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728943,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728944,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728944,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728944,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728945,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728945,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728946,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728946,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728946,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728947,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728947,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728947,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728948,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728948,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728948,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728949,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728949,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728949,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728949,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728950,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728950,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728950,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728951,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728951,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728951,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728952,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728952,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728952,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728953,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728953,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728954,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728954,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728954,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728955,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728955,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728955,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728956,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728956,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728957,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728957,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728958,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728958,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728959,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728959,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728960,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728960,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728961,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728961,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728961,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728962,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728962,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728963,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215728963,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215728964,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728964,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728964,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728965,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728965,liste_veterinaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215728966,liste_veterinaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215728966,liste_veterinaires,$Root$ calls Vet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728966,liste_veterinaires,Vet calls Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal
+1703215728967,liste_veterinaires,Vet returns to Vet,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialtiesInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties
+1703215728967,liste_veterinaires,Vet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java:Vet:getSpecialties,<None>:$Root$:<None>
+1703215728968,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728968,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728969,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728969,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728969,liste_veterinaires,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215728970,liste_veterinaires,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215728970,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728971,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728971,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728972,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215728972,liste_veterinaires,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215728973,liste_veterinaires,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215784902,liste_proprietaires,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm
+1703215784902,liste_proprietaires,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm,<None>:$Root$:<None>
+1703215784903,liste_proprietaires,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215784904,liste_proprietaires,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215784909,liste_proprietaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215784910,liste_proprietaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215784910,liste_proprietaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215784910,liste_proprietaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215808313,proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215808316,proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215808316,proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner
+1703215808318,proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215808318,proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215808319,proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById
+1703215808327,proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215808327,proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215808327,proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner
+1703215808328,proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner,<None>:$Root$:<None>
+1703215808328,proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215808329,proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215808501,proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215808502,proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215808502,proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215808503,proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215808503,proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215808503,proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215808504,proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215808504,proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215808505,proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215808505,proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215808506,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808506,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215808506,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808507,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215808508,proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215808509,proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215808509,proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215808509,proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215808510,proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215808510,proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215808511,proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getBirthDate
+1703215808512,proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getBirthDate,<None>:$Root$:<None>
+1703215808544,proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getType
+1703215808544,proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getType,<None>:$Root$:<None>
+1703215808546,proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215808546,proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215808547,proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits
+1703215808547,proprietaire,Pet calls Pet,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisitsInternal
+1703215808548,proprietaire,Pet returns to Pet,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisitsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits
+1703215808548,proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits,<None>:$Root$:<None>
+1703215808549,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808549,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215808549,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808550,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215808550,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808551,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215808551,proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215808551,proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215827353,details_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215827353,details_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215827354,details_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215827354,details_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215827355,details_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName
+1703215827355,details_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName,<None>:$Root$:<None>
+1703215827355,details_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215827356,details_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215827356,details_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215827357,details_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215827357,details_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215827358,details_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215827358,details_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215827359,details_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215827363,details_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215827364,details_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215827364,details_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215827365,details_proprietaire,OwnerController calls BaseEntity,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215827365,details_proprietaire,BaseEntity returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215827365,details_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,<None>:$Root$:<None>
+1703215867000,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm
+1703215867001,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm,<None>:$Root$:<None>
+1703215867001,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215867002,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215867006,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215867006,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215867007,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215867007,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868028,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215868029,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215868031,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868031,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868031,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName
+1703215868032,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName,<None>:$Root$:<None>
+1703215868032,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215868033,maj_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868033,maj_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215868033,maj_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868034,maj_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215868035,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215868035,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215868035,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215868050,maj_proprietaire,JpaOwnerRepositoryImpl calls Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit
+1703215868050,maj_proprietaire,Visit returns to JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215868051,maj_proprietaire,JpaOwnerRepositoryImpl calls Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit
+1703215868051,maj_proprietaire,Visit returns to JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215868053,maj_proprietaire,JpaOwnerRepositoryImpl calls Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit
+1703215868053,maj_proprietaire,Visit returns to JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215868053,maj_proprietaire,JpaOwnerRepositoryImpl calls Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit
+1703215868054,maj_proprietaire,Visit returns to JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java:Visit:Visit,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215868060,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215868061,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215868061,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215868062,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,<None>:$Root$:<None>
+1703215868065,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868066,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868067,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868067,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868068,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868068,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868068,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868068,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868069,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868069,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868069,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868070,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868070,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868071,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868071,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868071,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868072,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868072,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868072,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868073,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868074,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868074,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868074,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868074,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868075,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868075,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868076,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868076,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868077,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868077,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868077,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868077,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868078,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868078,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868078,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868079,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868079,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868079,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868080,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868080,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868081,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868081,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868081,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868082,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868082,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868082,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868082,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868083,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868083,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868084,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868084,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868084,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868085,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868085,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868085,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868086,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868086,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868086,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868087,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868087,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868087,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868088,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868088,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868088,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868089,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868089,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868090,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868090,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868091,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868091,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868092,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868092,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868092,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868093,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868093,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868093,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868094,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868094,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868094,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868095,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868095,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868095,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868096,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868096,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868096,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868097,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868097,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868097,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868098,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868098,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868098,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868099,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868099,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868099,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868100,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868100,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868100,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868101,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868101,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868101,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868102,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868102,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868102,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868103,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868103,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868103,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868104,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868104,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868104,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868105,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868105,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868106,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868106,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868106,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868107,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868107,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868108,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868108,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868108,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868109,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868109,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868110,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868110,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868111,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868111,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868111,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868112,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868112,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868112,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868113,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868113,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868113,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868113,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868114,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868114,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868114,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868115,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868115,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868115,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868116,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868116,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868117,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868117,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868117,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868118,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868118,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868118,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868119,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868119,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868119,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868120,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868120,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868120,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868121,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868121,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868121,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868122,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868122,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868123,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868123,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868124,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868124,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868124,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868125,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868125,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868126,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868126,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868126,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868127,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868127,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868127,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868128,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868128,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868128,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868129,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215868129,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215868130,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215868130,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215868130,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215868131,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215868131,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215868131,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215868131,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215868132,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215868132,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215868133,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215868133,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868133,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215868134,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868134,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868134,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868135,maj_proprietaire,Owner calls NamedEntity,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868135,maj_proprietaire,NamedEntity returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215868135,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215868136,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868136,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215868136,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215868137,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215871552,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215871552,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215871556,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm
+1703215871557,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215871557,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215871558,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById
+1703215871563,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215871564,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215871564,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm
+1703215871564,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm,<None>:$Root$:<None>
+1703215871565,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215871565,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215871711,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew
+1703215871712,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew,<None>:$Root$:<None>
+1703215871714,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215871714,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215871715,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215871716,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215871719,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215871719,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215871721,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215871721,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215871722,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215871722,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215871723,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215871723,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215871724,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215871725,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215871725,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215871725,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215871726,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215871727,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215871727,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215871727,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215871728,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215871728,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215871729,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215871729,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215871730,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215871730,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215871731,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215871731,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215871732,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215871732,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215871732,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215871733,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215871733,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215871734,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215871734,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215871734,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215871735,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215871735,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215871736,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215871736,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215871736,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew
+1703215871737,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew,<None>:$Root$:<None>
+1703215875139,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215875140,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215875140,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner
+1703215875141,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215875142,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215875142,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById
+1703215875146,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215875146,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215875147,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner
+1703215875147,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:showOwner,<None>:$Root$:<None>
+1703215875148,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215875148,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215875152,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215875152,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215875152,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215875153,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215875153,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215875153,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215875154,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215875154,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215875155,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215875155,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215875156,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875156,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215875156,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875157,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215875157,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215875158,maj_proprietaire,Owner calls Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal
+1703215875158,maj_proprietaire,Owner returns to Owner,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPetsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets
+1703215875159,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getPets,<None>:$Root$:<None>
+1703215875160,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215875160,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215875161,maj_proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getBirthDate
+1703215875161,maj_proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getBirthDate,<None>:$Root$:<None>
+1703215875163,maj_proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getType
+1703215875163,maj_proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getType,<None>:$Root$:<None>
+1703215875163,maj_proprietaire,$Root$ calls NamedEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName
+1703215875164,maj_proprietaire,NamedEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:NamedEntity:getName,<None>:$Root$:<None>
+1703215875164,maj_proprietaire,$Root$ calls Pet,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits
+1703215875164,maj_proprietaire,Pet calls Pet,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisitsInternal
+1703215875165,maj_proprietaire,Pet returns to Pet,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisitsInternal,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits
+1703215875165,maj_proprietaire,Pet returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java:Pet:getVisits,<None>:$Root$:<None>
+1703215875165,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875166,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215875166,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875166,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215875167,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875167,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215875168,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215875168,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,<None>:$Root$:<None>
+1703215879053,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215879054,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215879055,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215879056,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215879056,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName
+1703215879056,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName,<None>:$Root$:<None>
+1703215879057,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215879057,maj_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215879057,maj_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215879058,maj_proprietaire,OwnerController calls Person,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215879058,maj_proprietaire,Person returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215879059,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215879059,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215879060,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName
+1703215879065,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findByLastName,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215879066,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName
+1703215879066,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerByLastName,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215879068,maj_proprietaire,OwnerController calls BaseEntity,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215879068,maj_proprietaire,BaseEntity returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm
+1703215879068,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processFindForm,<None>:$Root$:<None>
+1703215881296,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215881298,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215881301,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm
+1703215881302,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215881302,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215881303,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById
+1703215881307,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:findById,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215881308,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById
+1703215881308,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:findOwnerById,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm
+1703215881309,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initUpdateOwnerForm,<None>:$Root$:<None>
+1703215881310,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215881310,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215881313,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew
+1703215881313,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew,<None>:$Root$:<None>
+1703215881314,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215881314,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215881314,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215881315,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215881315,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215881316,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215881316,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215881316,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215881317,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215881317,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215881318,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215881318,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215881319,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215881319,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215881320,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215881320,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215881321,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215881321,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215881321,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215881322,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215881323,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215881323,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215881324,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215881324,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215881325,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215881325,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215881326,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215881326,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215881327,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215881327,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215881327,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215881328,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215881328,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215881329,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215881329,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215881329,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215881330,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215881330,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215881330,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215881331,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215881331,maj_proprietaire,$Root$ calls BaseEntity,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew
+1703215881332,maj_proprietaire,BaseEntity returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:isNew,<None>:$Root$:<None>
+1703215887841,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215887841,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215887841,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress
+1703215887842,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getAddress,<None>:$Root$:<None>
+1703215887842,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setAddress
+1703215887843,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setAddress,<None>:$Root$:<None>
+1703215887843,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity
+1703215887843,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getCity,<None>:$Root$:<None>
+1703215887844,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setCity
+1703215887844,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setCity,<None>:$Root$:<None>
+1703215887844,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName
+1703215887845,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getFirstName,<None>:$Root$:<None>
+1703215887845,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setFirstName
+1703215887845,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setFirstName,<None>:$Root$:<None>
+1703215887846,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215887846,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215887847,maj_proprietaire,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName
+1703215887847,maj_proprietaire,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:setLastName,<None>:$Root$:<None>
+1703215887847,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone
+1703215887848,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:getTelephone,<None>:$Root$:<None>
+1703215887848,maj_proprietaire,$Root$ calls Owner,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setTelephone
+1703215887848,maj_proprietaire,Owner returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java:Owner:setTelephone,<None>:$Root$:<None>
+1703215887849,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215887850,maj_proprietaire,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215887850,maj_proprietaire,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processUpdateOwnerForm
+1703215887851,maj_proprietaire,OwnerController calls BaseEntity,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processUpdateOwnerForm,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:setId
+1703215887851,maj_proprietaire,BaseEntity returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:setId,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processUpdateOwnerForm
+1703215887852,maj_proprietaire,OwnerController calls ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processUpdateOwnerForm,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:saveOwner
+1703215887852,maj_proprietaire,ClinicServiceImpl calls CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:saveOwner,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215887853,maj_proprietaire,CallMonitoringAspect calls JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:save
+1703215887853,maj_proprietaire,JpaOwnerRepositoryImpl calls BaseEntity,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:save,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId
+1703215887853,maj_proprietaire,BaseEntity returns to JpaOwnerRepositoryImpl,monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:BaseEntity:getId,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:save
+1703215887859,maj_proprietaire,JpaOwnerRepositoryImpl returns to CallMonitoringAspect,monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java:JpaOwnerRepositoryImpl:save,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke
+1703215887860,maj_proprietaire,CallMonitoringAspect returns to ClinicServiceImpl,monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java:CallMonitoringAspect:invoke,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:saveOwner
+1703215887860,maj_proprietaire,ClinicServiceImpl returns to OwnerController,monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java:ClinicServiceImpl:saveOwner,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:processUpdateOwnerForm

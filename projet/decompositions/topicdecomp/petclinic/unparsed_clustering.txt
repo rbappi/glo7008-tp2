@@ -1,0 +1,1394 @@
+Modularity 0.4397336365616775
+Resolution 0.3
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 7
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.NamedEntity
+
+Service 2
+org.springframework.samples.petclinic.service.ClinicService
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46352927762484775
+Resolution 0.3
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.NamedEntity
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.41239249604921413
+Resolution 0.3
+Service 2
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 8
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 5
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 6
+org.springframework.samples.petclinic.service.ClinicService
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 7
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.42404462231101425
+Resolution 0.4
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+
+Service 7
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 5
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 6
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 1
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 8
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+Service 0
+org.springframework.samples.petclinic.model.Specialty
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.434709545629074
+Resolution 0.4
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.NamedEntity
+
+Service 6
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 2
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 7
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4527594559093526
+Resolution 0.4
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 4
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 5
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+
+Service 0
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.NamedEntity
+
+Service 6
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 2
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 7
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46798909770163943
+Resolution 0.5
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 3
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 5
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.435962427623776
+Resolution 0.5
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 6
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 5
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 2
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 8
+org.springframework.samples.petclinic.web.PetTypeFormatter
+
+Service 7
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+Service 0
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Specialty
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4323134863279936
+Resolution 0.5
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 5
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 6
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+
+Service 8
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 2
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+
+Service 7
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+Service 0
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Specialty
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.455540002041664
+Resolution 0.6000000000000001
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 7
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 2
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+Service 0
+org.springframework.samples.petclinic.model.Specialty
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46798909770163943
+Resolution 0.6000000000000001
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 1
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 6
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 2
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 5
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46798909770163943
+Resolution 0.6000000000000001
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46025563211755083
+Resolution 0.7000000000000002
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 3
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 7
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 2
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.web.PetTypeFormatter
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4768129907770371
+Resolution 0.7000000000000002
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 3
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.46798909770163943
+Resolution 0.7000000000000002
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 5
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 4
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 0
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 6
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.47395990986153125
+Resolution 0.8000000000000003
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 3
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.43198273797646763
+Resolution 0.8000000000000003
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.web.PetValidator
+
+Service 2
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 4
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 7
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 8
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+
+Service 6
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 1
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+Service 5
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+
+Service 0
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Specialty
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4689891705438022
+Resolution 0.8000000000000003
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 3
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.48481839938745164
+Resolution 0.9000000000000001
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 3
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 2
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 0
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4689891705438022
+Resolution 0.9000000000000001
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 2
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 3
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.48481839938745164
+Resolution 0.9000000000000001
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 1
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4768129907770371
+Resolution 1.0000000000000002
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 1
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.48481839938745164
+Resolution 1.0000000000000002
+Service 1
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 2
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 0
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+Modularity 0.4771819630009163
+Resolution 1.0000000000000002
+Service 0
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+org.springframework.samples.petclinic.model.Visit
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+org.springframework.samples.petclinic.web.VisitController
+org.springframework.samples.petclinic.repository.VisitRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+
+Service 1
+org.springframework.samples.petclinic.model.Pet
+org.springframework.samples.petclinic.service.ClinicService
+org.springframework.samples.petclinic.service.ClinicServiceImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+org.springframework.samples.petclinic.web.PetController
+org.springframework.samples.petclinic.model.PetType
+org.springframework.samples.petclinic.web.PetTypeFormatter
+org.springframework.samples.petclinic.model.NamedEntity
+org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+org.springframework.samples.petclinic.repository.PetRepository
+org.springframework.samples.petclinic.web.PetValidator
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+
+Service 3
+org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+org.springframework.samples.petclinic.repository.OwnerRepository
+org.springframework.samples.petclinic.model.Owner
+org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+org.springframework.samples.petclinic.web.OwnerController
+
+Service 2
+org.springframework.samples.petclinic.model.BaseEntity
+org.springframework.samples.petclinic.model.Person
+
+Service 4
+org.springframework.samples.petclinic.model.Vet
+org.springframework.samples.petclinic.web.VetController
+org.springframework.samples.petclinic.model.Vets
+org.springframework.samples.petclinic.model.Specialty
+org.springframework.samples.petclinic.repository.VetRepository
+org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+org.springframework.samples.petclinic.util.EntityUtils
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+

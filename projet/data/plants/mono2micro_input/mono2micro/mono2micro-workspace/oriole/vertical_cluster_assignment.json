@@ -1,0 +1,57 @@
+{
+    "0": {
+        "classes": [
+            "Customer",
+            "AccountBean",
+            "CustomerMgr",
+            "LoginInfo"
+        ],
+        "business_context": [
+            "compte",
+            "payer"
+        ]
+    },
+    "1": {
+        "classes": [
+            "ImageServlet",
+            "CatalogMgr",
+            "Util",
+            "ProductBean",
+            "BackOrder"
+        ],
+        "business_context": [
+            "catalogue",
+            "shopping",
+            "payer",
+            "Unknown"
+        ]
+    },
+    "2": {
+        "classes": [
+            "Inventory",
+            "ShoppingCartBean",
+            "ShoppingBean",
+            "ShoppingItem"
+        ],
+        "business_context": [
+            "payer",
+            "catalogue",
+            "shopping",
+            "compte",
+            "acces_interface"
+        ]
+    },
+    "3": {
+        "classes": [
+            "Order",
+            "OrderItem",
+            "OrderInfo",
+            "MailerBean",
+            "MailerAppException",
+            "EMailMessage"
+        ],
+        "business_context": [
+            "payer"
+        ]
+    }
+}

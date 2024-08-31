@@ -1,0 +1,5474 @@
+{
+    "version": "v2.0.0r9",
+    "mono_run_time_call_graph": {
+        "nodes": [
+            {
+                "name": "OwnerController",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Person",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "ClinicServiceImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "CallMonitoringAspect",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "JpaOwnerRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Visit",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "BaseEntity",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Owner",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "NamedEntity",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "PetController",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaPetRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetValidator",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Pet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java",
+                "semantics": [
+                    "maj_animal",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "Unknown",
+                    "details_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetTypeFormatter",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "VisitController",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VisitController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaVisitRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetController",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vets",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JpaVetRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetControllerTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashControllerTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashController",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/CrashController.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetControllerTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetTypeFormatterTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VisitControllerTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OwnerControllerTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ValidatorTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AbstractClinicServiceTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "EntityUtils",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcOwnerRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVetRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRepositoryImpl",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OneToManyResultSetExtractor",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/OneToManyResultSetExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetVisitExtractor",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRowMapper",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPet",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRowMapper",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetclinicInitializer",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "MavenWrapperDownloader",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/.mvn/wrapper/MavenWrapperDownloader.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceSpringDataJpaTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJpaTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJdbcTests",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java",
+                "semantics": []
+            },
+            {
+                "name": "Specialty",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Specialty.java",
+                "semantics": []
+            },
+            {
+                "name": "PetType",
+                "group": 1,
+                "category": "Undefined",
+                "construct": "Class",
+                "FQCN": "",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/PetType.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "OwnerController",
+                "target": "Person",
+                "method": {
+                    "getLastName": 27,
+                    "setLastName": 1
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OwnerController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerByLastName": 10,
+                    "findOwnerById": 16,
+                    "saveOwner": 3
+                },
+                "value": 4.367
+            },
+            {
+                "source": "OwnerController",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6,
+                    "setId": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "CallMonitoringAspect",
+                "method": {
+                    "invoke": 47
+                },
+                "value": 4.85
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 10,
+                    "findById": 20,
+                    "save": 3
+                },
+                "value": 4.496
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findPetTypes": 6,
+                    "save": 2,
+                    "findById": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 33
+                },
+                "value": 4.496
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "Owner",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 99
+                },
+                "value": 5.595
+            },
+            {
+                "source": "Owner",
+                "target": "Pet",
+                "method": {
+                    "setOwner": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "Owner",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerById": 4,
+                    "findPetTypes": 4,
+                    "savePet": 2,
+                    "findPetById": 1
+                },
+                "value": 3.397
+            },
+            {
+                "source": "PetController",
+                "target": "PetValidator",
+                "method": {
+                    "supports": 10
+                },
+                "value": 3.302
+            },
+            {
+                "source": "PetController",
+                "target": "Owner",
+                "method": {
+                    "addPet": 6,
+                    "getPet [overloaded_#002]": 2
+                },
+                "value": 3.079
+            },
+            {
+                "source": "PetController",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetController",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 6,
+                    "getType": 7
+                },
+                "value": 3.564
+            },
+            {
+                "source": "Pet",
+                "target": "Visit",
+                "method": {
+                    "setPet": 39,
+                    "getDate": 26
+                },
+                "value": 5.174
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetTypes": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 55
+                },
+                "value": 5.007
+            },
+            {
+                "source": "VisitController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetById": 3,
+                    "saveVisit": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "VisitController",
+                "target": "Visit",
+                "method": {
+                    "Visit": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VisitController",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 7,
+                    "getVisits": 1
+                },
+                "value": 3.079
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "VetController",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "Vet",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6,
+                    "getFirstName": 8,
+                    "getLastName": 8
+                },
+                "value": 4.332
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 12,
+                    "isNew": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3,
+                    "getName": 4
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 3,
+                    "getSpecialties": 4,
+                    "getNrOfSpecialties": 2
+                },
+                "value": 3.197
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "VetController",
+                "method": {
+                    "showXmlVetList": 1,
+                    "showVetList": 1,
+                    "showJsonVetList": 1
+                },
+                "value": 2.098
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CrashControllerTests",
+                "target": "CrashController",
+                "method": {
+                    "triggerException": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 10,
+                    "getName": 4
+                },
+                "value": 3.639
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetController",
+                "method": {
+                    "findOwner": 6,
+                    "populatePetTypes": 6,
+                    "initOwnerBinder": 6,
+                    "initPetBinder": 6,
+                    "processCreationForm": 1,
+                    "processUpdateForm": 3,
+                    "initUpdateForm": 1,
+                    "initCreationForm": 1
+                },
+                "value": 4.401
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 4,
+                    "setBirthDate": 4,
+                    "getType": 2,
+                    "setType": 2
+                },
+                "value": 3.484
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "parse": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetValidator",
+                "method": {
+                    "validate": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "PetTypeFormatter": 3,
+                    "parse": 2,
+                    "print": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 5,
+                    "getName": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "VisitController",
+                "method": {
+                    "setAllowedFields": 10,
+                    "loadPetWithVisit": 4,
+                    "processNewVisitForm": 2,
+                    "showVisits": 1,
+                    "initNewVisitForm": 1
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "Visit",
+                "method": {
+                    "getDescription": 1,
+                    "setDescription": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 11
+                },
+                "value": 3.397
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 15,
+                    "setLastName": 17,
+                    "getFirstName": 6,
+                    "getLastName": 9
+                },
+                "value": 4.85
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 15,
+                    "setTelephone": 13,
+                    "getCity": 6,
+                    "getAddress": 4,
+                    "getTelephone": 4
+                },
+                "value": 5.007
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "OwnerController",
+                "method": {
+                    "setAllowedFields": 15,
+                    "processUpdateOwnerForm": 2,
+                    "processCreationForm": 2,
+                    "initFindForm": 1,
+                    "showOwner": 1,
+                    "initUpdateOwnerForm": 1,
+                    "initCreationForm": 1,
+                    "processFindForm": 3
+                },
+                "value": 4.258
+            },
+            {
+                "source": "ValidatorTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 1,
+                    "setLastName": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 3,
+                    "findOwnerByLastName": 12,
+                    "findPetById": 15,
+                    "saveVisit": 3,
+                    "savePet": 9,
+                    "findOwnerById": 15,
+                    "saveOwner": 9,
+                    "findVisitsByPetId": 3,
+                    "findPetTypes": 6
+                },
+                "value": 5.317
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Person",
+                "method": {
+                    "getLastName": 12,
+                    "setLastName": 6,
+                    "setFirstName": 3,
+                    "getFirstName": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Vet",
+                "method": {
+                    "getNrOfSpecialties": 3,
+                    "getSpecialties": 6
+                },
+                "value": 3.197
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 24,
+                    "setName": 6
+                },
+                "value": 4.401
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Pet",
+                "method": {
+                    "getVisits": 6,
+                    "addVisit": 3,
+                    "setType": 3,
+                    "setBirthDate": 3,
+                    "getType": 6,
+                    "getOwner": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Visit",
+                "method": {
+                    "Visit": 3,
+                    "setDescription": 3,
+                    "getPet": 6,
+                    "getDate": 3
+                },
+                "value": 3.708
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Owner",
+                "method": {
+                    "getPets": 18,
+                    "addPet": 3,
+                    "setAddress": 3,
+                    "setCity": 3,
+                    "setTelephone": 3
+                },
+                "value": 4.401
+            },
+            {
+                "source": "EntityUtils",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 107
+                },
+                "value": 5.672
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 92,
+                    "getId": 19,
+                    "isNew": 3
+                },
+                "value": 5.736
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 13,
+                    "setLastName": 13,
+                    "getFirstName": 7,
+                    "getLastName": 7
+                },
+                "value": 4.688
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 13,
+                    "setTelephone": 13,
+                    "addPet": 20,
+                    "getAddress": 7,
+                    "getCity": 7,
+                    "getTelephone": 7
+                },
+                "value": 5.382
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "OneToManyResultSetExtractor",
+                "method": {
+                    "OneToManyResultSetExtractor [overloaded_#002]": 13,
+                    "OneToManyResultSetExtractor [overloaded_#001]": 13,
+                    "extractData": 13
+                },
+                "value": 4.663
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "JdbcPetVisitExtractor": 13
+                },
+                "value": 3.564
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 78
+                },
+                "value": 5.356
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPet",
+                "method": {
+                    "getTypeId": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "setType": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "getPets": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 3,
+                    "getId": 9,
+                    "setId": 13
+                },
+                "value": 4.218
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 3,
+                    "setName": 12
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 3,
+                    "getType": 3,
+                    "getOwner": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 6
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1,
+                    "getId": 2,
+                    "setId": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "getDate": 1,
+                    "getDescription": 1,
+                    "getPet": 1,
+                    "setPet": 2
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "mapPrimaryKey": 20,
+                    "mapForeignKey": 56,
+                    "addChild": 29
+                },
+                "value": 5.653
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetVisitExtractor",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "Pet",
+                "method": {
+                    "setBirthDate": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "JdbcPet",
+                "method": {
+                    "setTypeId": 21,
+                    "setOwnerId": 21
+                },
+                "value": 4.737
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "Visit",
+                "method": {
+                    "Visit": 31,
+                    "setDate": 31,
+                    "setDescription": 31
+                },
+                "value": 5.532
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 31
+                },
+                "value": 4.433
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "Undefined",
+                    "group": "1",
+                    "category": "Undefined",
+                    "filepath": "",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    },
+    "mono_data_dependency_graph": {
+        "nodes": [
+            {
+                "name": "MavenWrapperDownloader",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/.mvn/wrapper/MavenWrapperDownloader.java",
+                "semantics": []
+            },
+            {
+                "name": "PetTypeFormatterTests",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java",
+                "semantics": []
+            },
+            {
+                "name": "VetControllerTests",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "OwnerControllerTests",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "CrashControllerTests",
+                "group": 4,
+                "category": "data_dep_island_3",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "PetControllerTests",
+                "group": 5,
+                "category": "data_dep_island_4",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "VisitControllerTests",
+                "group": 6,
+                "category": "data_dep_island_5",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ValidatorTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+                "semantics": []
+            },
+            {
+                "name": "AbstractClinicServiceTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceSpringDataJpaTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJpaTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJdbcTests",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java",
+                "semantics": []
+            },
+            {
+                "name": "PetclinicInitializer",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java",
+                "semantics": []
+            },
+            {
+                "name": "PetTypeFormatter",
+                "group": 1,
+                "category": "data_dep_island_0",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java",
+                "semantics": []
+            },
+            {
+                "name": "OwnerController",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java",
+                "semantics": []
+            },
+            {
+                "name": "VetController",
+                "group": 2,
+                "category": "data_dep_island_1",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java",
+                "semantics": []
+            },
+            {
+                "name": "PetController",
+                "group": 5,
+                "category": "data_dep_island_4",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+                "semantics": []
+            },
+            {
+                "name": "CrashController",
+                "group": 4,
+                "category": "data_dep_island_3",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/CrashController.java",
+                "semantics": []
+            },
+            {
+                "name": "PetValidator",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java",
+                "semantics": []
+            },
+            {
+                "name": "VisitController",
+                "group": 6,
+                "category": "data_dep_island_5",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/web/VisitController.java",
+                "semantics": []
+            },
+            {
+                "name": "Owner",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java",
+                "semantics": []
+            },
+            {
+                "name": "NamedEntity",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+                "semantics": []
+            },
+            {
+                "name": "Vet",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java",
+                "semantics": []
+            },
+            {
+                "name": "Vets",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java",
+                "semantics": []
+            },
+            {
+                "name": "Pet",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java",
+                "semantics": []
+            },
+            {
+                "name": "BaseEntity",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+                "semantics": []
+            },
+            {
+                "name": "Person",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java",
+                "semantics": []
+            },
+            {
+                "name": "Specialty",
+                "group": 7,
+                "category": "data_dep_island_6",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Specialty.java",
+                "semantics": []
+            },
+            {
+                "name": "PetType",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/PetType.java",
+                "semantics": []
+            },
+            {
+                "name": "Visit",
+                "group": 3,
+                "category": "data_dep_island_2",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java",
+                "semantics": []
+            },
+            {
+                "name": "EntityUtils",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+                "semantics": []
+            },
+            {
+                "name": "CallMonitoringAspect",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVisitRowMapper",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetVisitExtractor",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPetRowMapper",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java",
+                "semantics": []
+            },
+            {
+                "name": "OneToManyResultSetExtractor",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/OneToManyResultSetExtractor.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcPet",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcOwnerRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JdbcVisitRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaVetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaOwnerRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaPetRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+                "semantics": []
+            },
+            {
+                "name": "JpaVisitRepositoryImpl",
+                "group": 0,
+                "category": "default_group",
+                "filepath": "monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "PetTypeFormatter",
+                "value": "1"
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "VetController",
+                "value": "1"
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "OwnerController",
+                "value": "1"
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Owner",
+                "value": "1"
+            },
+            {
+                "source": "CrashControllerTests",
+                "target": "CrashController",
+                "value": "1"
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetController",
+                "value": "1"
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "VisitController",
+                "value": "1"
+            },
+            {
+                "source": "Owner",
+                "target": "Pet",
+                "value": "1"
+            },
+            {
+                "source": "Vet",
+                "target": "Specialty",
+                "value": "1"
+            },
+            {
+                "source": "Vets",
+                "target": "Vet",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "PetType",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "Owner",
+                "value": "1"
+            },
+            {
+                "source": "Pet",
+                "target": "Visit",
+                "value": "1"
+            },
+            {
+                "source": "Visit",
+                "target": "Pet",
+                "value": "1"
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "data_dep_island_0",
+                    "group": 0,
+                    "category": "data_dep_island_0",
+                    "filepath": "data_dep_island_0",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_1",
+                    "group": 1,
+                    "category": "data_dep_island_1",
+                    "filepath": "data_dep_island_1",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_2",
+                    "group": 2,
+                    "category": "data_dep_island_2",
+                    "filepath": "data_dep_island_2",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_3",
+                    "group": 3,
+                    "category": "data_dep_island_3",
+                    "filepath": "data_dep_island_3",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_4",
+                    "group": 4,
+                    "category": "data_dep_island_4",
+                    "filepath": "data_dep_island_4",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_5",
+                    "group": 5,
+                    "category": "data_dep_island_5",
+                    "filepath": "data_dep_island_5",
+                    "semantics": []
+                },
+                {
+                    "name": "data_dep_island_6",
+                    "group": 6,
+                    "category": "data_dep_island_6",
+                    "filepath": "data_dep_island_6",
+                    "semantics": []
+                },
+                {
+                    "name": "default_group",
+                    "group": 7,
+                    "category": "default_group",
+                    "filepath": "default_group",
+                    "semantics": []
+                }
+            ],
+            "links": []
+        }
+    },
+    "micro_detail_partition_by_business_logic": {
+        "nodes": [
+            {
+                "name": "OwnerController",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.OwnerController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Person",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.Person",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "ClinicServiceImpl",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "CallMonitoringAspect",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.util.CallMonitoringAspect",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "JpaOwnerRepositoryImpl",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Visit",
+                "group": 6,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Visit",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "BaseEntity",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.BaseEntity",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Owner",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Owner",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "NamedEntity",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.NamedEntity",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "PetController",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaPetRepositoryImpl",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetValidator",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetValidator",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Pet",
+                "group": 6,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Pet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java",
+                "semantics": [
+                    "maj_animal",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "Unknown",
+                    "details_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetTypeFormatter",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetTypeFormatter",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "VisitController",
+                "group": 6,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VisitController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VisitController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaVisitRepositoryImpl",
+                "group": 6,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetController",
+                "group": 4,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VetController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vets",
+                "group": 4,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.Vets",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JpaVetRepositoryImpl",
+                "group": 4,
+                "category": "partition3",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vet",
+                "group": 4,
+                "category": "partition3",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Vet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetControllerTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VetControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashControllerTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.CrashControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashController",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.CrashController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/CrashController.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetControllerTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetTypeFormatterTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetTypeFormatterTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VisitControllerTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VisitControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OwnerControllerTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.OwnerControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ValidatorTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.ValidatorTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AbstractClinicServiceTests",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.AbstractClinicServiceTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "EntityUtils",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.util.EntityUtils",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcOwnerRepositoryImpl",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRepositoryImpl",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVetRepositoryImpl",
+                "group": 3,
+                "category": "partition2",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRepositoryImpl",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OneToManyResultSetExtractor",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.OneToManyResultSetExtractor",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/OneToManyResultSetExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetVisitExtractor",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRowMapper",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPet",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRowMapper",
+                "group": 5,
+                "category": "src_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetclinicInitializer",
+                "group": 1,
+                "category": "root_dest_undefined_use_case",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.PetclinicInitializer",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "MavenWrapperDownloader",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "MavenWrapperDownloader",
+                "filepath": "Class, monolith/.mvn/wrapper/MavenWrapperDownloader.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceSpringDataJpaTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceSpringDataJpaTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJpaTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceJpaTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJdbcTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceJdbcTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java",
+                "semantics": []
+            },
+            {
+                "name": "Specialty",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Specialty",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Specialty.java",
+                "semantics": []
+            },
+            {
+                "name": "PetType",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.PetType",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/PetType.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "OwnerController",
+                "target": "Person",
+                "method": {
+                    "getLastName": 27,
+                    "setLastName": 1
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OwnerController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerByLastName": 10,
+                    "findOwnerById": 16,
+                    "saveOwner": 3
+                },
+                "value": 4.367
+            },
+            {
+                "source": "OwnerController",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6,
+                    "setId": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "CallMonitoringAspect",
+                "method": {
+                    "invoke": 47
+                },
+                "value": 4.85
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 10,
+                    "findById": 20,
+                    "save": 3
+                },
+                "value": 4.496
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findPetTypes": 6,
+                    "save": 2,
+                    "findById": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 33
+                },
+                "value": 4.496
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "Owner",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 99
+                },
+                "value": 5.595
+            },
+            {
+                "source": "Owner",
+                "target": "Pet",
+                "method": {
+                    "setOwner": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "Owner",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerById": 4,
+                    "findPetTypes": 4,
+                    "savePet": 2,
+                    "findPetById": 1
+                },
+                "value": 3.397
+            },
+            {
+                "source": "PetController",
+                "target": "PetValidator",
+                "method": {
+                    "supports": 10
+                },
+                "value": 3.302
+            },
+            {
+                "source": "PetController",
+                "target": "Owner",
+                "method": {
+                    "addPet": 6,
+                    "getPet [overloaded_#002]": 2
+                },
+                "value": 3.079
+            },
+            {
+                "source": "PetController",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetController",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 6,
+                    "getType": 7
+                },
+                "value": 3.564
+            },
+            {
+                "source": "Pet",
+                "target": "Visit",
+                "method": {
+                    "setPet": 39,
+                    "getDate": 26
+                },
+                "value": 5.174
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetTypes": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 55
+                },
+                "value": 5.007
+            },
+            {
+                "source": "VisitController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetById": 3,
+                    "saveVisit": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "VisitController",
+                "target": "Visit",
+                "method": {
+                    "Visit": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VisitController",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 7,
+                    "getVisits": 1
+                },
+                "value": 3.079
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "VetController",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "Vet",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6,
+                    "getFirstName": 8,
+                    "getLastName": 8
+                },
+                "value": 4.332
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 12,
+                    "isNew": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3,
+                    "getName": 4
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 3,
+                    "getSpecialties": 4,
+                    "getNrOfSpecialties": 2
+                },
+                "value": 3.197
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "VetController",
+                "method": {
+                    "showXmlVetList": 1,
+                    "showVetList": 1,
+                    "showJsonVetList": 1
+                },
+                "value": 2.098
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CrashControllerTests",
+                "target": "CrashController",
+                "method": {
+                    "triggerException": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 10,
+                    "getName": 4
+                },
+                "value": 3.639
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetController",
+                "method": {
+                    "findOwner": 6,
+                    "populatePetTypes": 6,
+                    "initOwnerBinder": 6,
+                    "initPetBinder": 6,
+                    "processCreationForm": 1,
+                    "processUpdateForm": 3,
+                    "initUpdateForm": 1,
+                    "initCreationForm": 1
+                },
+                "value": 4.401
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 4,
+                    "setBirthDate": 4,
+                    "getType": 2,
+                    "setType": 2
+                },
+                "value": 3.484
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "parse": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetValidator",
+                "method": {
+                    "validate": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "PetTypeFormatter": 3,
+                    "parse": 2,
+                    "print": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 5,
+                    "getName": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "VisitController",
+                "method": {
+                    "setAllowedFields": 10,
+                    "loadPetWithVisit": 4,
+                    "processNewVisitForm": 2,
+                    "showVisits": 1,
+                    "initNewVisitForm": 1
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "Visit",
+                "method": {
+                    "getDescription": 1,
+                    "setDescription": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 11
+                },
+                "value": 3.397
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 15,
+                    "setLastName": 17,
+                    "getFirstName": 6,
+                    "getLastName": 9
+                },
+                "value": 4.85
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 15,
+                    "setTelephone": 13,
+                    "getCity": 6,
+                    "getAddress": 4,
+                    "getTelephone": 4
+                },
+                "value": 5.007
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "OwnerController",
+                "method": {
+                    "setAllowedFields": 15,
+                    "processUpdateOwnerForm": 2,
+                    "processCreationForm": 2,
+                    "initFindForm": 1,
+                    "showOwner": 1,
+                    "initUpdateOwnerForm": 1,
+                    "initCreationForm": 1,
+                    "processFindForm": 3
+                },
+                "value": 4.258
+            },
+            {
+                "source": "ValidatorTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 1,
+                    "setLastName": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 3,
+                    "findOwnerByLastName": 12,
+                    "findPetById": 15,
+                    "saveVisit": 3,
+                    "savePet": 9,
+                    "findOwnerById": 15,
+                    "saveOwner": 9,
+                    "findVisitsByPetId": 3,
+                    "findPetTypes": 6
+                },
+                "value": 5.317
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Person",
+                "method": {
+                    "getLastName": 12,
+                    "setLastName": 6,
+                    "setFirstName": 3,
+                    "getFirstName": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Vet",
+                "method": {
+                    "getNrOfSpecialties": 3,
+                    "getSpecialties": 6
+                },
+                "value": 3.197
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 24,
+                    "setName": 6
+                },
+                "value": 4.401
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Pet",
+                "method": {
+                    "getVisits": 6,
+                    "addVisit": 3,
+                    "setType": 3,
+                    "setBirthDate": 3,
+                    "getType": 6,
+                    "getOwner": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Visit",
+                "method": {
+                    "Visit": 3,
+                    "setDescription": 3,
+                    "getPet": 6,
+                    "getDate": 3
+                },
+                "value": 3.708
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Owner",
+                "method": {
+                    "getPets": 18,
+                    "addPet": 3,
+                    "setAddress": 3,
+                    "setCity": 3,
+                    "setTelephone": 3
+                },
+                "value": 4.401
+            },
+            {
+                "source": "EntityUtils",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 107
+                },
+                "value": 5.672
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 92,
+                    "getId": 19,
+                    "isNew": 3
+                },
+                "value": 5.736
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 13,
+                    "setLastName": 13,
+                    "getFirstName": 7,
+                    "getLastName": 7
+                },
+                "value": 4.688
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 13,
+                    "setTelephone": 13,
+                    "addPet": 20,
+                    "getAddress": 7,
+                    "getCity": 7,
+                    "getTelephone": 7
+                },
+                "value": 5.382
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "OneToManyResultSetExtractor",
+                "method": {
+                    "OneToManyResultSetExtractor [overloaded_#002]": 13,
+                    "OneToManyResultSetExtractor [overloaded_#001]": 13,
+                    "extractData": 13
+                },
+                "value": 4.663
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "JdbcPetVisitExtractor": 13
+                },
+                "value": 3.564
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 78
+                },
+                "value": 5.356
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPet",
+                "method": {
+                    "getTypeId": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "setType": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "getPets": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 3,
+                    "getId": 9,
+                    "setId": 13
+                },
+                "value": 4.218
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 3,
+                    "setName": 12
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 3,
+                    "getType": 3,
+                    "getOwner": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 6
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1,
+                    "getId": 2,
+                    "setId": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "getDate": 1,
+                    "getDescription": 1,
+                    "getPet": 1,
+                    "setPet": 2
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "mapPrimaryKey": 20,
+                    "mapForeignKey": 56,
+                    "addChild": 29
+                },
+                "value": 5.653
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetVisitExtractor",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "Pet",
+                "method": {
+                    "setBirthDate": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "JdbcPet",
+                "method": {
+                    "setTypeId": 21,
+                    "setOwnerId": 21
+                },
+                "value": 4.737
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "Visit",
+                "method": {
+                    "Visit": 31,
+                    "setDate": 31,
+                    "setDescription": 31
+                },
+                "value": 5.532
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 31
+                },
+                "value": 4.433
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "partition2",
+                    "group": 3,
+                    "category": "partition2",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "maj_animal",
+                        "ajouter_proprietaire",
+                        "liste_proprietaires",
+                        "proprietaire",
+                        "details_proprietaire",
+                        "maj_proprietaire",
+                        "ajouter_animal",
+                        "liste_veterinaires"
+                    ]
+                },
+                {
+                    "name": "partition0",
+                    "group": 6,
+                    "category": "partition0",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "maj_animal",
+                        "maj_proprietaire",
+                        "ajouter_animal",
+                        "liste_proprietaires",
+                        "proprietaire",
+                        "details_proprietaire"
+                    ]
+                },
+                {
+                    "name": "partition1",
+                    "group": 2,
+                    "category": "partition1",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "maj_animal",
+                        "ajouter_proprietaire",
+                        "proprietaire",
+                        "maj_proprietaire",
+                        "details_proprietaire",
+                        "ajouter_animal",
+                        "liste_proprietaires",
+                        "liste_veterinaires"
+                    ]
+                },
+                {
+                    "name": "partition3",
+                    "group": 4,
+                    "category": "partition3",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "liste_veterinaires",
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "root_dest_undefined_use_case",
+                    "group": 1,
+                    "category": "root_dest_undefined_use_case",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "src_dest_undefined_use_case",
+                    "group": 5,
+                    "category": "src_dest_undefined_use_case",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "Unobserved",
+                    "group": 0,
+                    "category": "Unobserved",
+                    "filepath": "Cluster",
+                    "semantics": []
+                }
+            ],
+            "links": [
+                {
+                    "source": "partition2",
+                    "target": "partition0",
+                    "value": 1.807
+                },
+                {
+                    "source": "partition2",
+                    "target": "root_dest_undefined_use_case",
+                    "value": 1.706
+                },
+                {
+                    "source": "partition2",
+                    "target": "partition3",
+                    "value": 1.465
+                },
+                {
+                    "source": "partition2",
+                    "target": "partition1",
+                    "value": 1.726
+                },
+                {
+                    "source": "partition2",
+                    "target": "src_dest_undefined_use_case",
+                    "value": 1.27
+                },
+                {
+                    "source": "partition0",
+                    "target": "partition2",
+                    "value": 1.421
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition0",
+                    "value": 1.809
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition2",
+                    "value": 1.905
+                },
+                {
+                    "source": "partition3",
+                    "target": "partition2",
+                    "value": 1.0
+                },
+                {
+                    "source": "partition3",
+                    "target": "partition1",
+                    "value": 1.404
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "partition2",
+                    "value": 2.729
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "partition1",
+                    "value": 2.679
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "partition3",
+                    "value": 1.786
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "src_dest_undefined_use_case",
+                    "value": 2.258
+                },
+                {
+                    "source": "root_dest_undefined_use_case",
+                    "target": "partition0",
+                    "value": 2.274
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition2",
+                    "value": 1.939
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition0",
+                    "value": 1.932
+                },
+                {
+                    "source": "src_dest_undefined_use_case",
+                    "target": "partition1",
+                    "value": 1.418
+                }
+            ]
+        }
+    },
+    "micro_detail_partition_by_natural_seam": {
+        "nodes": [
+            {
+                "name": "OwnerController",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.OwnerController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Person",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.Person",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "liste_proprietaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "ClinicServiceImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "CallMonitoringAspect",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.util.CallMonitoringAspect",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "JpaOwnerRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Visit",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Visit",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Visit.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "BaseEntity",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.BaseEntity",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "details_proprietaire",
+                    "maj_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "Owner",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Owner",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Owner.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "ajouter_proprietaire",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "NamedEntity",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.NamedEntity",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+                "semantics": [
+                    "Unknown",
+                    "maj_animal",
+                    "liste_veterinaires",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "details_proprietaire",
+                    "ajouter_animal",
+                    "liste_proprietaires"
+                ]
+            },
+            {
+                "name": "PetController",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaPetRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetValidator",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetValidator",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "Pet",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Pet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Pet.java",
+                "semantics": [
+                    "maj_animal",
+                    "proprietaire",
+                    "maj_proprietaire",
+                    "Unknown",
+                    "details_proprietaire",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "PetTypeFormatter",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetTypeFormatter",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "VisitController",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VisitController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VisitController.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown",
+                    "ajouter_animal"
+                ]
+            },
+            {
+                "name": "JpaVisitRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java",
+                "semantics": [
+                    "maj_animal",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetController",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VetController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/VetController.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vets",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.Vets",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vets.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JpaVetRepositoryImpl",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Vet",
+                "group": 2,
+                "category": "partition1",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Vet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Vet.java",
+                "semantics": [
+                    "liste_veterinaires",
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VetControllerTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VetControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashControllerTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.CrashControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "CrashController",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.CrashController",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/web/CrashController.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetControllerTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetTypeFormatterTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.PetTypeFormatterTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "VisitControllerTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.VisitControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OwnerControllerTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.web.OwnerControllerTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "ValidatorTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.model.ValidatorTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "AbstractClinicServiceTests",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.AbstractClinicServiceTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "EntityUtils",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.util.EntityUtils",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcOwnerRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVetRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRepositoryImpl",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "OneToManyResultSetExtractor",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.OneToManyResultSetExtractor",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/OneToManyResultSetExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetVisitExtractor",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPetRowMapper",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcPet",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcPet",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "JdbcVisitRowMapper",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "PetclinicInitializer",
+                "group": 1,
+                "category": "partition0",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.PetclinicInitializer",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java",
+                "semantics": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "MavenWrapperDownloader",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "MavenWrapperDownloader",
+                "filepath": "Class, monolith/.mvn/wrapper/MavenWrapperDownloader.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceSpringDataJpaTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceSpringDataJpaTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJpaTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceJpaTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java",
+                "semantics": []
+            },
+            {
+                "name": "ClinicServiceJdbcTests",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Class",
+                "FQCN": "org.springframework.samples.petclinic.service.ClinicServiceJdbcTests",
+                "filepath": "Class, monolith/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java",
+                "semantics": []
+            },
+            {
+                "name": "Specialty",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.Specialty",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/Specialty.java",
+                "semantics": []
+            },
+            {
+                "name": "PetType",
+                "group": 0,
+                "category": "Unobserved",
+                "construct": "Entity",
+                "FQCN": "org.springframework.samples.petclinic.model.PetType",
+                "filepath": "Class, monolith/src/main/java/org/springframework/samples/petclinic/model/PetType.java",
+                "semantics": []
+            }
+        ],
+        "links": [
+            {
+                "source": "OwnerController",
+                "target": "Person",
+                "method": {
+                    "getLastName": 27,
+                    "setLastName": 1
+                },
+                "value": 4.332
+            },
+            {
+                "source": "OwnerController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerByLastName": 10,
+                    "findOwnerById": 16,
+                    "saveOwner": 3
+                },
+                "value": 4.367
+            },
+            {
+                "source": "OwnerController",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6,
+                    "setId": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "CallMonitoringAspect",
+                "method": {
+                    "invoke": 47
+                },
+                "value": 4.85
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JdbcVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 4,
+                    "findById": 5,
+                    "save": 3
+                },
+                "value": 3.484
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findById": 5,
+                    "save": 3,
+                    "findPetTypes": 2
+                },
+                "value": 3.302
+            },
+            {
+                "source": "ClinicServiceImpl",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1,
+                    "findByPetId": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaOwnerRepositoryImpl",
+                "method": {
+                    "findByLastName": 10,
+                    "findById": 20,
+                    "save": 3
+                },
+                "value": 4.496
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaPetRepositoryImpl",
+                "method": {
+                    "findPetTypes": 6,
+                    "save": 2,
+                    "findById": 4
+                },
+                "value": 3.484
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVisitRepositoryImpl",
+                "method": {
+                    "save": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "CallMonitoringAspect",
+                "target": "JpaVetRepositoryImpl",
+                "method": {
+                    "findAll": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 33
+                },
+                "value": 4.496
+            },
+            {
+                "source": "JpaOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "Owner",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 99
+                },
+                "value": 5.595
+            },
+            {
+                "source": "Owner",
+                "target": "Pet",
+                "method": {
+                    "setOwner": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "Owner",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findOwnerById": 4,
+                    "findPetTypes": 4,
+                    "savePet": 2,
+                    "findPetById": 1
+                },
+                "value": 3.397
+            },
+            {
+                "source": "PetController",
+                "target": "PetValidator",
+                "method": {
+                    "supports": 10
+                },
+                "value": 3.302
+            },
+            {
+                "source": "PetController",
+                "target": "Owner",
+                "method": {
+                    "addPet": 6,
+                    "getPet [overloaded_#002]": 2
+                },
+                "value": 3.079
+            },
+            {
+                "source": "PetController",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetController",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JpaPetRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetValidator",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 6,
+                    "getType": 7
+                },
+                "value": 3.564
+            },
+            {
+                "source": "Pet",
+                "target": "Visit",
+                "method": {
+                    "setPet": 39,
+                    "getDate": 26
+                },
+                "value": 5.174
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetTypes": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetTypeFormatter",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 55
+                },
+                "value": 5.007
+            },
+            {
+                "source": "VisitController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findPetById": 3,
+                    "saveVisit": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "VisitController",
+                "target": "Visit",
+                "method": {
+                    "Visit": 7
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VisitController",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 7,
+                    "getVisits": 1
+                },
+                "value": 3.079
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "JpaVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "Visit": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "VetController",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VetController",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "Vet",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 18
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6,
+                    "getFirstName": 8,
+                    "getLastName": 8
+                },
+                "value": 4.332
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 12,
+                    "isNew": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3,
+                    "getName": 4
+                },
+                "value": 2.945
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 3,
+                    "getSpecialties": 4,
+                    "getNrOfSpecialties": 2
+                },
+                "value": 3.197
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "VetController",
+                "method": {
+                    "showXmlVetList": 1,
+                    "showVetList": 1,
+                    "showJsonVetList": 1
+                },
+                "value": 2.098
+            },
+            {
+                "source": "VetControllerTests",
+                "target": "Vets",
+                "method": {
+                    "getVetList": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "CrashControllerTests",
+                "target": "CrashController",
+                "method": {
+                    "triggerException": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 6
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 10,
+                    "getName": 4
+                },
+                "value": 3.639
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetController",
+                "method": {
+                    "findOwner": 6,
+                    "populatePetTypes": 6,
+                    "initOwnerBinder": 6,
+                    "initPetBinder": 6,
+                    "processCreationForm": 1,
+                    "processUpdateForm": 3,
+                    "initUpdateForm": 1,
+                    "initCreationForm": 1
+                },
+                "value": 4.401
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 4,
+                    "setBirthDate": 4,
+                    "getType": 2,
+                    "setType": 2
+                },
+                "value": 3.484
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "parse": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "PetControllerTests",
+                "target": "PetValidator",
+                "method": {
+                    "validate": 4
+                },
+                "value": 2.386
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "PetTypeFormatter",
+                "method": {
+                    "PetTypeFormatter": 3,
+                    "parse": 2,
+                    "print": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "PetTypeFormatterTests",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 5,
+                    "getName": 1
+                },
+                "value": 2.791
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "VisitController",
+                "method": {
+                    "setAllowedFields": 10,
+                    "loadPetWithVisit": 4,
+                    "processNewVisitForm": 2,
+                    "showVisits": 1,
+                    "initNewVisitForm": 1
+                },
+                "value": 3.89
+            },
+            {
+                "source": "VisitControllerTests",
+                "target": "Visit",
+                "method": {
+                    "getDescription": 1,
+                    "setDescription": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 11
+                },
+                "value": 3.397
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 15,
+                    "setLastName": 17,
+                    "getFirstName": 6,
+                    "getLastName": 9
+                },
+                "value": 4.85
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 15,
+                    "setTelephone": 13,
+                    "getCity": 6,
+                    "getAddress": 4,
+                    "getTelephone": 4
+                },
+                "value": 5.007
+            },
+            {
+                "source": "OwnerControllerTests",
+                "target": "OwnerController",
+                "method": {
+                    "setAllowedFields": 15,
+                    "processUpdateOwnerForm": 2,
+                    "processCreationForm": 2,
+                    "initFindForm": 1,
+                    "showOwner": 1,
+                    "initUpdateOwnerForm": 1,
+                    "initCreationForm": 1,
+                    "processFindForm": 3
+                },
+                "value": 4.258
+            },
+            {
+                "source": "ValidatorTests",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 1,
+                    "setLastName": 1
+                },
+                "value": 1.693
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "ClinicServiceImpl",
+                "method": {
+                    "findVets": 3,
+                    "findOwnerByLastName": 12,
+                    "findPetById": 15,
+                    "saveVisit": 3,
+                    "savePet": 9,
+                    "findOwnerById": 15,
+                    "saveOwner": 9,
+                    "findVisitsByPetId": 3,
+                    "findPetTypes": 6
+                },
+                "value": 5.317
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Person",
+                "method": {
+                    "getLastName": 12,
+                    "setLastName": 6,
+                    "setFirstName": 3,
+                    "getFirstName": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Vet",
+                "method": {
+                    "getNrOfSpecialties": 3,
+                    "getSpecialties": 6
+                },
+                "value": 3.197
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 24,
+                    "setName": 6
+                },
+                "value": 4.401
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Pet",
+                "method": {
+                    "getVisits": 6,
+                    "addVisit": 3,
+                    "setType": 3,
+                    "setBirthDate": 3,
+                    "getType": 6,
+                    "getOwner": 3
+                },
+                "value": 4.178
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Visit",
+                "method": {
+                    "Visit": 3,
+                    "setDescription": 3,
+                    "getPet": 6,
+                    "getDate": 3
+                },
+                "value": 3.708
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 12
+                },
+                "value": 3.484
+            },
+            {
+                "source": "AbstractClinicServiceTests",
+                "target": "Owner",
+                "method": {
+                    "getPets": 18,
+                    "addPet": 3,
+                    "setAddress": 3,
+                    "setCity": 3,
+                    "setTelephone": 3
+                },
+                "value": 4.401
+            },
+            {
+                "source": "EntityUtils",
+                "target": "BaseEntity",
+                "method": {
+                    "getId": 107
+                },
+                "value": 5.672
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 92,
+                    "getId": 19,
+                    "isNew": 3
+                },
+                "value": 5.736
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 13,
+                    "setLastName": 13,
+                    "getFirstName": 7,
+                    "getLastName": 7
+                },
+                "value": 4.688
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "setAddress": 13,
+                    "setCity": 13,
+                    "setTelephone": 13,
+                    "addPet": 20,
+                    "getAddress": 7,
+                    "getCity": 7,
+                    "getTelephone": 7
+                },
+                "value": 5.382
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "OneToManyResultSetExtractor",
+                "method": {
+                    "OneToManyResultSetExtractor [overloaded_#002]": 13,
+                    "OneToManyResultSetExtractor [overloaded_#001]": 13,
+                    "extractData": 13
+                },
+                "value": 4.663
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "JdbcPetVisitExtractor": 13
+                },
+                "value": 3.564
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 78
+                },
+                "value": 5.356
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "JdbcPet",
+                "method": {
+                    "getTypeId": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcOwnerRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "setType": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "JdbcOwnerRepositoryImpl",
+                "method": {
+                    "findById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Owner",
+                "method": {
+                    "getPets": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 3,
+                    "getId": 9,
+                    "setId": 13
+                },
+                "value": 4.218
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "getName": 3,
+                    "setName": 12
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcPetRepositoryImpl",
+                "target": "Pet",
+                "method": {
+                    "getBirthDate": 3,
+                    "getType": 3,
+                    "getOwner": 3
+                },
+                "value": 3.197
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 9,
+                    "getId": 6
+                },
+                "value": 3.708
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Person",
+                "method": {
+                    "setFirstName": 6,
+                    "setLastName": 6
+                },
+                "value": 3.484
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 3
+                },
+                "value": 2.098
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "EntityUtils",
+                "method": {
+                    "getById": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVetRepositoryImpl",
+                "target": "Vet",
+                "method": {
+                    "addSpecialty": 5
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "BaseEntity",
+                "method": {
+                    "isNew": 1,
+                    "getId": 2,
+                    "setId": 1
+                },
+                "value": 2.386
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "Visit",
+                "method": {
+                    "getDate": 1,
+                    "getDescription": 1,
+                    "getPet": 1,
+                    "setPet": 2
+                },
+                "value": 2.609
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 1
+                },
+                "value": 1.0
+            },
+            {
+                "source": "JdbcVisitRepositoryImpl",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 2
+                },
+                "value": 1.693
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetRowMapper",
+                "method": {
+                    "mapRow": 20
+                },
+                "value": 3.995
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcPetVisitExtractor",
+                "method": {
+                    "mapPrimaryKey": 20,
+                    "mapForeignKey": 56,
+                    "addChild": 29
+                },
+                "value": 5.653
+            },
+            {
+                "source": "OneToManyResultSetExtractor",
+                "target": "JdbcVisitRowMapper",
+                "method": {
+                    "mapRow": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetVisitExtractor",
+                "target": "Pet",
+                "method": {
+                    "addVisit": 29
+                },
+                "value": 4.367
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "NamedEntity",
+                "method": {
+                    "setName": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "Pet",
+                "method": {
+                    "setBirthDate": 21
+                },
+                "value": 4.044
+            },
+            {
+                "source": "JdbcPetRowMapper",
+                "target": "JdbcPet",
+                "method": {
+                    "setTypeId": 21,
+                    "setOwnerId": 21
+                },
+                "value": 4.737
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "Visit",
+                "method": {
+                    "Visit": 31,
+                    "setDate": 31,
+                    "setDescription": 31
+                },
+                "value": 5.532
+            },
+            {
+                "source": "JdbcVisitRowMapper",
+                "target": "BaseEntity",
+                "method": {
+                    "setId": 31
+                },
+                "value": 4.433
+            }
+        ],
+        "overview": {
+            "nodes": [
+                {
+                    "name": "partition0",
+                    "group": 1,
+                    "category": "partition0",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "Unknown",
+                        "maj_animal",
+                        "ajouter_proprietaire",
+                        "liste_proprietaires",
+                        "proprietaire",
+                        "details_proprietaire",
+                        "maj_proprietaire",
+                        "ajouter_animal",
+                        "liste_veterinaires"
+                    ]
+                },
+                {
+                    "name": "partition1",
+                    "group": 2,
+                    "category": "partition1",
+                    "filepath": "Cluster",
+                    "semantics": [
+                        "liste_veterinaires",
+                        "Unknown"
+                    ]
+                },
+                {
+                    "name": "Unobserved",
+                    "group": 0,
+                    "category": "Unobserved",
+                    "filepath": "Cluster",
+                    "semantics": []
+                }
+            ],
+            "links": [
+                {
+                    "source": "partition0",
+                    "target": "partition1",
+                    "value": 1.961
+                },
+                {
+                    "source": "partition1",
+                    "target": "partition0",
+                    "value": 1.487
+                }
+            ]
+        }
+    }
+}

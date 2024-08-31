@@ -1,0 +1,9 @@
+2023-12-21 20:27:56,164 INFO <string>:55 -- decomposing plants with MSExtractor
+2023-12-21 20:27:56,167 DEBUG <string>:57 -- loading data locally from '/data'
+2023-12-21 20:27:56,238 DEBUG <string>:64 -- initializing MSExtractor
+2023-12-21 20:27:56,287 DEBUG <string>:68 -- running MSExtractor
+2023-12-21 20:27:56,288 INFO <string>:84 -- Starting MSExtractor run on 2000 generations of size 100.
+2023-12-21 20:28:58,349 INFO <string>:97 -- Finished MSExtractor run
+2023-12-21 20:28:58,350 DEBUG <string>:72 -- parsing results
+2023-12-21 20:28:58,354 DEBUG <string>:84 -- saving results in /output/plants/plants_202312212027
+2023-12-21 20:28:58,422 INFO <string>:95 -- finished generating decomposition

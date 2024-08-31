@@ -1,0 +1,7 @@
+1703215788130,liste_proprietaires,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm
+1703215788131,liste_proprietaires,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:initFindForm,<None>:$Root$:<None>
+1703215788131,liste_proprietaires,$Root$ calls OwnerController,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields
+1703215788132,liste_proprietaires,OwnerController returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java:OwnerController:setAllowedFields,<None>:$Root$:<None>
+1703215788134,liste_proprietaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName
+1703215788135,liste_proprietaires,Person returns to $Root$,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName,<None>:$Root$:<None>
+1703215788135,liste_proprietaires,$Root$ calls Person,<None>:$Root$:<None>,monolith/src/main/java/org/springframework/samples/petclinic/model/Person.java:Person:getLastName

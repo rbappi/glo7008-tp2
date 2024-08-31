@@ -1,0 +1,3091 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-us">
+<style type="text/css">a {text-decoration: none}</style>
+<style type="text/css">a:hover {text-decoration: underline}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="expires" content="0">
+<title> Mono2Micro DEEP PARTITION ANALYSIS - Application </title>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+<script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js"></script>
+ 
+
+<style>  
+	.report_title { 
+	  padding-top: 2%;
+	  padding-bottom: 1%;
+	  display: block;
+	  overflow: hidden; 
+	  font-size: 30px;
+	  color: black;
+	  position: relative;
+  	  left: 10%;
+	  font-weight: bolder;	  
+	}
+	.version { 
+	  padding-top: 2%;
+	  padding-bottom: 1%;
+	  display: block;
+	  overflow: hidden; 
+	  font-size: 15px;
+	  color: black;
+	  position: relative;
+  	  left: 10%;
+	  
+	}
+	.collapsible {  
+	  cursor: pointer; 
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  border: none;
+	  text-align: left;
+	  outline: none; 
+	  font-size: 20px;  
+	  position: relative;
+  	  left: 25%;	
+	}
+
+	.jclass {  
+	  display: list-item;
+	  overflow: hidden; 
+	  font-size: 15px;
+	  color: black;
+	  position: relative;   
+	  font-weight: bold;
+	}
+
+	.jfunction {  
+	  display: list-item;
+	  overflow: hidden; 
+	  font-size: 15px;
+	  color: black;
+	  position: relative;  
+	  padding-left: 2%;  
+	}	
+
+	.partition_header{   
+	  background-color: whitesmoke;
+	  color: black;
+	  cursor: pointer;
+	  padding-left: 2%;
+	  padding-top: 15px;
+	  padding-bottom: 15px;
+	  width: 80%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	  font-weight: bold;  
+	  position: relative;
+  	  left: 10%;
+	}	
+
+	.extra {
+		background-color: #e6ecff;
+		color: black;
+	}
+
+	.arrow { 
+		color: black;
+	}
+</style>
+
+</head>
+
+<body>
+
+	<div>
+		<h1 class="report_title"> Mono2Micro DEEP PARTITION ANALYSIS - Application </h1> 
+		<br>
+	</div> 
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="partition0"> <h4> partition0 Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 4 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JpaVisitRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Pet </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Visit </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> VisitController </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JpaVisitRepositoryImpl<font color="#026acc"> <em> implements </em> VisitRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findByPetId </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Pet <font color="#661fff"> [Persistence] </font> <font color="#ED553B"> <em> extends </em> NamedEntity </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addVisit </li>
+								
+									<li class="jfunction"> getBirthDate </li>
+								
+									<li class="jfunction"> getOwner </li>
+								
+									<li class="jfunction"> getType </li>
+								
+									<li class="jfunction"> getVisits </li>
+								
+									<li class="jfunction"> setBirthDate </li>
+								
+									<li class="jfunction"> setOwner </li>
+								
+									<li class="jfunction"> setType </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Visit <font color="#661fff"> [Persistence] </font> <font color="#ED553B"> <em> extends </em> BaseEntity </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getDate </li>
+								
+									<li class="jfunction"> getDescription </li>
+								
+									<li class="jfunction"> getPet </li>
+								
+									<li class="jfunction"> setDate </li>
+								
+									<li class="jfunction"> setDescription </li>
+								
+									<li class="jfunction"> setPet </li>
+								
+									<li class="jfunction"> Visit </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> VisitController  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> initNewVisitForm </li>
+								
+									<li class="jfunction"> loadPetWithVisit </li>
+								
+									<li class="jfunction"> processNewVisitForm </li>
+								
+									<li class="jfunction"> setAllowedFields </li>
+								
+									<li class="jfunction"> showVisits </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> BindingResult </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VisitController.processNewVisitForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Integer </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaVisitRepositoryImpl.findByPetId </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> LocalDate </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Pet.getBirthDate </li>
+								
+									<li class="jfunction"> Pet.setBirthDate </li>
+								
+									<li class="jfunction"> Visit.getDate </li>
+								
+									<li class="jfunction"> Visit.setDate </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Object </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VisitController.initNewVisitForm </li>
+								
+									<li class="jfunction"> VisitController.showVisits </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Pet.getOwner </li>
+								
+									<li class="jfunction"> Pet.setOwner </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Visit.getPet </li>
+								
+									<li class="jfunction"> Visit.setPet </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetType </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Pet.getType </li>
+								
+									<li class="jfunction"> Pet.setType </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaVisitRepositoryImpl.findByPetId </li>
+								
+									<li class="jfunction"> JpaVisitRepositoryImpl.save </li>
+								
+									<li class="jfunction"> Pet.addVisit </li>
+								
+									<li class="jfunction"> Pet.getVisits </li>
+								
+									<li class="jfunction"> VisitController.loadPetWithVisit </li>
+								
+									<li class="jfunction"> VisitController.processNewVisitForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> WebDataBinder </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VisitController.setAllowedFields </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > ClinicServiceImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findPetById </li>
+								
+									<li class="jfunction"> saveVisit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > BaseEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getId </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td" > <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Pet </li>
+								
+									<li class="jfunction"> Pet.getOwner </li>
+								
+									<li class="jfunction"> Pet.setOwner </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="partition1"> <h4> partition1 Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 6 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JpaPetRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> NamedEntity </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Owner </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetController </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetTypeFormatter </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetValidator </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JpaPetRepositoryImpl<font color="#026acc"> <em> implements </em> PetRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> NamedEntity<font color="#ED553B"> <em> extends </em> BaseEntity </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getName </li>
+								
+									<li class="jfunction"> setName </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Owner <font color="#661fff"> [Persistence] </font> <font color="#ED553B"> <em> extends </em> Person </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addPet </li>
+								
+									<li class="jfunction"> getAddress </li>
+								
+									<li class="jfunction"> getCity </li>
+								
+									<li class="jfunction"> getPets </li>
+								
+									<li class="jfunction"> getTelephone </li>
+								
+									<li class="jfunction"> setAddress </li>
+								
+									<li class="jfunction"> setCity </li>
+								
+									<li class="jfunction"> setTelephone </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> PetController  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findOwner </li>
+								
+									<li class="jfunction"> initCreationForm </li>
+								
+									<li class="jfunction"> initOwnerBinder </li>
+								
+									<li class="jfunction"> initPetBinder </li>
+								
+									<li class="jfunction"> initUpdateForm </li>
+								
+									<li class="jfunction"> populatePetTypes </li>
+								
+									<li class="jfunction"> processCreationForm </li>
+								
+									<li class="jfunction"> processUpdateForm </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> PetTypeFormatter<font color="#026acc"> <em> implements </em> Formatter </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> parse </li>
+								
+									<li class="jfunction"> PetTypeFormatter </li>
+								
+									<li class="jfunction"> print </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> PetValidator<font color="#026acc"> <em> implements </em> Validator </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> validate </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> BindingResult </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetController.processCreationForm </li>
+								
+									<li class="jfunction"> PetController.processUpdateForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> ClinicService </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetTypeFormatter.PetTypeFormatter </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Errors </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetValidator.validate </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Locale </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetTypeFormatter.parse </li>
+								
+									<li class="jfunction"> PetTypeFormatter.print </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> ModelMap </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetController.initCreationForm </li>
+								
+									<li class="jfunction"> PetController.initUpdateForm </li>
+								
+									<li class="jfunction"> PetController.processCreationForm </li>
+								
+									<li class="jfunction"> PetController.processUpdateForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Object </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetValidator.validate </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetController.findOwner </li>
+								
+									<li class="jfunction"> PetController.initCreationForm </li>
+								
+									<li class="jfunction"> PetController.processCreationForm </li>
+								
+									<li class="jfunction"> PetController.processUpdateForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaPetRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JpaPetRepositoryImpl.save </li>
+								
+									<li class="jfunction"> Owner.addPet </li>
+								
+									<li class="jfunction"> Owner.getPets </li>
+								
+									<li class="jfunction"> PetController.processCreationForm </li>
+								
+									<li class="jfunction"> PetController.processUpdateForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetType </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaPetRepositoryImpl.findPetTypes </li>
+								
+									<li class="jfunction"> PetController.populatePetTypes </li>
+								
+									<li class="jfunction"> PetTypeFormatter.parse </li>
+								
+									<li class="jfunction"> PetTypeFormatter.print </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> WebDataBinder </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetController.initOwnerBinder </li>
+								
+									<li class="jfunction"> PetController.initPetBinder </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getBirthDate </li>
+								
+									<li class="jfunction"> getType </li>
+								
+									<li class="jfunction"> setOwner </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Visit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > ClinicServiceImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findOwnerById </li>
+								
+									<li class="jfunction"> findPetById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> savePet </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > BaseEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getId </li>
+								
+									<li class="jfunction"> isNew </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaPetRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JpaPetRepositoryImpl.save </li>
+								
+									<li class="jfunction"> Owner </li>
+								
+									<li class="jfunction"> Owner.addPet </li>
+								
+									<li class="jfunction"> Owner.getPet [overloaded_#001] </li>
+								
+									<li class="jfunction"> Owner.getPet [overloaded_#002] </li>
+								
+									<li class="jfunction"> Owner.getPets </li>
+								
+									<li class="jfunction"> Owner.getPetsInternal </li>
+								
+									<li class="jfunction"> Owner.setPetsInternal </li>
+								
+									<li class="jfunction"> PetController.initCreationForm </li>
+								
+									<li class="jfunction"> PetController.initUpdateForm </li>
+								
+									<li class="jfunction"> PetController.processCreationForm </li>
+								
+									<li class="jfunction"> PetController.processUpdateForm </li>
+								
+									<li class="jfunction"> PetValidator.validate </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="partition2"> <h4> partition2 Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 7 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> BaseEntity </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> CallMonitoringAspect </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> ClinicServiceImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcVetRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JpaOwnerRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> OwnerController </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Person </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> BaseEntity  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getId </li>
+								
+									<li class="jfunction"> isNew </li>
+								
+									<li class="jfunction"> setId </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> ClinicServiceImpl<font color="#026acc"> <em> implements </em> ClinicService </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findOwnerById </li>
+								
+									<li class="jfunction"> findOwnerByLastName </li>
+								
+									<li class="jfunction"> findPetById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> findVets </li>
+								
+									<li class="jfunction"> findVisitsByPetId </li>
+								
+									<li class="jfunction"> saveOwner </li>
+								
+									<li class="jfunction"> savePet </li>
+								
+									<li class="jfunction"> saveVisit </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> OwnerController  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> initCreationForm </li>
+								
+									<li class="jfunction"> initFindForm </li>
+								
+									<li class="jfunction"> initUpdateOwnerForm </li>
+								
+									<li class="jfunction"> processCreationForm </li>
+								
+									<li class="jfunction"> processFindForm </li>
+								
+									<li class="jfunction"> processUpdateOwnerForm </li>
+								
+									<li class="jfunction"> setAllowedFields </li>
+								
+									<li class="jfunction"> showOwner </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Person<font color="#ED553B"> <em> extends </em> BaseEntity </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getFirstName </li>
+								
+									<li class="jfunction"> getLastName </li>
+								
+									<li class="jfunction"> setFirstName </li>
+								
+									<li class="jfunction"> setLastName </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> BindingResult </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerController.processCreationForm </li>
+								
+									<li class="jfunction"> OwnerController.processFindForm </li>
+								
+									<li class="jfunction"> OwnerController.processUpdateOwnerForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Integer </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> BaseEntity.getId </li>
+								
+									<li class="jfunction"> BaseEntity.setId </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Model </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerController.initUpdateOwnerForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> ModelAndView </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerController.showOwner </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Object </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerController.initCreationForm </li>
+								
+									<li class="jfunction"> OwnerController.initFindForm </li>
+								
+									<li class="jfunction"> OwnerController.processFindForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findOwnerById </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.findOwnerByLastName </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.saveOwner </li>
+								
+									<li class="jfunction"> OwnerController.processCreationForm </li>
+								
+									<li class="jfunction"> OwnerController.processFindForm </li>
+								
+									<li class="jfunction"> OwnerController.processUpdateOwnerForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findPetById </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.savePet </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetType </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findPetTypes </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Vet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findVets </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findVisitsByPetId </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.saveVisit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> WebDataBinder </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerController.setAllowedFields </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JpaVisitRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findByPetId </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Visit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JpaPetRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > NamedEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> setName </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JpaVetRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findAll </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Vet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addSpecialty </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#root_dest_undefined_use_case"> root_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcOwnerRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findByLastName </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#root_dest_undefined_use_case"> root_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcPetRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#root_dest_undefined_use_case"> root_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcVisitRepositoryImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findByPetId </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > EntityUtils </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getById </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findPetById </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.savePet </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findVisitsByPetId </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.saveVisit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td" > <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findOwnerById </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.findOwnerByLastName </li>
+								
+									<li class="jfunction"> ClinicServiceImpl.saveOwner </li>
+								
+									<li class="jfunction"> JpaOwnerRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JpaOwnerRepositoryImpl.findByLastName </li>
+								
+									<li class="jfunction"> JpaOwnerRepositoryImpl.save </li>
+								
+									<li class="jfunction"> OwnerController.initCreationForm </li>
+								
+									<li class="jfunction"> OwnerController.initUpdateOwnerForm </li>
+								
+									<li class="jfunction"> OwnerController.processCreationForm </li>
+								
+									<li class="jfunction"> OwnerController.processFindForm </li>
+								
+									<li class="jfunction"> OwnerController.processUpdateOwnerForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Vet </div>
+								<div class="bx--structured-list-td" > <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ClinicServiceImpl.findVets </li>
+								
+									<li class="jfunction"> JdbcVetRepositoryImpl.findAll </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="partition3"> <h4> partition3 Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 4 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JpaVetRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Vet </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> VetController </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> Vets </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JpaVetRepositoryImpl<font color="#026acc"> <em> implements </em> VetRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findAll </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Vet <font color="#661fff"> [Persistence] </font> <font color="#ED553B"> <em> extends </em> Person </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addSpecialty </li>
+								
+									<li class="jfunction"> getNrOfSpecialties </li>
+								
+									<li class="jfunction"> getSpecialties </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> VetController  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> showJsonVetList </li>
+								
+									<li class="jfunction"> showVetList </li>
+								
+									<li class="jfunction"> showXmlVetList </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> Vets  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getVetList </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Object </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VetController.showVetList </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Specialty </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> Vet.addSpecialty </li>
+								
+									<li class="jfunction"> Vet.getSpecialties </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Vet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JpaVetRepositoryImpl.findAll </li>
+								
+									<li class="jfunction"> Vets.getVetList </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Vets </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VetController.showJsonVetList </li>
+								
+									<li class="jfunction"> VetController.showXmlVetList </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > NamedEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getName </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > ClinicServiceImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findVets </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass">  None </div>
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="root_dest_undefined_use_case"> <h4> root_dest_undefined_use_case Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 12 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> AbstractClinicServiceTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> CrashControllerTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcOwnerRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcPetRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcVisitRepositoryImpl </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> OwnerControllerTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetclinicInitializer </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetControllerTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> PetTypeFormatterTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> ValidatorTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> VetControllerTests </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> VisitControllerTests </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcOwnerRepositoryImpl<font color="#026acc"> <em> implements </em> OwnerRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findByLastName </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcPetRepositoryImpl<font color="#026acc"> <em> implements </em> PetRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcVisitRepositoryImpl<font color="#026acc"> <em> implements </em> VisitRepository </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findByPetId </li>
+								
+									<li class="jfunction"> save </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Integer </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.findByPetId </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.findByLastName </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetType </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.findPetTypes </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.findByPetId </li>
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.save </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addVisit </li>
+								
+									<li class="jfunction"> getBirthDate </li>
+								
+									<li class="jfunction"> getOwner </li>
+								
+									<li class="jfunction"> getType </li>
+								
+									<li class="jfunction"> getVisits </li>
+								
+									<li class="jfunction"> setBirthDate </li>
+								
+									<li class="jfunction"> setType </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > VisitController </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> initNewVisitForm </li>
+								
+									<li class="jfunction"> loadPetWithVisit </li>
+								
+									<li class="jfunction"> processNewVisitForm </li>
+								
+									<li class="jfunction"> setAllowedFields </li>
+								
+									<li class="jfunction"> showVisits </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getDate </li>
+								
+									<li class="jfunction"> getDescription </li>
+								
+									<li class="jfunction"> getPet </li>
+								
+									<li class="jfunction"> setDescription </li>
+								
+									<li class="jfunction"> setPet </li>
+								
+									<li class="jfunction"> Visit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > PetTypeFormatter </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> parse </li>
+								
+									<li class="jfunction"> PetTypeFormatter </li>
+								
+									<li class="jfunction"> print </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > NamedEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getName </li>
+								
+									<li class="jfunction"> setName </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Owner </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addPet </li>
+								
+									<li class="jfunction"> getAddress </li>
+								
+									<li class="jfunction"> getCity </li>
+								
+									<li class="jfunction"> getPets </li>
+								
+									<li class="jfunction"> getTelephone </li>
+								
+									<li class="jfunction"> setAddress </li>
+								
+									<li class="jfunction"> setCity </li>
+								
+									<li class="jfunction"> setTelephone </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > PetController </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findOwner </li>
+								
+									<li class="jfunction"> initCreationForm </li>
+								
+									<li class="jfunction"> initOwnerBinder </li>
+								
+									<li class="jfunction"> initPetBinder </li>
+								
+									<li class="jfunction"> initUpdateForm </li>
+								
+									<li class="jfunction"> populatePetTypes </li>
+								
+									<li class="jfunction"> processCreationForm </li>
+								
+									<li class="jfunction"> processUpdateForm </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > PetValidator </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> validate </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Person </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getFirstName </li>
+								
+									<li class="jfunction"> getLastName </li>
+								
+									<li class="jfunction"> setFirstName </li>
+								
+									<li class="jfunction"> setLastName </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > BaseEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getId </li>
+								
+									<li class="jfunction"> isNew </li>
+								
+									<li class="jfunction"> setId </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > OwnerController </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> initCreationForm </li>
+								
+									<li class="jfunction"> initFindForm </li>
+								
+									<li class="jfunction"> initUpdateOwnerForm </li>
+								
+									<li class="jfunction"> processCreationForm </li>
+								
+									<li class="jfunction"> processFindForm </li>
+								
+									<li class="jfunction"> processUpdateOwnerForm </li>
+								
+									<li class="jfunction"> setAllowedFields </li>
+								
+									<li class="jfunction"> showOwner </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > ClinicServiceImpl </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> findOwnerById </li>
+								
+									<li class="jfunction"> findOwnerByLastName </li>
+								
+									<li class="jfunction"> findPetById </li>
+								
+									<li class="jfunction"> findPetTypes </li>
+								
+									<li class="jfunction"> findVets </li>
+								
+									<li class="jfunction"> findVisitsByPetId </li>
+								
+									<li class="jfunction"> saveOwner </li>
+								
+									<li class="jfunction"> savePet </li>
+								
+									<li class="jfunction"> saveVisit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Vet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addSpecialty </li>
+								
+									<li class="jfunction"> getNrOfSpecialties </li>
+								
+									<li class="jfunction"> getSpecialties </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > VetController </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> showJsonVetList </li>
+								
+									<li class="jfunction"> showVetList </li>
+								
+									<li class="jfunction"> showXmlVetList </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Vets </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getVetList </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > CrashController </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> triggerException </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > EntityUtils </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getById </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > OneToManyResultSetExtractor </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> extractData </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor [overloaded_#001] </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcPetVisitExtractor </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetVisitExtractor </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcPet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getTypeId </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcPetRowMapper </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> mapRow </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > JdbcVisitRowMapper </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> mapRow </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Pet </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldAddNewVisitForPet </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldFindPetWithCorrectId </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldInsertPetIntoDatabaseAndGenerateId </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldUpdatePetName </li>
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.createPetParameterSource </li>
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldAddNewVisitForPet </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldFindVisitsByPetId </li>
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.createVisitParameterSource </li>
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.findByPetId </li>
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.save </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> VisitController </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VisitControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Owner </div>
+								<div class="bx--structured-list-td" > <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldFindOwnersByLastName </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldFindSingleOwnerWithPet </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldInsertOwner </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldInsertPetIntoDatabaseAndGenerateId </li>
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldUpdateOwner </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.findByLastName </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.loadOwnersPetsAndVisits </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.loadPetsAndVisits </li>
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.save </li>
+								
+									<li class="jfunction"> JdbcPetRepositoryImpl.findById </li>
+								
+									<li class="jfunction"> OwnerControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetController </div>
+								<div class="bx--structured-list-td" > <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> PetTypeFormatter </div>
+								<div class="bx--structured-list-td" > <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> PetTypeFormatterTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> OwnerController </div>
+								<div class="bx--structured-list-td" > <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OwnerControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Person </div>
+								<div class="bx--structured-list-td" > <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> ValidatorTests.shouldNotValidateWhenFirstNameEmpty </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Vet </div>
+								<div class="bx--structured-list-td" > <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> AbstractClinicServiceTests.shouldFindVets </li>
+								
+									<li class="jfunction"> VetControllerTests.setup </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> VetController </div>
+								<div class="bx--structured-list-td" > <a href="#partition3"> partition3 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> VetControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> CrashController </div>
+								<div class="bx--structured-list-td" > <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> CrashControllerTests </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> JdbcPet </div>
+								<div class="bx--structured-list-td" > <a href="#src_dest_undefined_use_case"> src_dest_undefined_use_case </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcOwnerRepositoryImpl.loadPetsAndVisits </li>
+								
+									<li class="jfunction"> JdbcVisitRepositoryImpl.findByPetId </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	 
+		<div class="bx--row">
+			<div class="bx--col bx--col-lg-8">
+			  <div class="bx--tile  partition_header" id="src_dest_undefined_use_case"> <h4> src_dest_undefined_use_case Partition </h4> </div>
+			</div>
+		  </div>
+
+		<ul data-accordion class="bx--accordion bx--col-lg-8">
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title "> Member Classes ( 7 ) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						 
+						<div class="bx--structured-list-tbody">
+							
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td">
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> CrashController </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> EntityUtils </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcPet </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcPetRowMapper </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcPetVisitExtractor </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> JdbcVisitRowMapper </li>
+								</ul>
+								 
+								 
+								<ul class="bx--list--unordered bx--list--nested"> 
+									<li class="bx--list__item jclass"> OneToManyResultSetExtractor </li>
+								</ul>
+								
+								</div> 
+							</div> 
+
+						</div>
+					</section>
+				</div>
+			</li>
+			
+			<!-- example cluster section 2 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> External-Facing Classes (Other Partitions Invoke These Methods) </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab"> 
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods (Invoked by Other Partitions)</div>
+							</div>
+						</div>
+
+						<div class="bx--structured-list-tbody">
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> CrashController  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> triggerException </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> EntityUtils  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getById </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcPet<font color="#ED553B"> <em> extends </em> Pet </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getTypeId </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcPetRowMapper<font color="#026acc"> <em> implements </em> RowMapper </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> mapRow </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcPetVisitExtractor<font color="#ED553B"> <em> extends </em> OneToManyResultSetExtractor </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetVisitExtractor </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> JdbcVisitRowMapper<font color="#026acc"> <em> implements </em> RowMapper </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> mapRow </li>
+								
+								</div>
+									<br>
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td white-space: break-spaces jclass"> OneToManyResultSetExtractor<font color="#026acc"> <em> implements </em> ResultSetExtractor </font>  </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> extractData </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor [overloaded_#001] </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+									<br>
+							</div>
+							
+							  
+						</div>
+					</section>
+				</div>
+			</li>	
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1" >
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"  >   Non-Primitive Object Parameters Passed From Outside To This Partition  </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Parameter Object Type</div>
+								<div class="bx--structured-list-th">Methods (Accepting the Parameter Object)</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> C </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#001] </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Class </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> EntityUtils.getById </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> ExpectedResults </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> JdbcPet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetRowMapper.mapRow </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> R </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.extractData </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#001] </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> ResultSet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetRowMapper.mapRow </li>
+								
+									<li class="jfunction"> JdbcVisitRowMapper.mapRow </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.extractData </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> RowMapper </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#001] </li>
+								
+									<li class="jfunction"> OneToManyResultSetExtractor.OneToManyResultSetExtractor [overloaded_#002] </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> T </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> EntityUtils.getById </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcVisitRowMapper.mapRow </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<!-- example cluster section 1 -->
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Invokes the Following Class.Method(s) Residing Outside This Partition</div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Class Name</div>
+								<div class="bx--structured-list-th">Methods</div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Visit </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> setDate </li>
+								
+									<li class="jfunction"> setDescription </li>
+								
+									<li class="jfunction"> Visit </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > Pet </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> addVisit </li>
+								
+									<li class="jfunction"> setBirthDate </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition1"> partition1 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > NamedEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> setName </li>
+								
+								</div>
+								 
+							</div>
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td" >  <a href="#partition2"> partition2 </a> </div>
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass" > BaseEntity </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> getId </li>
+								
+									<li class="jfunction"> setId </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+
+			<li data-accordion-item class="bx--accordion__item collapsible">
+				<button class="bx--accordion__heading extra" aria-expanded="false" aria-controls="pane1">
+					<svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" class="bx--accordion__arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"></path></svg>
+					<div class="bx--accordion__title"> Partition Has References To The Following Classes Outside The Partition </div>
+				</button>
+				<div id="pane1" class="bx--accordion__content">
+					<br>  
+					<section class="bx--structured-list" class="tab">
+						<div class="bx--structured-list-thead">
+							<div class="bx--structured-list-row bx--structured-list-row--header-row">
+								<div class="bx--structured-list-th">Class (of Outside Partition)</div>
+								<div class="bx--structured-list-th">Outside Partition</div>
+								<div class="bx--structured-list-th">Referenced by (Current Partition) </div>
+							</div>
+						</div>
+						 
+						<div class="bx--structured-list-tbody">
+
+							 
+							<div class="bx--structured-list-row">
+								<div class="bx--structured-list-td bx--structured-list-content--nowrap jclass"> Visit </div>
+								<div class="bx--structured-list-td" > <a href="#partition0"> partition0 </a> </div>
+								<div class="bx--structured-list-td">
+								
+									<li class="jfunction"> JdbcPetVisitExtractor.addChild </li>
+								
+									<li class="jfunction"> JdbcVisitRowMapper.mapRow </li>
+								
+								</div>
+								 
+							</div>
+							
+
+						</div>
+					</section>
+				</div>
+			</li>
+		</ul>
+
+	<div> <br> <br> </div>
+
+	
+	<div class="bx--structured-list-td bx--accordion__title version"> aipl_version: v2.0.0r40 </div>
+	
+</body>
+
+
+</html>
